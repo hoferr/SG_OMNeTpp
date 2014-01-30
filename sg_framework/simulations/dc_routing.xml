@@ -1,0 +1,5 @@
+<routingTable>
+  <interface name="lrwpan">
+    <inetAddr>fe80::aaa:ff:fe00:1:1</inetAddr>
+  </interface>
+</routingTable>
