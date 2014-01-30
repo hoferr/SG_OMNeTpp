@@ -1,0 +1,250 @@
+// Lehrstuhl fuer Energietransport und -speicherung
+// UNIVERSITAET DUISBURG-ESSEN
+//
+// ef.Ruhr E-DeMa AP-2
+//
+// Wissenschaftlicher Mitarbeiter:
+// Dipl.-Ing. Holger Kellerbauer
+//
+// Das Linklayer-Paket "powerline" umfasst eine Sammlung von Modulen, die zur Simulation von Powerline-
+// Uebertragungsstrecken in intelligenten Energieverteilsystemen programmiert worden sind. 
+//
+// Dieser Quellcode wurde erstellt von Dipl.-Ing. Holger Kellerbauer - er basiert auf dem INET Framework-Modul
+// "Linklayer/Ethernet" von Andras Varga (c) 2003. Er ist gesitiges Eigentum des Lehrstuhles fuer Energietransport
+// und -speicherung der Universitaet Duisburg-Essen, und darf ohne Genehmigung weder weitergegeben, noch verwendet
+// werden. 
+
+package plc.simulations.Access_PLC_Systems;
+
+import inet.networklayer.autorouting.ipv4.FlatNetworkConfigurator;
+import plc.src.DataCollector;
+import inet.util.ThruputMeteringChannel;
+import Market_Technologies.Access_PLC.G3_Host_CCo;
+import Market_Technologies.Access_PLC.G3_Host;
+
+
+network Access_with_G3_No1
+{
+    @display("i=block/network;bgb=793,657");
+    types:
+        channel ChannelA extends ned.DelayChannel
+        {
+            delay = 50ns; // 10m cable between households
+        }
+    submodules:
+        g3_CCo: G3_Host_CCo {
+            @display("p=725,541;i=device/router");
+        }
+        g3n_Host5: G3_Host {
+            @display("p=359,142;i=device/hub");
+        }
+        g3n_Host1: G3_Host {
+            @display("p=51,142;i=device/hub");
+        }
+        g3n_Host2: G3_Host {
+            @display("p=130,142;i=device/hub");
+        }
+        g3n_Host3: G3_Host {
+            @display("p=208,142;i=device/hub");
+        }
+        g3n_Host4: G3_Host {
+            @display("p=284,142;i=device/hub");
+        }
+        dataCollector: DataCollector {
+            @display("p=399,600");
+        }
+        g3n_Host6: G3_Host {
+            @display("p=434,142;i=device/hub");
+        }
+        g3n_Host7: G3_Host {
+            @display("p=506,142;i=device/hub");
+        }
+        g3n_Host8: G3_Host {
+            @display("p=578,142;i=device/hub");
+        }
+        g3n_Host10: G3_Host {
+            @display("p=725,142;i=device/hub");
+        }
+        g3n_Host9: G3_Host {
+            @display("p=650,142;i=device/hub");
+        }
+        g3n_Host11: G3_Host {
+            @display("p=51,209;i=device/hub");
+        }
+        g3n_Host12: G3_Host {
+            @display("p=130,209;i=device/hub");
+        }
+        g3n_Host13: G3_Host {
+            @display("p=208,209;i=device/hub;i=device/hub");
+        }
+        g3n_Host14: G3_Host {
+            @display("p=284,209;i=device/hub");
+        }
+        g3n_Host15: G3_Host {
+            @display("p=359,209;i=device/hub");
+        }
+        g3n_Host16: G3_Host {
+            @display("p=434,209;i=device/hub");
+        }
+        g3n_Host17: G3_Host {
+            @display("p=506,209;i=device/hub");
+        }
+        g3n_Host18: G3_Host {
+            @display("p=578,209;i=device/hub");
+        }
+        g3n_Host19: G3_Host {
+            @display("p=650,209;i=device/hub");
+        }
+        g3n_Host20: G3_Host {
+            @display("p=725,209;i=device/hub");
+        }
+        g3n_Host21: G3_Host {
+            @display("p=51,284;i=device/hub");
+        }
+        g3n_Host22: G3_Host {
+            @display("p=130,284;i=device/hub");
+        }
+        g3n_Host23: G3_Host {
+            @display("p=208,284;i=device/hub");
+        }
+        g3n_Host24: G3_Host {
+            @display("p=284,284;i=device/hub");
+        }
+        g3n_Host25: G3_Host {
+            @display("p=359,284;i=device/hub");
+        }
+        g3n_Host26: G3_Host {
+            @display("p=434,284;i=device/hub");
+        }
+        g3n_Host27: G3_Host {
+            @display("p=506,284;i=device/hub");
+        }
+        g3n_Host28: G3_Host {
+            @display("p=578,284;i=device/hub");
+        }
+        g3n_Host29: G3_Host {
+            @display("p=650,284;i=device/hub");
+        }
+        g3n_Host30: G3_Host {
+            @display("p=725,284;i=device/hub");
+        }
+        g3n_Host31: G3_Host {
+            @display("p=51,351;i=device/hub");
+        }
+        g3n_Host32: G3_Host {
+            @display("p=130,351;i=device/hub");
+        }
+        g3n_Host33: G3_Host {
+            @display("p=208,351;i=device/hub");
+        }
+        g3n_Host34: G3_Host {
+            @display("p=284,351;i=device/hub");
+        }
+        g3n_Host35: G3_Host {
+            @display("p=359,351;i=device/hub");
+        }
+        g3n_Host36: G3_Host {
+            @display("p=434,351;i=device/hub");
+        }
+        g3n_Host37: G3_Host {
+            @display("p=506,351;i=device/hub");
+        }
+        g3n_Host38: G3_Host {
+            @display("p=578,351;i=device/hub");
+        }
+        g3n_Host39: G3_Host {
+            @display("p=650,351;i=device/hub");
+        }
+        g3n_Host40: G3_Host {
+            @display("p=725,351;i=device/hub");
+        }
+        g3n_Host41: G3_Host {
+            @display("p=51,425;i=device/hub");
+        }
+        g3n_Host42: G3_Host {
+            @display("p=130,425;i=device/hub");
+        }
+        g3n_Host43: G3_Host {
+            @display("p=208,425;i=device/hub");
+        }
+        g3n_Host44: G3_Host {
+            @display("p=284,425;i=device/hub");
+        }
+        g3n_Host45: G3_Host {
+            @display("p=359,425;i=device/hub");
+        }
+        g3n_Host46: G3_Host {
+            @display("p=434,425;i=device/hub");
+        }
+        g3n_Host47: G3_Host {
+            @display("p=506,425;i=device/hub");
+        }
+        g3n_Host48: G3_Host {
+            @display("p=578,425;i=device/hub");
+        }
+        g3n_Host49: G3_Host {
+            @display("p=650,425;i=device/hub");
+        }
+        g3n_Host50: G3_Host {
+            @display("p=725,425;i=device/hub");
+        }
+        flatNetworkConfigurator: FlatNetworkConfigurator {
+            @display("p=499,597");
+        }
+    connections allowunconnected:
+        g3n_Host5.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host1.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host2.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host3.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host4.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host6.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host8.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host7.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host9.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host10.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+
+        g3n_Host15.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host11.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host12.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host13.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host14.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host16.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host18.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host17.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host19.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host20.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+
+        g3n_Host25.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host21.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host22.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host23.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host24.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host26.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host28.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host27.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host29.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host30.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+
+        g3n_Host35.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host31.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host32.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host33.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host34.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host36.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host38.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host37.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host39.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host40.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+
+        g3n_Host45.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host41.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host42.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host43.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host44.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host46.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host48.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host47.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host49.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+        g3n_Host50.ethg++ <--> ChannelA <--> g3_CCo.ethg++;
+
+}

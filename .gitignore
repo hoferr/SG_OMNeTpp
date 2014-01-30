@@ -11,3 +11,16 @@
 *.lai
 *.la
 *.a
+
+# OMNeT++
+Makefile*
+run
+.cproject
+.nedfolders
+.oppbuildspec
+.project
+.tkenvrc
+*.anf
+.settings/
+out/
+results/
