@@ -492,7 +492,7 @@ void RoutingTable6::configureTunnelFromXML(cXMLElement* cfg)
 }
 
 void RoutingTable6::configureRouteFromXML(cXMLElement *cfg)
-{   // TODO: Static route configuration (Ramon)
+{
     // parse basic config (attributes)
     cXMLElementList routeEntryList = cfg->getChildrenByTagName("routeEntry");
     for (unsigned int i=0; i<routeEntryList.size(); i++)
@@ -519,7 +519,7 @@ void RoutingTable6::configureRouteFromXML(cXMLElement *cfg)
 
         const char *routeNextHop = node->getAttribute("routeNextHop");
         if (!routeNextHop)
-            error("<route> without routeNextHop attribute at %s", node->getSourceLocation()); // FIXME: Seems to do nothing?!?
+            error("<route> without routeNextHop attribute at %s", node->getSourceLocation());
         IPv6Address nextHopAddress = IPv6Address(routeNextHop);
 
         const char *routeMetric = node->getAttribute("routeMetric");
