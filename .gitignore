@@ -1,43 +1,24 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-
-# OMNeT++
-Makefile*
-run
-.cproject
-.nedfolders
-.oppbuildspec
-.project
-.tkenvrc
-*.pyc
-*.pcap
-*.sca
-*.vec
-*.anf
+# ignore generated files
 .settings/
-out/
-results/
+*_m.h
+*_m.cc
+*_sm.h
+*_sm.cc
+src/Makefile
+src/Makefile.vc
 /doc/doxy/
 /doc/neddoc/
 /examples/*/results/
 /examples/*/*/results/
 /examples/*/*/*/results/
 /tests/*/work/
-*_m.h
-*_m.cc
-*_sm.h
-*_sm.cc
+*.pyc
+*.pcap
+*.sca
+*.vec
+*.anf
+# ignore binary files
+out/
 *.so
 *.dylib
 *.dll
@@ -55,6 +36,8 @@ results/
 netanim-trace.txt
 *.out
 gcc-debug
+
+# ignore backup and temp files
 *.bak
 backups
 *~
@@ -62,4 +45,3 @@ xxx
 /3rdparty
 /tmp/
 /src/.tmp*
-

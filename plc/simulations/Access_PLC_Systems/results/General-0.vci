@@ -1,0 +1,59 @@
+                                                                
+version 2
+run General-0-20110415-10:27:31-25408
+attr configname General
+attr datetime 20110415-10:27:31
+attr experiment General
+attr inifile /home/edema/workspace/libPowerlineBasic/simulations/Access_PLC_Systems/Access_with_PRIME_No1.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network simulations.Access_PLC_Systems.Access_with_PRIME_No1
+attr processid 25408
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 83  Access_with_PRIME_No1.dataCollector  datarate_PLC_Vector  ETV
+vector 85  Access_with_PRIME_No1.dataCollector  PER_PLC_Vector  ETV
+vector 79  Access_with_PRIME_No1.dataCollector  runTimeVector_PLC  ETV
+vector 81  Access_with_PRIME_No1.dataCollector  runTimeVector_clean_PLC  ETV
+vector 98  Access_with_PRIME_No1.dataCollector  priorityVector_PLC  ETV
+vector 86  Access_with_PRIME_No1.dataCollector  higherLayerOffsetVector_PLC  ETV
+vector 0  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[0]  "video stream eed"  ETV
+vector 1  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[1]  "video stream eed"  ETV
+vector 2  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[2]  "video stream eed"  ETV
+vector 3  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[3]  "video stream eed"  ETV
+vector 4  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[4]  "video stream eed"  ETV
+vector 5  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[5]  "video stream eed"  ETV
+vector 6  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[6]  "video stream eed"  ETV
+vector 7  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[7]  "video stream eed"  ETV
+vector 8  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[8]  "video stream eed"  ETV
+vector 9  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[9]  "video stream eed"  ETV
+vector 10  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[10]  "video stream eed"  ETV
+vector 11  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[11]  "video stream eed"  ETV
+vector 12  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[12]  "video stream eed"  ETV
+vector 13  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[13]  "video stream eed"  ETV
+vector 14  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[14]  "video stream eed"  ETV
+vector 15  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[15]  "video stream eed"  ETV
+vector 16  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[16]  "video stream eed"  ETV
+vector 17  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[17]  "video stream eed"  ETV
+vector 18  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[18]  "video stream eed"  ETV
+vector 19  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[19]  "video stream eed"  ETV
+vector 20  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[20]  "video stream eed"  ETV
+vector 21  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[21]  "video stream eed"  ETV
+vector 22  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[22]  "video stream eed"  ETV
+vector 23  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[23]  "video stream eed"  ETV
+vector 24  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[24]  "video stream eed"  ETV
+vector 25  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[25]  "video stream eed"  ETV
+vector 26  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[26]  "video stream eed"  ETV
+vector 27  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[27]  "video stream eed"  ETV
+vector 28  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[28]  "video stream eed"  ETV
+vector 29  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[29]  "video stream eed"  ETV
+vector 30  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[30]  "video stream eed"  ETV
+vector 31  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[31]  "video stream eed"  ETV
+vector 32  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[32]  "video stream eed"  ETV
+vector 33  Access_with_PRIME_No1.prime_CCo.prime_Host.udpApp[33]  "video stream eed"  ETV
+vector 34  Access_with_PRIME_No1.prime_CCo.prime_Host.

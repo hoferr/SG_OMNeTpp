@@ -1,0 +1,92 @@
+file 3292 1391617004                                            
+version 2
+run Ping2-0-20140121-10:46:15-12689
+attr configname Ping2
+attr datetime 20140121-10:46:15
+attr experiment Ping2
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Net80211
+attr processid 12689
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+vector 7  Net80211.host[0].wlan[0].mgmt  dataQueueLen:vector  ETV
+attr interpolationmode sample-hold
+attr title "data queue length, vector"
+7	3059 8 0 0 0 0 1 0 0 0 0
+vector 34  Net80211.host[1].wlan[0].mgmt  dataQueueLen:vector  ETV
+attr interpolationmode sample-hold
+attr title "data queue length, vector"
+34	3100 9 0 0 0 0 1 0 0 0 0
+vector 61  Net80211.host[2].wlan[0].mgmt  dataQueueLen:vector  ETV
+attr interpolationmode sample-hold
+attr title "data queue length, vector"
+61	3142 9 0 0 0 0 1 0 0 0 0
+vector 72  Net80211.host[0].wlan[0].mac  RadioState  ETV
+attr enum "IDLE=0, OFF=4, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname RadioState
+72	3202 18 0 0 0 0 2 0 0 0 0
+vector 71  Net80211.host[0].wlan[0].mac  State  ETV
+attr enum "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITCTS=6, WAITMULTICAST=5, WAITSIFS=7"
+attr enumname Ieee80211Mac
+71	3184 18 0 0 0 0 2 0 0 0 0
+vector 78  Net80211.host[1].wlan[0].mac  RadioState  ETV
+attr enum "IDLE=0, OFF=4, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname RadioState
+78	3238 18 0 0 0 0 2 0 0 0 0
+vector 77  Net80211.host[1].wlan[0].mac  State  ETV
+attr enum "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITCTS=6, WAITMULTICAST=5, WAITSIFS=7"
+attr enumname Ieee80211Mac
+77	3220 18 0 0 0 0 2 0 0 0 0
+vector 84  Net80211.host[2].wlan[0].mac  RadioState  ETV
+attr enum "IDLE=0, OFF=4, RECV=1, SLEEP=3, TRANSMIT=2"
+attr enumname RadioState
+84	3274 18 0 0 0 0 2 0 0 0 0
+vector 83  Net80211.host[2].wlan[0].mac  State  ETV
+attr enum "BACKOFF=3, DEFER=1, IDLE=0, RECEIVE=8, WAITACK=4, WAITAIFS=2, WAITCTS=6, WAITMULTICAST=5, WAITSIFS=7"
+attr enumname Ieee80211Mac
+83	3256 18 0 0 0 0 2 0 0 0 0
+vector 13  Net80211.host[0].wlan[0].radio  bitrate:vector  ETV
+attr interpolationmode sample-hold
+attr title "tx bitrate, vector"
+attr unit bps
+13	3067 15 0 0 0 0 1 2000000 2000000 2000000 4000000000000
+vector 15  Net80211.host[0].wlan[0].radio  radioState:vector  ETV
+attr interpolationmode sample-hold
+attr title "radio state (enum), vector"
+15	3091 9 0 0 0 0 1 0 0 0 0
+vector 14  Net80211.host[0].wlan[0].radio  channelNo:vector  ETV
+attr interpolationmode sample-hold
+attr title "channel no, vector"
+14	3082 9 0 0 0 0 1 0 0 0 0
+vector 40  Net80211.host[1].wlan[0].radio  bitrate:vector  ETV
+attr interpolationmode sample-hold
+attr title "tx bitrate, vector"
+attr unit bps
+40	3109 15 0 0 0 0 1 2000000 2000000 2000000 4000000000000
+vector 42  Net80211.host[1].wlan[0].radio  radioState:vector  ETV
+attr interpolationmode sample-hold
+attr title "radio state (enum), vector"
+42	3133 9 0 0 0 0 1 0 0 0 0
+vector 41  Net80211.host[1].wlan[0].radio  channelNo:vector  ETV
+attr interpolationmode sample-hold
+attr title "channel no, vector"
+41	3124 9 0 0 0 0 1 0 0 0 0
+vector 67  Net80211.host[2].wlan[0].radio  bitrate:vector  ETV
+attr interpolationmode sample-hold
+attr title "tx bitrate, vector"
+attr unit bps
+67	3151 15 0 0 0 0 1 2000000 2000000 2000000 4000000000000
+vector 69  Net80211.host[2].wlan[0].radio  radioState:vector  ETV
+attr interpolationmode sample-hold
+attr title "radio state (enum), vector"
+69	3175 9 0 0 0 0 1 0 0 0 0
+vector 68  Net80211.host[2].wlan[0].radio  channelNo:vector  ETV
+attr interpolationmode sample-hold
+attr title "channel no, vector"
+68	3166 9 0 0 0 0 1 0 0 0 0

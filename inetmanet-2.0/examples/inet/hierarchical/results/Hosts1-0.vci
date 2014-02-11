@@ -1,0 +1,214 @@
+file 11100 1391617004                                           
+version 2
+run Hosts1-0-20140121-16:11:57-21525
+attr configname Hosts1
+attr datetime 20140121-16:11:57
+attr experiment Hosts1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Hierarchical
+attr processid 21525
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+vector 47  Hierarchical.area[0].lan[0].host[0].pingApp[0]  pingTxSeq:vector  ETV
+attr interpolationmode none
+attr title "ping tx seq, vector"
+47	9292 42 1 156 0 3 4 0 3 6 14
+vector 49  Hierarchical.area[0].lan[0].host[0].networkLayer.arp  sentReq:vector  ETV
+attr title "ARP request sent, vector"
+49	9410 9 4 4 0 0 1 1 1 1 1
+vector 51  Hierarchical.area[0].lan[0].host[0].networkLayer.arp  initiatedResolution:vector  ETV
+attr title "ARP initiated resolutions, vector"
+51	9419 9 4 4 0 0 1 1 1 1 1
+vector 65  Hierarchical.area[0].lan[0].host[0].eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+65	9789 55 5 160 0 3 4 28 76 256 18112
+vector 61  Hierarchical.area[0].lan[0].host[0].eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+61	9734 55 6 161 0 3 4 64 94 346 30604
+vector 56  Hierarchical.area[0].lan[0].host[0].eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+56	9476 82 8 163 0.00000576 3.00000816 4 64 94 346 30604
+vector 23  Hierarchical.area[0].lan[0].switch.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+23	8601 82 9 164 0.00000581 3.00000821 4 64 94 346 30604
+vector 24  Hierarchical.area[0].lan[0].switch.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+24	8683 82 9 164 0.00000581 3.00000821 4 64 94 346 30604
+vector 99  Hierarchical.area[0].lan[0].switch.relayUnit  "buffer level"  ETV
+99	10766 334 10 184 0.00000581 3.000009942 16 0 94 692 61208
+vector 38  Hierarchical.area[0].lan[0].switch.eth[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+38	9115 83 12 167 0.00000581 3.00000821 4 64 94 346 30604
+vector 33  Hierarchical.area[0].lan[0].switch.eth[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+33	8853 86 13 168 0.000006386 3.000009026 4 64 94 346 30604
+vector 76  Hierarchical.area[0].router[0].eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+76	10060 86 14 169 0.000006436 3.000009076 4 64 94 346 30604
+vector 77  Hierarchical.area[0].router[0].eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+77	10146 86 14 169 0.000006436 3.000009076 4 64 94 346 30604
+vector 85  Hierarchical.area[0].router[0].eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+85	10408 86 15 170 0.000006436 3.000009076 4 28 76 256 18112
+vector 84  Hierarchical.area[0].router[0].eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+84	10320 88 18 175 0.000006436 3.000009076 4 28 76 256 18112
+vector 80  Hierarchical.area[0].router[0].eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+80	10232 88 19 176 0.000006436 3.000009076 4 64 94 346 30604
+vector 75  Hierarchical.area[0].router[0].eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+75	9972 88 24 181 0.000007012 3.000009892 4 64 94 346 30604
+vector 34  Hierarchical.area[0].lan[0].switch.eth[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+34	8939 88 25 182 0.000007062 3.000009942 4 64 94 346 30604
+vector 35  Hierarchical.area[0].lan[0].switch.eth[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+35	9027 88 25 182 0.000007062 3.000009942 4 64 94 346 30604
+vector 27  Hierarchical.area[0].lan[0].switch.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+27	8765 88 28 185 0.000007062 3.000009942 4 64 94 346 30604
+vector 22  Hierarchical.area[0].lan[0].switch.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+22	8513 88 31 188 0.000012822 3.000018102 4 64 94 346 30604
+vector 57  Hierarchical.area[0].lan[0].host[0].eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+57	9558 88 32 189 0.000012872 3.000018152 4 64 94 346 30604
+vector 58  Hierarchical.area[0].lan[0].host[0].eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+58	9646 88 32 189 0.000012872 3.000018152 4 64 94 346 30604
+vector 66  Hierarchical.area[0].lan[0].host[0].eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+66	9844 88 33 190 0.000012872 3.000018152 4 28 76 256 18112
+vector 68  Hierarchical.area[0].router[0].networkLayer.arp  sentReq:vector  ETV
+attr title "ARP request sent, vector"
+68	9932 20 49 49 0.000021948 0.000021948 1 1 1 1 1
+vector 70  Hierarchical.area[0].router[0].networkLayer.arp  initiatedResolution:vector  ETV
+attr title "ARP initiated resolutions, vector"
+70	9952 20 49 49 0.000021948 0.000021948 1 1 1 1 1
+vector 96  Hierarchical.area[0].router[0].eth[1].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+96	10676 44 50 69 0.000021948 0.00002205952 2 28 76 104 6560
+vector 92  Hierarchical.area[0].router[0].eth[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+92	10632 44 51 70 0.000021948 0.00002205952 2 64 94 158 12932
+vector 87  Hierarchical.area[0].router[0].eth[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+87	10494 46 52 71 0.00002195376 0.00002206768 2 64 94 158 12932
+vector 8  Hierarchical.router[0].eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+8	8287 44 56 73 0.00002200376 0.00002211768 2 64 94 158 12932
+vector 9  Hierarchical.router[0].eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+9	8331 44 56 73 0.00002200376 0.00002211768 2 64 94 158 12932
+vector 17  Hierarchical.router[0].eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+17	8467 46 57 74 0.00002200376 0.00002211768 2 28 76 104 6560
+vector 16  Hierarchical.router[0].eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+16	8421 46 60 79 0.00002200376 0.00002211768 2 28 76 104 6560
+vector 12  Hierarchical.router[0].eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+12	8375 46 61 80 0.00002200376 0.00002211768 2 64 94 158 12932
+vector 7  Hierarchical.router[0].eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+7	8243 44 62 81 0.00002200952 0.00002212584 2 64 94 158 12932
+vector 88  Hierarchical.area[0].router[0].eth[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+88	10540 46 65 83 0.00002205952 0.00002217584 2 64 94 158 12932
+vector 89  Hierarchical.area[0].router[0].eth[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+89	10586 46 65 83 0.00002205952 0.00002217584 2 64 94 158 12932
+vector 97  Hierarchical.area[0].router[0].eth[1].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+97	10720 46 66 84 0.00002205952 0.00002217584 2 28 76 104 6560
+vector 48  Hierarchical.area[0].lan[0].host[0].pingApp[0]  pingRxSeq:vector  ETV
+attr interpolationmode none
+attr title "ping rx seq, vector"
+48	9334 76 102 193 0.00003125184 3.000018152 4 0 3 6 14
+vector 44  Hierarchical.area[0].lan[0].host[0].pingApp[0]  rtt:vector  ETV
+attr interpolationmode none
+attr title "ping round-trip time, vector"
+attr unit s
+44	9198 94 102 193 0.00003125184 3.000018152 3 1.8152e-05 3.125184e-05 6.755584e-05 1.6356677113856e-09
+vector 54  Hierarchical.area[0].lan[0].host[0].lo0.lo  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, vector(packetBytes)"
+54	9428 24 108 113 1 1 2 76 76 152 11552
+vector 55  Hierarchical.area[0].lan[0].host[0].lo0.lo  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+55	9452 24 108 113 1 1 2 76 76 152 11552

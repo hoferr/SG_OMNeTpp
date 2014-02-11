@@ -1,0 +1,29 @@
+# Adjust the following two paths to your actual configuration / installation
+#CONTIKI_PATH = /home/user/git/contiki
+CONTIKI_PATH = /home/hoferr/MasterThesis/Simulation/omnetpp/contiki
+
+# Adjust the name of the Contiki library that you compiled before using this INET module
+CONTIKI_LIB = /examples/hello-world/contiki-omnetpp.a
+
+### Use with Contiki version <= 2.6 or older
+#LIBS = -Wl,-wrap,tcpip_input $(CONTIKI_PATH)$(CONTIKI_LIB) 
+
+#####
+## If you experience "unresolved include" errors when building INET/INETMANET, the problem
+## is that Contiki just archives all object files and later links against the archive file
+## OMNeT includes static libraries with --whole-archive and therefore also includes various
+## undefined symbols that we do not use / need
+## therefore disable LIBS line above and enable the EXTRA_OBJS line below for a quick fix
+#####
+
+### Use with Contiki version > 2.6 or Github version
+EXTRA_OBJS = -Wl,-wrap,tcpip_input $(CONTIKI_PATH)$(CONTIKI_LIB) 
+
+INCLUDE_PATH += \
+	-I$(CONTIKI_PATH)/core \
+	-I$(CONTIKI_PATH)/core/sys \
+	-I$(CONTIKI_PATH)/core/net \
+	-I$(CONTIKI_PATH)/core/net/mac \
+	-I$(CONTIKI_PATH)/core/net/rime \
+	-I$(CONTIKI_PATH)/platform/omnetpp \
+	-I$(CONTIKI_PATH)/platform/omnetpp/net

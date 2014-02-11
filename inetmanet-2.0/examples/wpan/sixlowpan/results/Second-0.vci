@@ -1,0 +1,176 @@
+file 7972 1391617004                                            
+version 2
+run Second-0-20140108-14:41:39-24587
+attr configname Second
+attr datetime 20140108-14:41:39
+attr experiment Second
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network NetIPv6over802154
+attr processid 24587
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+vector 14  NetIPv6over802154.lrwpanHost1.lrwpan.ifq  queueLength:vector  ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+14	6387 9 0 0 0 0 1 0 0 0 0
+vector 33  NetIPv6over802154.lrwpanHost2.lrwpan.ifq  queueLength:vector  ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+33	6726 9 0 0 0 0 1 0 0 0 0
+vector 52  NetIPv6over802154.lrwpanHost3.lrwpan.ifq  queueLength:vector  ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+52	7083 9 0 0 0 0 1 0 0 0 0
+vector 71  NetIPv6over802154.lrwpanServer.lrwpan.ifq  queueLength:vector  ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+71	7317 9 0 0 0 0 1 0 0 0 0
+vector 92  NetIPv6over802154.hybridRouter.lrwpan.ifq  queueLength:vector  ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+92	7558 9 0 0 0 0 1 0 0 0 0
+vector 15  NetIPv6over802154.lrwpanHost1.lrwpan.phy  bitrate:vector  ETV
+attr interpolationmode sample-hold
+attr title "tx bitrate, vector"
+attr unit bps
+15	6396 65 0 86 0 0.57392177671 3 20000 20000 60000 1200000000
+vector 17  NetIPv6over802154.lrwpanHost1.lrwpan.phy  radioState:vector  ETV
+attr interpolationmode sample-hold
+attr title "radio state (enum), vector"
+17	6470 187 0 86 0 0.57392177671 9 0 3 9 23
+vector 16  NetIPv6over802154.lrwpanHost1.lrwpan.phy  channelNo:vector  ETV
+attr interpolationmode sample-hold
+attr title "channel no, vector"
+16	6461 9 0 0 0 0 1 0 0 0 0
+vector 34  NetIPv6over802154.lrwpanHost2.lrwpan.phy  bitrate:vector  ETV
+attr interpolationmode sample-hold
+attr title "tx bitrate, vector"
+attr unit bps
+34	6735 69 0 117 0 0.639112912791 3 20000 20000 60000 1200000000
+vector 36  NetIPv6over802154.lrwpanHost2.lrwpan.phy  radioState:vector  ETV
+attr interpolationmode sample-hold
+attr title "radio state (enum), vector"
+36	6813 198 0 117 0 0.639112912791 9 0 3 9 23
+vector 35  NetIPv6over802154.lrwpanHost2.lrwpan.phy  channelNo:vector  ETV
+attr interpolationmode sample-hold
+attr title "channel no, vector"
+35	6804 9 0 0 0 0 1 0 0 0 0
+vector 53  NetIPv6over802154.lrwpanHost3.lrwpan.phy  bitrate:vector  ETV
+attr interpolationmode sample-hold
+attr title "tx bitrate, vector"
+attr unit bps
+53	7092 41 0 131 0 0.690327066993 2 20000 20000 40000 800000000
+vector 55  NetIPv6over802154.lrwpanHost3.lrwpan.phy  radioState:vector  ETV
+attr interpolationmode sample-hold
+attr title "radio state (enum), vector"
+55	7142 175 0 140 0 0.696327066993 8 0 3 9 23
+vector 54  NetIPv6over802154.lrwpanHost3.lrwpan.phy  channelNo:vector  ETV
+attr interpolationmode sample-hold
+attr title "channel no, vector"
+54	7133 9 0 0 0 0 1 0 0 0 0
+vector 72  NetIPv6over802154.lrwpanServer.lrwpan.phy  bitrate:vector  ETV
+attr interpolationmode sample-hold
+attr title "tx bitrate, vector"
+attr unit bps
+72	7326 13 0 0 0 0 1 20000 20000 20000 400000000
+vector 74  NetIPv6over802154.lrwpanServer.lrwpan.phy  radioState:vector  ETV
+attr interpolationmode sample-hold
+attr title "radio state (enum), vector"
+74	7348 55 0 45 0 0.152441670323 3 0 1 1 1
+vector 73  NetIPv6over802154.lrwpanServer.lrwpan.phy  channelNo:vector  ETV
+attr interpolationmode sample-hold
+attr title "channel no, vector"
+73	7339 9 0 0 0 0 1 0 0 0 0
+vector 93  NetIPv6over802154.hybridRouter.lrwpan.phy  bitrate:vector  ETV
+attr interpolationmode sample-hold
+attr title "tx bitrate, vector"
+attr unit bps
+93	7567 65 0 55 0 0.15304115142 3 20000 20000 60000 1200000000
+vector 95  NetIPv6over802154.hybridRouter.lrwpan.phy  radioState:vector  ETV
+attr interpolationmode sample-hold
+attr title "radio state (enum), vector"
+95	7641 259 0 135 0 0.690327585896 12 0 3 11 25
+vector 94  NetIPv6over802154.hybridRouter.lrwpan.phy  channelNo:vector  ETV
+attr interpolationmode sample-hold
+attr title "channel no, vector"
+94	7632 9 0 0 0 0 1 0 0 0 0
+vector 76  NetIPv6over802154.hybridRouter.networkLayer.neighbourDiscovery  startDAD:vector  ETV
+attr title "DAD started, vector"
+76	7403 42 6 6 0.14399315142 0.14399315142 2 1 1 2 2
+vector 86  NetIPv6over802154.hybridRouter.eth.encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+86	7491 23 11 11 0.14399315142 0.14399315142 1 40 40 40 1600
+vector 89  NetIPv6over802154.hybridRouter.lrwpan.ifq  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr title "received packets, vector(packetBytes)"
+89	7514 22 12 12 0.14399315142 0.14399315142 1 0 0 0 0
+vector 91  NetIPv6over802154.hybridRouter.lrwpan.ifq  queueingTime:vector  ETV
+attr interpolationmode none
+attr title "queueing time, vector"
+91	7536 22 12 12 0.14399315142 0.14399315142 1 0 0 0 0
+vector 82  NetIPv6over802154.hybridRouter.eth.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+82	7468 23 13 13 0.14399315142 0.14399315142 1 64 64 64 4096
+vector 77  NetIPv6over802154.hybridRouter.eth.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+77	7445 23 15 15 0.14405075142 0.14405075142 1 64 64 64 4096
+vector 107  NetIPv6over802154.wiredHost.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+107	7900 24 16 16 0.14405085142 0.14405085142 1 64 64 64 4096
+vector 108  NetIPv6over802154.wiredHost.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+108	7924 24 16 16 0.14405085142 0.14405085142 1 64 64 64 4096
+vector 116  NetIPv6over802154.wiredHost.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+116	7948 24 17 17 0.14405085142 0.14405085142 1 40 40 40 1600
+vector 10  NetIPv6over802154.lrwpanHost1.networkLayer.neighbourDiscovery  startDAD:vector  ETV
+attr title "DAD started, vector"
+10	6321 22 58 58 0.56359377671 0.56359377671 1 1 1 1 1
+vector 11  NetIPv6over802154.lrwpanHost1.lrwpan.ifq  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr title "received packets, vector(packetBytes)"
+11	6343 22 61 61 0.56359377671 0.56359377671 1 0 0 0 0
+vector 13  NetIPv6over802154.lrwpanHost1.lrwpan.ifq  queueingTime:vector  ETV
+attr interpolationmode none
+attr title "queueing time, vector"
+13	6365 22 61 61 0.56359377671 0.56359377671 1 0 0 0 0
+vector 29  NetIPv6over802154.lrwpanHost2.networkLayer.neighbourDiscovery  startDAD:vector  ETV
+attr title "DAD started, vector"
+29	6657 23 89 89 0.630064912792 0.630064912792 1 1 1 1 1
+vector 30  NetIPv6over802154.lrwpanHost2.lrwpan.ifq  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr title "received packets, vector(packetBytes)"
+30	6680 23 92 92 0.630064912792 0.630064912792 1 0 0 0 0
+vector 32  NetIPv6over802154.lrwpanHost2.lrwpan.ifq  queueingTime:vector  ETV
+attr interpolationmode none
+attr title "queueing time, vector"
+32	6703 23 92 92 0.630064912792 0.630064912792 1 0 0 0 0
+vector 48  NetIPv6over802154.lrwpanHost3.networkLayer.neighbourDiscovery  startDAD:vector  ETV
+attr title "DAD started, vector"
+48	7011 24 120 120 0.686599066993 0.686599066993 1 1 1 1 1
+vector 49  NetIPv6over802154.lrwpanHost3.lrwpan.ifq  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr title "received packets, vector(packetBytes)"
+49	7035 24 123 123 0.686599066993 0.686599066993 1 0 0 0 0
+vector 51  NetIPv6over802154.lrwpanHost3.lrwpan.ifq  queueingTime:vector  ETV
+attr interpolationmode none
+attr title "queueing time, vector"
+51	7059 24 123 123 0.686599066993 0.686599066993 1 0 0 0 0

@@ -1,0 +1,159 @@
+file 12209 1391074980                                           
+version 2
+run SG_IPV6ONLY_003-0-20140129-11:38:38-13893
+attr configname SG_IPV6ONLY_003
+attr datetime 20140129-11:38:38
+attr experiment SG_IPV6ONLY_003
+attr inifile omnetpp.ini
+attr iterationvars "$widthX=1000m, $widthY=1000m"
+attr iterationvars2 "$widthX=1000m, $widthY=1000m, $repetition=0"
+attr measurement "$widthX=1000m, $widthY=1000m"
+attr network SG_IPV6ONLY_003
+attr processid 13893
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+attr widthX 1000m
+attr widthY 1000m
+vector 12  SG_IPV6ONLY_003.gw.lrwpan.ifq  queueLength:vector  ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+12	6809 9 0 0 0 0 1 0 0 0 0
+vector 13  SG_IPV6ONLY_003.gw.lrwpan.phy  bitrate:vector  ETV
+attr interpolationmode sample-hold
+attr title "tx bitrate, vector"
+attr unit bps
+13	6818 67 0 32 0 0.263863521177 3 20000 20000 60000 1200000000
+vector 15  SG_IPV6ONLY_003.gw.lrwpan.phy  radioState:vector  ETV
+attr interpolationmode sample-hold
+attr title "radio state (enum), vector"
+15	6894 147 0 32 0 0.263863521177 7 0 3 8 22
+vector 14  SG_IPV6ONLY_003.gw.lrwpan.phy  channelNo:vector  ETV
+attr interpolationmode sample-hold
+attr title "channel no, vector"
+14	6885 9 0 0 0 0 1 0 0 0 0
+vector 8  SG_IPV6ONLY_003.gw.networkLayer.neighbourDiscovery  startDAD:vector  ETV
+attr title "DAD started, vector"
+8	6724 42 3 3 0.254175521177 0.254175521177 2 1 1 2 2
+vector 9  SG_IPV6ONLY_003.gw.lrwpan.ifq  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr title "received packets, vector(packetBytes)"
+9	6766 21 8 8 0.254175521177 0.254175521177 1 0 0 0 0
+vector 11  SG_IPV6ONLY_003.gw.lrwpan.ifq  queueingTime:vector  ETV
+attr interpolationmode none
+attr title "queueing time, vector"
+11	6787 22 8 8 0.254175521177 0.254175521177 1 0 0 0 0
+vector 26  SG_IPV6ONLY_003.gw.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+26	8377 252 9 452 0.254175521177 16 16 40 102 1384 131248
+vector 22  SG_IPV6ONLY_003.gw.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+22	8124 253 11 453 0.254175521177 16 16 64 120 1696 189184
+vector 17  SG_IPV6ONLY_003.gw.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+17	7041 361 12 456 0.254181281177 16.00001024 16 64 120 1696 189184
+vector 40  SG_IPV6ONLY_003.be.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+40	10402 361 13 457 0.254181331177 16.00001029 16 64 120 1696 189184
+vector 41  SG_IPV6ONLY_003.be.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+41	10763 361 13 457 0.254181331177 16.00001029 16 64 120 1696 189184
+vector 49  SG_IPV6ONLY_003.be.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+49	11848 361 14 458 0.254181331177 16.00001029 16 40 102 1384 131248
+vector 35  SG_IPV6ONLY_003.be.networkLayer.neighbourDiscovery  startDAD:vector  ETV
+attr title "DAD started, vector"
+35	10017 23 35 35 0.654192878073 0.654192878073 1 1 1 1 1
+vector 48  SG_IPV6ONLY_003.be.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+48	11486 362 38 466 0.654192878073 16.00001029 16 40 102 1384 131248
+vector 44  SG_IPV6ONLY_003.be.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+44	11124 362 39 467 0.654192878073 16.00001029 16 64 120 1696 189184
+vector 39  SG_IPV6ONLY_003.be.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+39	10040 362 40 469 0.654198638073 16.00002053 16 64 120 1696 189184
+vector 18  SG_IPV6ONLY_003.gw.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+18	7402 361 41 470 0.654198688073 16.00002058 16 64 120 1696 189184
+vector 19  SG_IPV6ONLY_003.gw.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+19	7763 361 41 470 0.654198688073 16.00002058 16 64 120 1696 189184
+vector 27  SG_IPV6ONLY_003.gw.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+27	8629 361 42 471 0.654198688073 16.00002058 16 40 102 1384 131248
+vector 1  SG_IPV6ONLY_003.gw.udpApp[0]  sentPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source sentPk
+attr title "packets sent, vector(packetBytes)"
+1	5706 138 81 448 5 16 12 54 54 648 34992
+vector 3  SG_IPV6ONLY_003.gw.udp  sentPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source sentPk
+attr title "packets sent, vector(packetBytes)"
+3	6145 138 83 449 5 16 12 62 62 744 46128
+vector 31  SG_IPV6ONLY_003.be.udp  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rcvdPk
+attr title "packets received, vector(packetBytes)"
+31	9508 259 119 461 5.00002191 16.00001029 12 62 62 744 46128
+vector 32  SG_IPV6ONLY_003.be.udp  passedUpPk:vector(count)  ETV
+attr interpolationmode none
+attr title "packets passed up, vector(count)"
+32	9767 250 119 461 5.00002191 16.00001029 12 1 12 78 650
+vector 29  SG_IPV6ONLY_003.be.udpApp[0]  echoedPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source pk
+attr title "packets echoed, vector(packetBytes)"
+29	8990 259 120 462 5.00002191 16.00001029 12 54 54 648 34992
+vector 30  SG_IPV6ONLY_003.be.udp  sentPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source sentPk
+attr title "packets sent, vector(packetBytes)"
+30	9249 259 121 463 5.00002191 16.00001029 12 62 62 744 46128
+vector 4  SG_IPV6ONLY_003.gw.udp  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rcvdPk
+attr title "packets received, vector(packetBytes)"
+4	6283 225 132 445 5.0000322 15.00002058 11 62 62 682 42284
+vector 5  SG_IPV6ONLY_003.gw.udp  passedUpPk:vector(count)  ETV
+attr interpolationmode none
+attr title "packets passed up, vector(count)"
+5	6508 216 132 445 5.0000322 15.00002058 11 1 11 66 506
+vector 0  SG_IPV6ONLY_003.gw.udpApp[0]  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode none
+attr source rcvdPk
+attr title "packets received, vector(packetBytes)"
+0	5481 225 133 446 5.0000322 15.00002058 11 54 54 594 32076
+vector 2  SG_IPV6ONLY_003.gw.udpApp[0]  rcvdPkLifetime:vector  ETV
+attr interpolationmode none
+attr source messageAge(rcvdPk)
+attr title "received packet lifetime, vector"
+attr unit s
+2	5844 301 133 446 5.0000322 15.00002058 11 2.058e-05 3.22e-05 0.000238 5.272204e-09
