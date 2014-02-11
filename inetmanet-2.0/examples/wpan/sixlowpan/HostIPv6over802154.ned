@@ -96,7 +96,7 @@ module HostIPv6over802154
                 @display("p=351,138;i=block/transport");
         }
         pingApp[numPingApps]: <default("PingApp")> like IPingApp {
-            parameters:
+               	parameters:
                 @display("p=421,214");
         }
         networkLayer: NetworkLayer6 {
@@ -147,10 +147,10 @@ module HostIPv6over802154
         udp.ipv6In <-- networkLayer.udpOut;
 
         for i=0..numPingApps-1 {
-            networkLayer.pingOut++ --> pingApp[i].pingv6In;
-            networkLayer.pingIn++ <-- pingApp[i].pingv6Out;
+			networkLayer.pingOut++ --> pingApp[i].pingv6In;
+			networkLayer.pingIn++  <-- pingApp[i].pingv6Out;
         }
-
+        
 		// MANET routing support disabled because IPv6 does not support it at the moment
 //		networkLayer.manetOut --> manetrouting.from_ip if routingProtocol != "";
 //		networkLayer.manetIn <-- manetrouting.to_ip if routingProtocol != "";

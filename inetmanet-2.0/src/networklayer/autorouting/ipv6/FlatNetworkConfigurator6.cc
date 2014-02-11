@@ -75,14 +75,9 @@ void FlatNetworkConfigurator6::configureAdvPrefixes(cTopology& topo)
     // assign advertised prefixes to all router interfaces
     for (int i = 0; i < topo.getNumNodes(); i++)
     {
-        const char* nodeName = topo.getNode(i)->getModule()->getFullName();
-
         // skip bus types
         if (!isIPNode(topo.getNode(i)))
-        {
-            EV << "Skipping non-IP-node " << nodeName << endl;
             continue;
-        }
 
         int nodeIndex = i;
 
@@ -93,10 +88,7 @@ void FlatNetworkConfigurator6::configureAdvPrefixes(cTopology& topo)
 
         // skip hosts
         if (!rt->par("isRouter").boolValue())
-        {
-            EV << "Skipping router " << topo.getNode(i)->getModule()->getFullName() << endl;
             continue;
-        }
 
         // assign prefix to interfaces
         for (int k = 0; k < ift->getNumInterfaces(); k++)
@@ -128,13 +120,8 @@ void FlatNetworkConfigurator6::configureAdvPrefixes(cTopology& topo)
             ie->ipv6Data()->addAdvPrefix(p);
 
             // add a link-local address (tentative) if it doesn't have one
-            IPv6Address address;
             if (ie->ipv6Data()->getLinkLocalAddress().isUnspecified())
-            {
-                address = IPv6Address::formLinkLocalAddress(ie->getInterfaceToken());
-                ie->ipv6Data()->assignAddress(address, true, SIMTIME_ZERO, SIMTIME_ZERO);
-                EV << "Assigned link local IPv6 address " << address << " to " << nodeName << endl;
-            }
+                ie->ipv6Data()->assignAddress(IPv6Address::formLinkLocalAddress(ie->getInterfaceToken()), true, SIMTIME_ZERO, SIMTIME_ZERO);
         }
     }
 }
@@ -182,9 +169,6 @@ void FlatNetworkConfigurator6::addStaticRoutes(cTopology& topo)
     for (int i = 0; i < topo.getNumNodes(); i++)
     {
         cTopology::Node *destNode = topo.getNode(i);
-
-//        const char* nodeName = destNode->getModule()->getFullName();
-//        EV << "FlatNetworkConfigurator6::addStaticRoutes(cTopology& topo) for " << nodeName << endl;
 
         // skip bus types
         if (!isIPNode(destNode))

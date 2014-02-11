@@ -1,2 +1,2 @@
 #!/bin/sh
-../../../src/opp_run $*
+../../../src/run_inet $*

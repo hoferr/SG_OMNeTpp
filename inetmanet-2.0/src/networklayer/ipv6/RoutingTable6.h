@@ -199,8 +199,6 @@ class INET_API RoutingTable6 : public cSimpleModule, protected INotifiable, publ
     // internal
     virtual void configureTunnelFromXML(cXMLElement* cfg);
 
-    virtual void configureRouteFromXML(cXMLElement *cfg);
-
   protected:
     // displays summary above the icon
     virtual void updateDisplayString();

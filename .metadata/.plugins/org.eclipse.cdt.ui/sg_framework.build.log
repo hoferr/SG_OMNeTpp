@@ -1,10 +1,8 @@
-17:15:21 **** Build of configuration gcc-debug for project sg_framework ****
+17:44:51 **** Incremental Build of configuration gcc-debug for project sg_framework ****
 make MODE=debug CONFIGNAME=gcc-debug all 
 cd src && make
 make[1]: Entering directory `/home/hoferr/MasterThesis/Simulation/omnetpp/SG_OMNeTpp/sg_framework/src'
-DualLayerCoupler.cc
-Creating shared library: ../out/gcc-debug/src/libsg_framework.so
 make[1]: Leaving directory `/home/hoferr/MasterThesis/Simulation/omnetpp/SG_OMNeTpp/sg_framework/src'
 
-17:15:22 Build Finished (took 660ms)
+17:44:51 Build Finished (took 116ms)
 

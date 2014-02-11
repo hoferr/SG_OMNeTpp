@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="24" version="2.0">
+<workbench progressCount="23" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="31">
 <fastViewData fastViewLocation="1024"/>
@@ -19,7 +19,8 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="194" y="24"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.omnetpp.ned.editor" itemType="typePlaceholder" x="116" y="24"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.omnetpp.inifile.editor.editors.InifileEditor" itemType="typeToolBarContribution" x="82" y="24"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -32,17 +33,12 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.omnetpp.inifile.editor.editors.InifileEditor" name="omnetpp.ini" partName="omnetpp.ini" path="/home/hoferr/MasterThesis/Simulation/omnetpp/SG_OMNeTpp/sg_framework/simulations/omnetpp.ini" title="omnetpp.ini" tooltip="sg_framework/simulations/omnetpp.ini" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.omnetpp.inifile.editor.editors.InifileEditor" name="omnetpp.ini" partName="omnetpp.ini" path="/home/hoferr/MasterThesis/Simulation/omnetpp/SG_OMNeTpp/sg_framework/simulations/omnetpp.ini" title="omnetpp.ini" tooltip="sg_framework/simulations/omnetpp.ini" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sg_framework/simulations/omnetpp.ini"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="__TODO" partName="__TODO" path="/home/hoferr/MasterThesis/Simulation/omnetpp/SG_OMNeTpp/inetmanet-2.0/__TODO" title="__TODO" tooltip="inetmanet-2.0/__TODO" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/inetmanet-2.0/__TODO"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -75,7 +71,7 @@
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline"/>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.omnetpp.main.OmnetppPerspective">
+<perspectives activePart="org.omnetpp.inifile.editor.editors.InifileEditor" activePerspective="org.omnetpp.main.OmnetppPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.omnetpp.ide.PerspectiveFactory" id="org.omnetpp.main.OmnetppPerspective" label="Simulation"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -155,7 +151,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.17483364" ratioLeft="289" ratioRight="1364" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.7488444" ratioLeft="486" ratioRight="163" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.omnetpp.inifile.ModuleParameters" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.omnetpp.inifile.ModuleHierarchy" label="Module Hierarchy"/>
 <page content="org.omnetpp.inifile.ModuleParameters" label="NED Parameters"/>
@@ -192,18 +188,8 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.omnetpp.inifile.editor.editors.InifileEditor" path="/sg_framework/simulations/omnetpp.ini"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/inetmanet-2.0/src/mobility/models/ANSimMobility.cc"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.omnetpp.inifile.editor.editors.InifileEditor" path="/sg_framework/simulations/omnetpp.ini"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/inetmanet-2.0/__TODO"/>
 </editors>
-<item historyLabel="omnetpp.ini" index="0"/>
-<item historyLabel="ANSimMobility.cc" index="1">
-<position info="not_deleted" x="3517" y="81"/>
-</item>
-<item historyLabel="omnetpp.ini" index="2"/>
-<item active="true" historyLabel="__TODO" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
+<item active="true" historyLabel="omnetpp.ini" index="0"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -221,14 +207,20 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.omnetpp.inifile.editor.editors.InifileEditor" name="omnetpp.ini" tooltip="sg_framework/simulations/omnetpp.ini">
+<persistable path="/sg_framework/simulations/omnetpp.ini"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.omnetpp.ned.editor.launcher" name="ARPTest.ned" tooltip="inetmanet-2.0/examples/ethernet/arptest/ARPTest.ned">
+<persistable path="/inetmanet-2.0/examples/ethernet/arptest/ARPTest.ned"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.omnetpp.inifile.editor.editors.InifileEditor" name="omnetpp.ini" tooltip="inetmanet-2.0/examples/ethernet/arptest/omnetpp.ini">
+<persistable path="/inetmanet-2.0/examples/ethernet/arptest/omnetpp.ini"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="__TODO" tooltip="inetmanet-2.0/__TODO">
 <persistable path="/inetmanet-2.0/__TODO"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ANSimMobility.cc" tooltip="inetmanet-2.0/src/mobility/models/ANSimMobility.cc">
 <persistable path="/inetmanet-2.0/src/mobility/models/ANSimMobility.cc"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.omnetpp.inifile.editor.editors.InifileEditor" name="omnetpp.ini" tooltip="sg_framework/simulations/omnetpp.ini">
-<persistable path="/sg_framework/simulations/omnetpp.ini"/>
 </file>
 </mruList>
 </workbench>

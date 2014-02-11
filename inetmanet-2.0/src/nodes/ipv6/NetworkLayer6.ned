@@ -64,9 +64,7 @@ module NetworkLayer6
                 transportIn[5];
                 transportOut[5];
                 queueIn[sizeof(ifIn)];
-//                queueOut[sizeof(ifIn)];
-                queueOut[sizeof(ifOut)];
-
+                queueOut[sizeof(ifIn)];
         }
         icmpv6: ICMPv6 {
             parameters:

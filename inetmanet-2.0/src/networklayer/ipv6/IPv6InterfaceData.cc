@@ -269,8 +269,6 @@ void IPv6InterfaceData::assignAddress(const IPv6Address& addr, bool tentative,
     // FIXME else a.addrType = ???;
 #endif /* WITH_xMIPv6 */
 
-//    EV << "Assigned " << a.address << " to " << this->getFullName() << endl;
-
     choosePreferredAddress();
 }
 

@@ -442,47 +442,5 @@ class INET_API Ethernet1ahITag : public ::cPacket
 inline void doPacking(cCommBuffer *b, Ethernet1ahITag& obj) {obj.parsimPack(b);}
 inline void doUnpacking(cCommBuffer *b, Ethernet1ahITag& obj) {obj.parsimUnpack(b);}
 
-/**
- * Class generated from <tt>linklayer/ethernet/EtherFrame.msg</tt> by opp_msgc.
- * <pre>
- * packet EtherAutoconfig
- * {
- *     double txrate = 0;
- *     bool halfDuplex = false;
- * }
- * </pre>
- */
-class INET_API EtherAutoconfig : public ::cPacket
-{
-  protected:
-    double txrate_var;
-    bool halfDuplex_var;
-
-  private:
-    void copy(const EtherAutoconfig& other);
-
-  protected:
-    // protected and unimplemented operator==(), to prevent accidental usage
-    bool operator==(const EtherAutoconfig&);
-
-  public:
-    EtherAutoconfig(const char *name=NULL, int kind=0);
-    EtherAutoconfig(const EtherAutoconfig& other);
-    virtual ~EtherAutoconfig();
-    EtherAutoconfig& operator=(const EtherAutoconfig& other);
-    virtual EtherAutoconfig *dup() const {return new EtherAutoconfig(*this);}
-    virtual void parsimPack(cCommBuffer *b);
-    virtual void parsimUnpack(cCommBuffer *b);
-
-    // field getter/setter methods
-    virtual double getTxrate() const;
-    virtual void setTxrate(double txrate);
-    virtual bool getHalfDuplex() const;
-    virtual void setHalfDuplex(bool halfDuplex);
-};
-
-inline void doPacking(cCommBuffer *b, EtherAutoconfig& obj) {obj.parsimPack(b);}
-inline void doUnpacking(cCommBuffer *b, EtherAutoconfig& obj) {obj.parsimUnpack(b);}
-
 
 #endif // _ETHERFRAME_M_H_

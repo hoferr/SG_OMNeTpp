@@ -1726,12 +1726,6 @@ void IPv4NetworkConfigurator::addStaticRoutes(IPv4Topology& topology)
     // add static routes for all routing tables
     for (int i = 0; i < topology.getNumNodes(); i++) {
         Node *sourceNode = (Node *)topology.getNode(i);
-
-//        // DEBUG: Ramon
-//        const char *sourceNodeName = sourceNode->getModule()->getFullName();
-//        EV_DEBUG << "Adding routes for " << sourceNodeName << endl;
-//        // DEBUG: Ramon
-
         if (!sourceNode->interfaceTable)
             continue;
 
@@ -1775,33 +1769,12 @@ void IPv4NetworkConfigurator::addStaticRoutes(IPv4Topology& topology)
             {
                 // extract destination
                 Node *destinationNode = (Node *)topology.getNode(j);
-
-//                // DEBUG: Ramon
-//                const char *destinationNodeName = destinationNode->getModule()->getFullName();
-//                EV_DEBUG << "Trying to add route from " << sourceNodeName << " to " << destinationNodeName << "... ";
-//                // DEBUG: Ramon
-
                 if (sourceNode == destinationNode)
-                {
-//                    // DEBUG: Ramon
-//                    EV_DEBUG << "sourceNode == destinationNode\n";
-//                    // DEBUG: Ramon
                     continue;
-                }
                 if (destinationNode->getNumPaths() == 0)
-                {
-//                    // DEBUG: Ramon
-//                    EV_DEBUG << "destinationNode->getNumPaths() == 0\n";
-//                    // DEBUG: Ramon
                     continue;
-                }
                 if (!destinationNode->interfaceTable)
-                {
-//                    // DEBUG: Ramon
-//                    EV_DEBUG << "!destinationNode->interfaceTable\n";
-//                    // DEBUG: Ramon
                     continue;
-                }
 
                 // determine next hop interface
                 // find next hop interface (the last IP interface on the path that is not in the source node)

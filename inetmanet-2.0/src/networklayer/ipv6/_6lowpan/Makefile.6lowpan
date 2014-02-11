@@ -1,6 +1,5 @@
 # Adjust the following two paths to your actual configuration / installation
-#CONTIKI_PATH = /home/user/git/contiki
-CONTIKI_PATH = /home/hoferr/MasterThesis/Simulation/omnetpp/contiki
+CONTIKI_PATH = /home/hoferr/MasterThesis/Simulation/omnetpp/SG_OMNeTpp/contiki
 
 # Adjust the name of the Contiki library that you compiled before using this INET module
 CONTIKI_LIB = /examples/hello-world/contiki-omnetpp.a

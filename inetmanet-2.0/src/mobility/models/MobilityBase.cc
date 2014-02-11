@@ -180,8 +180,6 @@ void MobilityBase::initializePosition()
     }
     if (!filled)
         lastPosition = getRandomPosition();
-
-//    EV << "MobilityBase initial position:" << lastPosition.info() << endl;
 }
 
 void MobilityBase::handleMessage(cMessage * message)

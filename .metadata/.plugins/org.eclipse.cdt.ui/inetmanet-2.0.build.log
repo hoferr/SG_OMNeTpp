@@ -1,15 +1,8 @@
-17:21:42 **** Build of configuration gcc-debug for project inetmanet-2.0 ****
-make MODE=debug CONFIGNAME=gcc-debug all 
+17:44:50 **** Incremental Build of configuration gcc-debug for project inetmanet-2.0 ****
+make MODE=debug CONFIGNAME=gcc-debug -j6 all 
 cd src && make
 make[1]: Entering directory `/home/hoferr/MasterThesis/Simulation/omnetpp/SG_OMNeTpp/inetmanet-2.0/src'
-applications/AppBase.cc
-applications/ethernet/EthernetApplication.cc
-applications/ethernet/EtherTrafGen.cc
-make: *** wait: No child processes.  Stop.
-make: *** Waiting for unfinished jobs....
-make: *** wait: No child processes.  Stop.
-make[1]: *** [../out/gcc-debug/src/applications/ethernet/EtherTrafGen.o] Terminated
-Command canceled
+make[1]: Leaving directory `/home/hoferr/MasterThesis/Simulation/omnetpp/SG_OMNeTpp/inetmanet-2.0/src'
 
-17:21:44 Build Cancelled (took 2s.41ms)
+17:44:50 Build Finished (took 125ms)
 

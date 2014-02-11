@@ -2,7 +2,7 @@
 # OMNeT++/OMNEST Makefile for libsg_framework
 #
 # This file was generated with the command:
-#  opp_makemake -f --deep --make-so -KINETMANET_2_0_PROJ=../../inetmanet-2.0
+#  opp_makemake -f --deep --make-so -L../../inetmanet-2.0/out/$(CONFIGNAME)/src -linet -DINET_IMPORT -KINETMANET_2_0_PROJ=../../inetmanet-2.0
 #
 
 # Name of target to be created (-o option)
@@ -15,7 +15,8 @@ INCLUDE_PATH = -I.
 EXTRA_OBJS =
 
 # Additional libraries (-L, -l options)
-LIBS =
+LIBS = -L../../inetmanet-2.0/out/$(CONFIGNAME)/src  -linet
+LIBS += -Wl,-rpath,`abspath ../../inetmanet-2.0/out/$(CONFIGNAME)/src`
 
 # Output directory
 PROJECT_OUTPUT_DIR = ../out
@@ -55,7 +56,7 @@ include $(CONFIGFILE)
 OMNETPP_LIB_SUBDIR = $(OMNETPP_LIB_DIR)/$(TOOLCHAIN_NAME)
 OMNETPP_LIBS = -L"$(OMNETPP_LIB_SUBDIR)" -L"$(OMNETPP_LIB_DIR)" -loppenvir$D $(KERNEL_LIBS) $(SYS_LIBS)
 
-COPTS = $(CFLAGS)  $(INCLUDE_PATH) -I$(OMNETPP_INCL_DIR)
+COPTS = $(CFLAGS) -DINET_IMPORT $(INCLUDE_PATH) -I$(OMNETPP_INCL_DIR)
 MSGCOPTS = $(INCLUDE_PATH)
 
 # we want to recompile everything if COPTS changes,

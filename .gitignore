@@ -6,12 +6,10 @@
 *_sm.cc
 src/Makefile
 src/Makefile.vc
-/doc/doxy/
-/doc/neddoc/
-/examples/*/results/
-/examples/*/*/results/
-/examples/*/*/*/results/
-/tests/*/work/
+*/doxy/
+*/neddoc/
+*/results/*
+*/tests/*/work/
 *.pyc
 *.pcap
 *.sca
@@ -42,6 +40,6 @@ gcc-debug
 backups
 *~
 xxx
-/3rdparty
-/tmp/
-/src/.tmp*
+*/3rdparty
+*/tmp/
+*/src/.tmp*
