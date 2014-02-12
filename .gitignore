@@ -12,8 +12,10 @@ src/Makefile.vc
 */tests/*/work/
 *.pyc
 *.pcap
+*.elog
 *.sca
 *.vec
+*.vci
 *.anf
 # ignore binary files
 out/
@@ -34,6 +36,7 @@ out/
 netanim-trace.txt
 *.out
 gcc-debug
+.metadata
 
 # ignore backup and temp files
 *.bak
