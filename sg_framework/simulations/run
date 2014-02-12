@@ -1,4 +1,11 @@
-#!/bin/sh
-cd `dirname $0`
-../src/sg_0_0_3_duallayergw -n .:../src $*
-# for shared lib, use: opp_run -l ../src/sg_0_0_3_duallayergw -n .:../src $*
+#!/bin/bash
+
+config="SG_MULTIHOPMANUAL_001"
+
+numberofruns=$(opp_run -x "$config" | grep "Number of runs:" | sed 's/Number of runs: //')
+
+for i in $(seq 0 $(($numberofruns-1))); do
+    echo Run $i
+    opp_run -n ../src:.:../../inetmanet-2.0/examples:../../inetmanet-2.0/src -l ../src/sg_framework -l ../../inetmanet-2.0/src/inet omnetpp.ini -c "$config" -u Cmdenv -G -r $i &> /dev/null
+done
+
