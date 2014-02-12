@@ -31,9 +31,10 @@ import inet.world.radio.ChannelControl;
 
 network SG_LRWPAN_001
 {
-    parameters:
+    parameters:        
         int numNodes;   // Number of nodes (data concentrator not included)
-        @display("bgb=800,600");
+//        @display("bgb=1000,1000");
+        @display("bgb=1000,1000,white");	// To use in documentation
     types:
     submodules:
         channelControl: ChannelControl {
@@ -42,19 +43,22 @@ network SG_LRWPAN_001
         }
         configurator: FlatNetworkConfigurator6 {
             parameters:
-                @display("p=60,120");
+                @display("p=60,229");
         }
-        dc: NodeK {
+        //        dc: NodeK {
+        dc: NodeW {
             parameters:
+                IPForward = true;
                 @display("p=200,40;i=device/accesspoint,orange");
         }
-        node[numNodes]: NodeK {
+        //        node[numNodes]: NodeK {
+        node[numNodes]: NodeW {
             parameters:
                 IPForward = true;
                 @display("p=200,120;i=device/accesspoint,white");
         }
-//        configurator: IPv4NetworkConfigurator {
-//            @display("p=53,137");
-//        }
+    //        configurator: IPv4NetworkConfigurator {
+    //            @display("p=53,137");
+    //        }
     connections:
 }

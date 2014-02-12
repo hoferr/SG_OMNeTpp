@@ -134,7 +134,9 @@ void RoutingTable6::initialize(int stage)
             configureInterfaceForIPv6(ie);
         }
 
+        EV << "*******************************************************************************\nRoutingTable6::initialize; stage " << stage << "; beginning to parse xml config file.\n";
         parseXMLConfigFile();
+        EV << "RoutingTable6::initialize; stage " << stage << "; finished to parse xml config file.\n*******************************************************************************\n";
 
         // skip hosts
         if (isrouter)
@@ -167,19 +169,34 @@ void RoutingTable6::parseXMLConfigFile()
     // TODO to be revised by Andras
     // configure interfaces from XML config file
     cXMLElement *config = par("routingTable");
+
+    EV << "RoutingTable6::parseXMLConfigFile config->debugDump():\n"; //FIXME: Added by Ramon
+    config->debugDump();                                            //FIXME: Added by Ramon
+
     for (cXMLElement *child=config->getFirstChild(); child; child = child->getNextSibling())
     {
+        EV << "Processing level 0: " << child->getTagName() << endl;                 //FIXME: Added by Ramon
         //std::cout << "configuring interfaces from XML file." << endl;
         //std::cout << "selected element is: " << child->getTagName() << endl;
         // we ensure that the selected element is local.
-        if (opp_strcmp(child->getTagName(), "local")!=0) continue;
+        if (opp_strcmp(child->getTagName(), "local")!=0)
+        {
+            EV << "Not local, go to next iteration.\n";
+            continue;
+        }
         //ensure that this is the right parent module we are configuring.
         if (opp_strcmp(child->getAttribute("node"), getParentModule()->getFullName())!=0)
+        {
+            EV << "Node attribute not parents full name, go to next iteration.\n";
             continue;
+        }
+        EV << "Success! Node attribute is me.\n";
+
         //Go one level deeper.
         //child = child->getFirstChild();
         for (cXMLElement *ifTag=child->getFirstChild(); ifTag; ifTag = ifTag->getNextSibling())
         {
+            EV << "Processing level 1: " << ifTag->getTagName() << endl;
             //The next tag should be "interface".
             if (opp_strcmp(ifTag->getTagName(), "interface")==0)
             {
@@ -188,6 +205,8 @@ void RoutingTable6::parseXMLConfigFile()
                 if (!ifname)
                     error("<interface> without name attribute at %s", child->getSourceLocation());
 
+                EV << "Interface " << ifname << " found.\n";
+
                 InterfaceEntry *ie = ift->getInterfaceByName(ifname);
                 if (!ie)
                     error("no interface named %s was registered, %s", ifname, child->getSourceLocation());
@@ -195,7 +214,13 @@ void RoutingTable6::parseXMLConfigFile()
                 configureInterfaceFromXML(ie, ifTag);
             }
             else if (opp_strcmp(ifTag->getTagName(), "tunnel")==0)
+            {
                 configureTunnelFromXML(ifTag);
+            }
+            else if (opp_strcmp(ifTag->getTagName(), "route")==0)
+            {
+                configureRouteFromXML(ifTag);
+            }
         }
     }
 }
@@ -379,6 +404,7 @@ void RoutingTable6::configureInterfaceFromXML(InterfaceEntry *ie, cXMLElement *c
     // parse basic config (attributes)
     d->setAdvSendAdvertisements(toBool(getRequiredAttr(cfg, "AdvSendAdvertisements")));
     //TODO: leave this off first!! They overwrite stuff!
+    EV << "AdvSendAdvertisements=" << d->getAdvSendAdvertisements() << endl;
 
     /* TODO: Wei commented out the stuff below. To be checked why (Andras).
     d->setMaxRtrAdvInterval(OPP_Global::atod(getRequiredAttr(cfg, "MaxRtrAdvInterval")));
@@ -399,9 +425,12 @@ void RoutingTable6::configureInterfaceFromXML(InterfaceEntry *ie, cXMLElement *c
 
     // parse prefixes (AdvPrefix elements; they should be inside an AdvPrefixList
     // element, but we don't check that)
+    EV << "Getting AdvPrefix elements\n";
     cXMLElementList prefixList = cfg->getElementsByTagName("AdvPrefix");
     for (unsigned int i=0; i<prefixList.size(); i++)
     {
+        EV << "AdvPrefix found...\n";
+
         cXMLElement *node = prefixList[i];
         IPv6InterfaceData::AdvPrefix prefix;
 
@@ -409,6 +438,7 @@ void RoutingTable6::configureInterfaceFromXML(InterfaceEntry *ie, cXMLElement *c
         // store (absolute) expiry time (if >0) or lifetime (delta) (if <0);
         // 0 should be treated as infinity
         int pfxLen;
+//        int pfxLen = 32;// TODO: Remove; hardcoded by Ramon
         if (!prefix.prefix.tryParseAddrWithPrefix(node->getNodeValue(), pfxLen))
             throw cRuntimeError("Element <%s> at %s: wrong IPv6Address/prefix syntax %s",
                       node->getTagName(), node->getSourceLocation(), node->getNodeValue());
@@ -429,6 +459,7 @@ void RoutingTable6::configureInterfaceFromXML(InterfaceEntry *ie, cXMLElement *c
         IPv6Address address = IPv6Address(node->getNodeValue());
         //We can now decide if the address is tentative or not.
         d->assignAddress(address, toBool(getRequiredAttr(node, "tentative")), SIMTIME_ZERO, SIMTIME_ZERO);  // set up with infinite lifetimes
+        EV << "Assigned xml configured IPv6 address " << address << endl;
     }
 }
 
@@ -457,6 +488,47 @@ void RoutingTable6::configureTunnelFromXML(cXMLElement* cfg)
 
         EV << "New tunnel: " << "entry=" << entry << ",exit=" << exit << ",trigger=" << trigger << endl;
         tunneling->createTunnel(IPv6Tunneling::NORMAL, entry, exit, trigger);
+    }
+}
+
+void RoutingTable6::configureRouteFromXML(cXMLElement *cfg)
+{
+    // parse basic config (attributes)
+    cXMLElementList routeEntryList = cfg->getChildrenByTagName("routeEntry");
+    for (unsigned int i=0; i<routeEntryList.size(); i++)
+    {
+        cXMLElement *node = routeEntryList[i];
+
+        const char *ifname = node->getAttribute("routeIface");
+        if (!ifname)
+            error("<route> without routeIface attribute at %s", node->getSourceLocation());
+
+        InterfaceEntry *ie = ift->getInterfaceByName(ifname);
+        if (!ie)
+            error("no interface named %s was registered, %s", ifname, node->getSourceLocation());
+
+        IPv6InterfaceData::AdvPrefix prefix;
+        int pfxLen;
+
+        // Fill prefix and pxfLen
+        if (!prefix.prefix.tryParseAddrWithPrefix(node->getAttribute("routeDestination"), pfxLen))
+            throw cRuntimeError("Element <%s> at %s: wrong IPv6Address/prefix syntax %s",
+                      node->getTagName(), node->getSourceLocation(), node->getNodeValue());
+
+        prefix.prefixLength = pfxLen;
+
+        const char *routeNextHop = node->getAttribute("routeNextHop");
+        if (!routeNextHop)
+            error("<route> without routeNextHop attribute at %s", node->getSourceLocation());
+        IPv6Address nextHopAddress = IPv6Address(routeNextHop);
+
+        const char *routeMetric = node->getAttribute("routeMetric");
+        int metric = 0;
+        if (routeMetric)
+            metric = atoi(routeMetric);
+
+        addStaticRoute(prefix.prefix, pfxLen, ie->getInterfaceId(), nextHopAddress, metric);
+        EV << "configureRouteFromXML: " << node->getTagName() << endl;
     }
 }
 

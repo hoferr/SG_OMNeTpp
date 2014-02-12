@@ -2,20 +2,20 @@
  <!-- dc -->
  <local node="dc" routePackets="on" mobileIPv6Support="off">
   <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
-   <inetAddr tentative="true">2002::</inetAddr>
+   <inetAddr tentative="false">2002::</inetAddr>
    <AdvPrefixList>
     <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
    </AdvPrefixList>
   </interface>
   <route>
-    <routeEntry routeIface="lrwpan" routeDestination="2002::/16" routeNextHop="2002::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:1/128" routeNextHop="2002::1:0"/>
   </route>
  </local>
 
  <!-- node[0] --> 
  <local node="node[0]" routePackets="on" mobileIPv6Support="off">
   <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
-   <inetAddr tentative="true">2002::1:0</inetAddr>
+   <inetAddr tentative="false">2002::1:0</inetAddr>
    <AdvPrefixList>
     <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
    </AdvPrefixList>
@@ -25,13 +25,13 @@
  <!-- node[1] -->
  <local node="node[1]" routePackets="on" mobileIPv6Support="off">
   <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
-   <inetAddr tentative="true">2002::1:1</inetAddr>
+   <inetAddr tentative="false">2002::1:1</inetAddr>
    <AdvPrefixList>
     <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
    </AdvPrefixList>
   </interface>
   <route>
-    <routeEntry routeIface="lrwpan" routeDestination="2002::/16" routeNextHop="2002::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:0"/>
   </route>
  </local>
 </config>

@@ -1,0 +1,19 @@
+file 1224 1391074980                                            
+version 2
+run SG_DUALIPLAYER_003-0-20140129-14:13:54-15167
+attr configname SG_DUALIPLAYER_003
+attr datetime 20140129-14:13:54
+attr experiment SG_DUALIPLAYER_003
+attr inifile omnetpp.ini
+attr iterationvars "$widthX=1000m, $widthY=1000m"
+attr iterationvars2 "$widthX=1000m, $widthY=1000m, $repetition=0"
+attr measurement "$widthX=1000m, $widthY=1000m"
+attr network SG_DUALIPLAYER_003
+attr processid 15167
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+attr widthX 1000m
+attr widthY 1000m

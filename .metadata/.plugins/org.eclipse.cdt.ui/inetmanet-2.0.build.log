@@ -1,8 +1,8 @@
-17:44:50 **** Incremental Build of configuration gcc-debug for project inetmanet-2.0 ****
+09:46:11 **** Incremental Build of configuration gcc-debug for project inetmanet-2.0 ****
 make MODE=debug CONFIGNAME=gcc-debug -j6 all 
 cd src && make
 make[1]: Entering directory `/home/hoferr/MasterThesis/Simulation/omnetpp/SG_OMNeTpp/inetmanet-2.0/src'
 make[1]: Leaving directory `/home/hoferr/MasterThesis/Simulation/omnetpp/SG_OMNeTpp/inetmanet-2.0/src'
 
-17:44:50 Build Finished (took 125ms)
+09:46:11 Build Finished (took 129ms)
 

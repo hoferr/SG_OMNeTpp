@@ -57,7 +57,7 @@ module NodeK
         //        string routingProtocol @enum("AODVUU","DYMOUM","DYMO","DSRUU","OLSR","OLSR_ETX","DSDV_2","Batman") = default("");  // used mobile routing protocol. see: inet.networklayer.manetrouting
         string mobilityType;
         string batteryModel @enum("InetSimpleBattery","BasicBattery","") = default("InetSimpleBattery");
-        xml routingTable = default(xml("<default/>"));
+        xml routingTable6 = default(xml("<default/>"));
         bool IPForward = default(true);
         @display("i=device/laptop;bgb=491,420");
 
@@ -77,7 +77,7 @@ module NodeK
             parameters:
                 isRouter = true;
                 forwardMulticast = true;
-                routingTable = routingTable;
+                routingTable = routingTable6;
                 @display("p=60,369");
         }
         tcpApp[numTcpApps]: <tcpAppType> like ITCPApp {
