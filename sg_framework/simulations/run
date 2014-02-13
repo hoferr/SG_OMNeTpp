@@ -4,16 +4,16 @@ config="SG_MULTIHOPMANUAL_001"
 
 numberofruns=$(opp_run -x "$config" | grep "Number of runs:" | sed 's/Number of runs: //')
 lastrun=$(( $numberofruns - 1 ))
-failed=0
+success=0
 
 for i in $(seq 0 $lastrun); do
-    echo -n "Run $i/$lastrun  "
+    echo -n "Run $(( $i + 1 ))/$numberofruns  "
     opp_run -n ../src:.:../../inetmanet-2.0/examples:../../inetmanet-2.0/src -l ../src/sg_framework -l ../../inetmanet-2.0/src/inet omnetpp.ini -c "$config" -u Cmdenv -G -r $i &> /dev/null
     if [ $? -ne 0 ]; then
         echo "Failed"
-        failed=$(( failed + 1 ))
     else
         echo "Ok"
+        success=$(( success + 1 ))
     fi
 done
-echo "$failed of $numberofruns runs failed"
+echo "$success of $numberofruns runs succeeded"
