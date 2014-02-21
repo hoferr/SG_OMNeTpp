@@ -7,6 +7,9 @@
     <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
    </AdvPrefixList>
   </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:3/128" routeNextHop="2002::1:0"/>
+  </route>
  </local>
 
  <!-- node[0] --> 
@@ -37,5 +40,21 @@
     <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
    </AdvPrefixList>
   </interface>
+ </local>
+ 
+ 
+<!-- Multihop --> 
+ 
+ <!-- node[3] -->
+ <local node="node[3]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002::1:3</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:0"/>
+  </route>
  </local>
 </config>
