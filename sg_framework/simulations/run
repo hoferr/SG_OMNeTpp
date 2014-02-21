@@ -7,12 +7,14 @@ lastrun=$(( $numberofruns - 1 ))
 success=0
 
 for i in $(seq 0 $lastrun); do
-    echo -e "Run $i/$numberofruns: \t$((time opp_run -n ../src:.:../../inetmanet-2.0/examples:../../inetmanet-2.0/src -l ../src/sg_framework -l ../../inetmanet-2.0/src/inet omnetpp.ini -c "$config" -u Cmdenv -G -r $i &> /dev/null) 2>&1 | grep real)"
-#    if [ $? -ne 0 ]; then
-#        echo "Failed"
-#    else
-#        echo "Ok"
-#        success=$(( success + 1 ))
-#    fi
+    #echo -e "Run $i/$numberofruns: \t$((time opp_run -n ../src:.:../../inetmanet-2.0/examples:../../inetmanet-2.0/src -l ../src/sg_framework -l ../../inetmanet-2.0/src/inet omnetpp.ini -c "$config" -u Cmdenv -G -r $i &> /dev/null) 2>&1 | grep real)"
+    echo -en "Run $i/$numberofruns: \t"
+    opp_run -n ../src:.:../../inetmanet-2.0/examples:../../inetmanet-2.0/src -l ../src/sg_framework -l ../../inetmanet-2.0/src/inet omnetpp.ini -c "$config" -u Cmdenv -G -r $i &> /dev/null
+    if [ $? -ne 0 ]; then
+        echo "Failed"
+    else
+        echo "Ok"
+        success=$(( success + 1 ))
+    fi
 done
-#echo "$success of $numberofruns runs succeeded"
+echo "$success of $numberofruns runs succeeded"

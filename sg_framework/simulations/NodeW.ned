@@ -136,13 +136,14 @@ module NodeW
     //            @display("p=391,401");
     //        }
     connections allowunconnected:
-        // connections to network outside
-        lo0.upperLayerIn <-- networkLayer.ifOut++;
-        lo0.upperLayerOut --> networkLayer.ifIn++;
-
+        // Needs to be allocated first so that it uses index 0
         radioIn --> lrwpan.radioIn;
         lrwpan.upperLayerOut --> networkLayer.ifIn++;
         lrwpan.upperLayerIn <-- networkLayer.ifOut++;
+        
+        // connections to network outside
+        lo0.upperLayerIn <-- networkLayer.ifOut++;
+        lo0.upperLayerOut --> networkLayer.ifIn++;
 
         for i=0..sizeof(ethg)-1 {
             ethg[i] <--> eth[i].phys;
