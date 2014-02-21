@@ -45,14 +45,14 @@ network SG_LRWPAN_001
             parameters:
                 @display("p=60,229");
         }
-        //        dc: NodeK {
-        dc: NodeW {
+		dc: NodeK {
+//        dc: NodeW {
             parameters:
                 IPForward = true;
                 @display("p=200,40;i=device/accesspoint,orange");
         }
-        //        node[numNodes]: NodeK {
-        node[numNodes]: NodeW {
+        node[numNodes]: NodeK {
+//        node[numNodes]: NodeW {
             parameters:
                 IPForward = true;
                 @display("p=200,120;i=device/accesspoint,white");
