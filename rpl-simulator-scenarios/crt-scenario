@@ -1,0 +1,169 @@
+#!/bin/bash
+
+tx_power=0.90
+no_link_dist_thresh=250.00
+no_link_quality_thresh=0.20
+
+
+
+file="$1"
+if [ ! -r "$file" ]; then
+    echo "ERROR: File not found / not readable"
+    exit 1
+fi
+
+i=0
+out="$file.scenario"
+
+echo "system = {
+    auto_wake_nodes = true;
+    deterministic_random = true;
+    simulation_second = 1000;
+    width = 1000.00;
+    height = 1000.00;
+    no_link_dist_thresh = $no_link_dist_thresh;
+    no_link_quality_thresh = $no_link_quality_thresh;
+    transmission_time = 20;
+    mac_pdu_timeout = 40;
+    ip_pdu_timeout = 60;
+    ip_queue_size = 100;
+    ip_neighbor_timeout = 2000;
+    measure_pdu_timeout = 1000;
+    rpl_auto_sn_inc_interval = -1;
+    rpl_dao_supported = false;
+    rpl_dao_trigger = false;
+    rpl_dio_interval_doublings = 3;
+    rpl_dio_interval_min = 7;
+    rpl_dio_redundancy_constant = 255;
+    rpl_dao_root_delay = 1000;
+    rpl_dao_remove_timeout = 1100;
+    rpl_max_inc_rank = 4;
+    rpl_poison_count = 4;
+    rpl_prefer_floating = false;
+    rpl_startup_probe_for_dodags = false;
+    display = {
+        show_node_names = true;
+        show_node_addresses = false;
+        show_node_tx_power = false;
+        show_node_ranks = false;
+        show_preferred_parent_arrows = true;
+        show_parent_arrows = false;
+        show_sibling_arrows = false;
+    }
+    events = {
+        sys_event_node_wake_logging = false;
+        sys_event_node_kill_logging = false;
+        sys_event_pdu_receive_logging = false;
+        phy_event_node_wake_logging = false;
+        phy_event_node_kill_logging = false;
+        phy_event_pdu_send_logging = false;
+        phy_event_pdu_receive_logging = false;
+        phy_event_neighbor_attach_logging = false;
+        phy_event_neighbor_detach_logging = false;
+        phy_event_change_mobility_logging = false;
+        mac_event_node_wake_logging = false;
+        mac_event_node_kill_logging = false;
+        mac_event_pdu_send_logging = false;
+        mac_event_pdu_send_timeout_check_logging = false;
+        mac_event_pdu_receive_logging = false;
+        ip_event_node_wake_logging = false;
+        ip_event_node_kill_logging = false;
+        ip_event_pdu_send_logging = false;
+        ip_event_pdu_send_timeout_check_logging = false;
+        ip_event_pdu_receive_logging = false;
+        ip_event_neighbor_cache_timeout_check_logging = false;
+        icmp_event_node_wake_logging = false;
+        icmp_event_node_kill_logging = false;
+        icmp_event_pdu_send_logging = false;
+        icmp_event_pdu_receive_logging = false;
+        icmp_event_ping_request_logging = true;
+        icmp_event_ping_reply_logging = true;
+        icmp_event_ping_timeout_logging = true;
+        rpl_event_node_wake_logging = false;
+        rpl_event_node_kill_logging = false;
+        rpl_event_dis_pdu_send_logging = false;
+        rpl_event_dis_pdu_receive_logging = false;
+        rpl_event_dio_pdu_send_logging = false;
+        rpl_event_dio_pdu_receive_logging = false;
+        rpl_event_dao_pdu_send_logging = false;
+        rpl_event_dao_pdu_receive_logging = false;
+        rpl_event_neighbor_attach_logging = false;
+        rpl_event_neighbor_detach_logging = false;
+        rpl_event_forward_failure_logging = false;
+        rpl_event_forward_inconsistency_logging = false;
+        rpl_event_trickle_t_timeout_logging = false;
+        rpl_event_trickle_i_timeout_logging = true;
+        rpl_event_dao_send_logging = false;
+        rpl_event_dao_timeout_check_logging = false;
+        rpl_event_seq_num_autoinc_logging = false;
+        measure_event_node_wake_logging = false;
+        measure_event_node_kill_logging = false;
+        measure_event_pdu_send_logging = false;
+        measure_event_pdu_receive_logging = false;
+        measure_event_connect_update_logging = false;
+        measure_event_connect_hop_passed_logging = false;
+        measure_event_connect_hop_failed_logging = false;
+        measure_event_connect_hop_timeout_logging = false;
+        measure_event_connect_established_logging = false;
+        measure_event_connect_lost_logging = false;
+    }" > "$out"
+
+grep "mobility, stage 1" -A 2 "$file" | while read -r line; do
+#    echo "Processing $line"
+    if [[ "$line" == "Initializing module"* ]]; then
+        node="$line"
+        node="${node#*.}"
+        node="${node%%.*}"
+        node="${node//[/}"
+        node="${node//]/}"
+        if [[ "$node" == "dc" ]]; then
+            root=true
+        else
+            root=false
+        fi
+    elif [[ "$line" == "initial position"* ]]; then
+    	addr=$(printf "%02x" $i)
+        pos="$line"
+        pos="${pos#*x = }"
+        posX="${pos% y*}"
+        pos="${pos#*y = }"
+        posY="${pos% z*}"
+        echo "$node at ($posX / $posY)"
+echo "    node = {
+        phy = {
+            name = $node;
+            cx = $posX;
+            cy = $posY;
+            battery_level = 1.00;
+            tx_power = $tx_power; 
+            mains_powered = true;
+        }
+        mac = {
+            address = 00$addr;
+        }
+        ip = {
+            address = AA$addr;
+        }
+        icmp = {
+        }
+        rpl = {
+            storing = true;
+            dao_supported = false;
+            dao_trigger = false;
+            dio_interval_doublings = 3;
+            dio_interval_min = 7;
+            dio_redundancy_constant = 255;
+            dodag_pref = 0;
+            grounded = $root;
+            max_rank_inc = 4;
+            min_hop_rank_inc = 1;
+        }
+        measure = {
+        }
+    }" >> "$out"
+	i=$[i+1]
+    fi
+done
+echo "}" >> "$out"
+
+exit 0

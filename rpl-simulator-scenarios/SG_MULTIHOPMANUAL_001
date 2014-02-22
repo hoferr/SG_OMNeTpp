@@ -1,0 +1,1048 @@
+Initializing channel SG_LRWPAN_001.dc.networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.sixlowpan.toIPv6[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.sixlowpan.toMac[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.lo0.lo.netwOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.lo0.upperLayerIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.sixlowpan.toIPv6[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.sixlowpan.toMac[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].lo0.lo.netwOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].lo0.upperLayerIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.sixlowpan.toIPv6[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.sixlowpan.toMac[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].lo0.lo.netwOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].lo0.upperLayerIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.sixlowpan.toIPv6[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.sixlowpan.toMac[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].lo0.lo.netwOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].lo0.upperLayerIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.sixlowpan.toIPv6[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.sixlowpan.toMac[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].lo0.lo.netwOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].lo0.upperLayerIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].networkLayer.sixlowpan.toIPv6[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].networkLayer.sixlowpan.toMac[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].lo0.lo.netwOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].lo0.upperLayerIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[4].lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].networkLayer.sixlowpan.toIPv6[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].networkLayer.sixlowpan.toMac[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].lo0.lo.netwOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].lo0.upperLayerIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[5].lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].networkLayer.sixlowpan.toIPv6[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].networkLayer.sixlowpan.toMac[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].lo0.lo.netwOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].lo0.upperLayerIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[6].lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].networkLayer.sixlowpan.toIPv6[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].networkLayer.sixlowpan.toMac[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].lo0.lo.netwOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].lo0.upperLayerIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[7].lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].networkLayer.sixlowpan.toIPv6[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].networkLayer.sixlowpan.toMac[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].lo0.lo.netwOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].lo0.upperLayerIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[8].lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].networkLayer.sixlowpan.toIPv6[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].networkLayer.sixlowpan.toMac[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].lo0.lo.netwOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].lo0.upperLayerIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[9].lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing module SG_LRWPAN_001, stage 0
+Initializing module SG_LRWPAN_001.channelControl, stage 0
+Initializing module SG_LRWPAN_001.configurator, stage 0
+cTopology found 11 nodes
+Initializing module SG_LRWPAN_001.dc, stage 0
+Initializing module SG_LRWPAN_001.dc.notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.dc.mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.dc.disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.dc.networkLayer, stage 0
+Initializing module SG_LRWPAN_001.dc.networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.dc.networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.dc.networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.dc.networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.dc.networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.dc.networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.dc.networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.dc.routingTable6, stage 0
+Initializing module SG_LRWPAN_001.dc.interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.dc.lo0, stage 0
+Initializing module SG_LRWPAN_001.dc.lo0.lo, stage 0
+Initializing module SG_LRWPAN_001.dc.lrwpan, stage 0
+Initializing module SG_LRWPAN_001.dc.lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.dc.lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.dc.lrwpan.phy, stage 0
+dc: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.dc.udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.dc.udp, stage 0
+Initializing module SG_LRWPAN_001.node[0], stage 0
+Initializing module SG_LRWPAN_001.node[0].notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.node[0].mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.node[0].disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.node[0].networkLayer, stage 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.node[0].routingTable6, stage 0
+Initializing module SG_LRWPAN_001.node[0].interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.node[0].lo0, stage 0
+Initializing module SG_LRWPAN_001.node[0].lo0.lo, stage 0
+Initializing module SG_LRWPAN_001.node[0].lrwpan, stage 0
+Initializing module SG_LRWPAN_001.node[0].lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.node[0].lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.node[0].lrwpan.phy, stage 0
+node[0]: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.node[0].udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.node[0].udp, stage 0
+Initializing module SG_LRWPAN_001.node[1], stage 0
+Initializing module SG_LRWPAN_001.node[1].notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.node[1].mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.node[1].disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.node[1].networkLayer, stage 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.node[1].routingTable6, stage 0
+Initializing module SG_LRWPAN_001.node[1].interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.node[1].lo0, stage 0
+Initializing module SG_LRWPAN_001.node[1].lo0.lo, stage 0
+Initializing module SG_LRWPAN_001.node[1].lrwpan, stage 0
+Initializing module SG_LRWPAN_001.node[1].lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.node[1].lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.node[1].lrwpan.phy, stage 0
+node[1]: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.node[1].udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.node[1].udp, stage 0
+Initializing module SG_LRWPAN_001.node[2], stage 0
+Initializing module SG_LRWPAN_001.node[2].notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.node[2].mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.node[2].disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.node[2].networkLayer, stage 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.node[2].routingTable6, stage 0
+Initializing module SG_LRWPAN_001.node[2].interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.node[2].lo0, stage 0
+Initializing module SG_LRWPAN_001.node[2].lo0.lo, stage 0
+Initializing module SG_LRWPAN_001.node[2].lrwpan, stage 0
+Initializing module SG_LRWPAN_001.node[2].lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.node[2].lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.node[2].lrwpan.phy, stage 0
+node[2]: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.node[2].udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.node[2].udp, stage 0
+Initializing module SG_LRWPAN_001.node[3], stage 0
+Initializing module SG_LRWPAN_001.node[3].notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.node[3].mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.node[3].disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.node[3].networkLayer, stage 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.node[3].routingTable6, stage 0
+Initializing module SG_LRWPAN_001.node[3].interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.node[3].lo0, stage 0
+Initializing module SG_LRWPAN_001.node[3].lo0.lo, stage 0
+Initializing module SG_LRWPAN_001.node[3].lrwpan, stage 0
+Initializing module SG_LRWPAN_001.node[3].lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.node[3].lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.node[3].lrwpan.phy, stage 0
+node[3]: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.node[3].udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.node[3].udp, stage 0
+Initializing module SG_LRWPAN_001.node[4], stage 0
+Initializing module SG_LRWPAN_001.node[4].notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.node[4].mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.node[4].disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.node[4].networkLayer, stage 0
+Initializing module SG_LRWPAN_001.node[4].networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.node[4].networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.node[4].networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.node[4].networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.node[4].networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.node[4].networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.node[4].networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.node[4].routingTable6, stage 0
+Initializing module SG_LRWPAN_001.node[4].interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.node[4].lo0, stage 0
+Initializing module SG_LRWPAN_001.node[4].lo0.lo, stage 0
+Initializing module SG_LRWPAN_001.node[4].lrwpan, stage 0
+Initializing module SG_LRWPAN_001.node[4].lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.node[4].lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.node[4].lrwpan.phy, stage 0
+node[4]: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.node[4].udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.node[4].udp, stage 0
+Initializing module SG_LRWPAN_001.node[5], stage 0
+Initializing module SG_LRWPAN_001.node[5].notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.node[5].mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.node[5].disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.node[5].networkLayer, stage 0
+Initializing module SG_LRWPAN_001.node[5].networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.node[5].networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.node[5].networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.node[5].networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.node[5].networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.node[5].networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.node[5].networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.node[5].routingTable6, stage 0
+Initializing module SG_LRWPAN_001.node[5].interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.node[5].lo0, stage 0
+Initializing module SG_LRWPAN_001.node[5].lo0.lo, stage 0
+Initializing module SG_LRWPAN_001.node[5].lrwpan, stage 0
+Initializing module SG_LRWPAN_001.node[5].lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.node[5].lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.node[5].lrwpan.phy, stage 0
+node[5]: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.node[5].udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.node[5].udp, stage 0
+Initializing module SG_LRWPAN_001.node[6], stage 0
+Initializing module SG_LRWPAN_001.node[6].notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.node[6].mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.node[6].disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.node[6].networkLayer, stage 0
+Initializing module SG_LRWPAN_001.node[6].networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.node[6].networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.node[6].networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.node[6].networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.node[6].networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.node[6].networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.node[6].networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.node[6].routingTable6, stage 0
+Initializing module SG_LRWPAN_001.node[6].interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.node[6].lo0, stage 0
+Initializing module SG_LRWPAN_001.node[6].lo0.lo, stage 0
+Initializing module SG_LRWPAN_001.node[6].lrwpan, stage 0
+Initializing module SG_LRWPAN_001.node[6].lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.node[6].lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.node[6].lrwpan.phy, stage 0
+node[6]: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.node[6].udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.node[6].udp, stage 0
+Initializing module SG_LRWPAN_001.node[7], stage 0
+Initializing module SG_LRWPAN_001.node[7].notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.node[7].mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.node[7].disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.node[7].networkLayer, stage 0
+Initializing module SG_LRWPAN_001.node[7].networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.node[7].networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.node[7].networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.node[7].networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.node[7].networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.node[7].networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.node[7].networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.node[7].routingTable6, stage 0
+Initializing module SG_LRWPAN_001.node[7].interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.node[7].lo0, stage 0
+Initializing module SG_LRWPAN_001.node[7].lo0.lo, stage 0
+Initializing module SG_LRWPAN_001.node[7].lrwpan, stage 0
+Initializing module SG_LRWPAN_001.node[7].lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.node[7].lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.node[7].lrwpan.phy, stage 0
+node[7]: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.node[7].udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.node[7].udp, stage 0
+Initializing module SG_LRWPAN_001.node[8], stage 0
+Initializing module SG_LRWPAN_001.node[8].notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.node[8].mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.node[8].disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.node[8].networkLayer, stage 0
+Initializing module SG_LRWPAN_001.node[8].networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.node[8].networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.node[8].networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.node[8].networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.node[8].networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.node[8].networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.node[8].networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.node[8].routingTable6, stage 0
+Initializing module SG_LRWPAN_001.node[8].interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.node[8].lo0, stage 0
+Initializing module SG_LRWPAN_001.node[8].lo0.lo, stage 0
+Initializing module SG_LRWPAN_001.node[8].lrwpan, stage 0
+Initializing module SG_LRWPAN_001.node[8].lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.node[8].lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.node[8].lrwpan.phy, stage 0
+node[8]: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.node[8].udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.node[8].udp, stage 0
+Initializing module SG_LRWPAN_001.node[9], stage 0
+Initializing module SG_LRWPAN_001.node[9].notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.node[9].mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.node[9].disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.node[9].networkLayer, stage 0
+Initializing module SG_LRWPAN_001.node[9].networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.node[9].networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.node[9].networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.node[9].networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.node[9].networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.node[9].networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.node[9].networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.node[9].routingTable6, stage 0
+Initializing module SG_LRWPAN_001.node[9].interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.node[9].lo0, stage 0
+Initializing module SG_LRWPAN_001.node[9].lo0.lo, stage 0
+Initializing module SG_LRWPAN_001.node[9].lrwpan, stage 0
+Initializing module SG_LRWPAN_001.node[9].lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.node[9].lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.node[9].lrwpan.phy, stage 0
+node[9]: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.node[9].udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.node[9].udp, stage 0
+Initializing module SG_LRWPAN_001.configurator, stage 1
+cTopology found 11 nodes
+Initializing module SG_LRWPAN_001.dc.mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 1000 y = 1000 z = 0
+visual position. x = 1000 y = 1000 z = 0
+Initializing module SG_LRWPAN_001.dc.networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.dc.networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.dc.networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.dc.networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.dc.networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> isConnectedToLowpan = FALSE 
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.dc.routingTable6, stage 1
+*******************************************************************************
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile config->debugDump():
+<config>
+  <local mobileIPv6Support="off" node="dc" routePackets="on">
+    <interface AdvHomeAgent="off" AdvSendAdvertisements="on" name="lrwpan">
+      <inetAddr tentative="false">2002::</inetAddr>
+      <AdvPrefixList>
+        <AdvPrefix AdvAutonomousFlag="true" AdvOnLinkFlag="on" AdvPreferredLifetime="604800" AdvRtrAddrFlag="on" AdvValidLifetime="0">2002::/16</AdvPrefix>
+      </AdvPrefixList>
+    </interface>
+    <route>
+      <routeEntry routeDestination="2002::1:1/128" routeIface="lrwpan" routeNextHop="2002::1:0"/>
+    </route>
+  </local>
+  <local mobileIPv6Support="off" node="node[0]" routePackets="on">
+    <interface AdvHomeAgent="off" AdvSendAdvertisements="on" name="lrwpan">
+      <inetAddr tentative="false">2002::1:0</inetAddr>
+      <AdvPrefixList>
+        <AdvPrefix AdvAutonomousFlag="true" AdvOnLinkFlag="on" AdvPreferredLifetime="604800" AdvRtrAddrFlag="on" AdvValidLifetime="0">2002::/16</AdvPrefix>
+      </AdvPrefixList>
+    </interface>
+    <route>
+      <routeEntry routeDestination="2002::/128" routeIface="lrwpan" routeNextHop="2002::1:0"/>
+    </route>
+  </local>
+  <local mobileIPv6Support="off" node="node[1]" routePackets="on">
+    <interface AdvHomeAgent="off" AdvSendAdvertisements="on" name="lrwpan">
+      <inetAddr tentative="false">2002::1:1</inetAddr>
+      <AdvPrefixList>
+        <AdvPrefix AdvAutonomousFlag="true" AdvOnLinkFlag="on" AdvPreferredLifetime="604800" AdvRtrAddrFlag="on" AdvValidLifetime="0">2002::/16</AdvPrefix>
+      </AdvPrefixList>
+    </interface>
+    <route>
+      <routeEntry routeDestination="2002::/128" routeIface="lrwpan" routeNextHop="2002::1:0"/>
+    </route>
+  </local>
+</config>
+Processing level 0: local
+Success! Node attribute is me.
+Processing level 1: interface
+Interface lrwpan found.
+AdvSendAdvertisements=1
+Getting AdvPrefix elements
+AdvPrefix found...
+Assigned xml configured IPv6 address 2002::
+Processing level 1: route
+configureRouteFromXML: routeEntry
+Processing level 0: local
+Node attribute not parents full name, go to next iteration.
+Processing level 0: local
+Node attribute not parents full name, go to next iteration.
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+*******************************************************************************
+Initializing module SG_LRWPAN_001.dc.interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.dc.lo0.lo, stage 1
+Initializing module SG_LRWPAN_001.dc.lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.dc.lrwpan.phy, stage 1
+dc: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.dc.udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.dc.udp, stage 1
+Initializing module SG_LRWPAN_001.node[0].mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 1000 y = 1050 z = 0
+visual position. x = 1000 y = 1050 z = 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.node[0].networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.node[0].networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.node[0].networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.node[0].networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> isConnectedToLowpan = FALSE 
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.node[0].routingTable6, stage 1
+*******************************************************************************
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile config->debugDump():
+<routingTable/>
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+*******************************************************************************
+Initializing module SG_LRWPAN_001.node[0].interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.node[0].lo0.lo, stage 1
+Initializing module SG_LRWPAN_001.node[0].lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.node[0].lrwpan.phy, stage 1
+node[0]: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.node[0].udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.node[0].udp, stage 1
+Initializing module SG_LRWPAN_001.node[1].mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 1150 y = 1000 z = 0
+visual position. x = 1150 y = 1000 z = 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.node[1].networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.node[1].networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.node[1].networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.node[1].networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> isConnectedToLowpan = FALSE 
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.node[1].routingTable6, stage 1
+*******************************************************************************
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile config->debugDump():
+<routingTable/>
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+*******************************************************************************
+Initializing module SG_LRWPAN_001.node[1].interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.node[1].lo0.lo, stage 1
+Initializing module SG_LRWPAN_001.node[1].lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.node[1].lrwpan.phy, stage 1
+node[1]: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.node[1].udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.node[1].udp, stage 1
+Initializing module SG_LRWPAN_001.node[2].mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 900 y = 1000 z = 0
+visual position. x = 900 y = 1000 z = 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.node[2].networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.node[2].networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.node[2].networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.node[2].networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> isConnectedToLowpan = FALSE 
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.node[2].routingTable6, stage 1
+*******************************************************************************
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile config->debugDump():
+<routingTable/>
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+*******************************************************************************
+Initializing module SG_LRWPAN_001.node[2].interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.node[2].lo0.lo, stage 1
+Initializing module SG_LRWPAN_001.node[2].lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.node[2].lrwpan.phy, stage 1
+node[2]: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.node[2].udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.node[2].udp, stage 1
+Initializing module SG_LRWPAN_001.node[3].mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 950 y = 1200 z = 0
+visual position. x = 950 y = 1200 z = 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.node[3].networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.node[3].networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.node[3].networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.node[3].networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> isConnectedToLowpan = FALSE 
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.node[3].routingTable6, stage 1
+*******************************************************************************
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile config->debugDump():
+<routingTable/>
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+*******************************************************************************
+Initializing module SG_LRWPAN_001.node[3].interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.node[3].lo0.lo, stage 1
+Initializing module SG_LRWPAN_001.node[3].lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.node[3].lrwpan.phy, stage 1
+node[3]: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.node[3].udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.node[3].udp, stage 1
+Initializing module SG_LRWPAN_001.node[4].mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 1050 y = 1200 z = 0
+visual position. x = 1050 y = 1200 z = 0
+Initializing module SG_LRWPAN_001.node[4].networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.node[4].networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.node[4].networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.node[4].networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.node[4].networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> isConnectedToLowpan = FALSE 
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.node[4].routingTable6, stage 1
+*******************************************************************************
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile config->debugDump():
+<routingTable/>
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+*******************************************************************************
+Initializing module SG_LRWPAN_001.node[4].interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.node[4].lo0.lo, stage 1
+Initializing module SG_LRWPAN_001.node[4].lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.node[4].lrwpan.phy, stage 1
+node[4]: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.node[4].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.node[4].lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.node[4].udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.node[4].udp, stage 1
+Initializing module SG_LRWPAN_001.node[5].mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 800 y = 1000 z = 0
+visual position. x = 800 y = 1000 z = 0
+Initializing module SG_LRWPAN_001.node[5].networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.node[5].networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.node[5].networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.node[5].networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.node[5].networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> isConnectedToLowpan = FALSE 
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.node[5].routingTable6, stage 1
+*******************************************************************************
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile config->debugDump():
+<routingTable/>
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+*******************************************************************************
+Initializing module SG_LRWPAN_001.node[5].interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.node[5].lo0.lo, stage 1
+Initializing module SG_LRWPAN_001.node[5].lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.node[5].lrwpan.phy, stage 1
+node[5]: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.node[5].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.node[5].lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.node[5].udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.node[5].udp, stage 1
+Initializing module SG_LRWPAN_001.node[6].mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 850 y = 1200 z = 0
+visual position. x = 850 y = 1200 z = 0
+Initializing module SG_LRWPAN_001.node[6].networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.node[6].networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.node[6].networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.node[6].networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.node[6].networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> isConnectedToLowpan = FALSE 
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.node[6].routingTable6, stage 1
+*******************************************************************************
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile config->debugDump():
+<routingTable/>
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+*******************************************************************************
+Initializing module SG_LRWPAN_001.node[6].interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.node[6].lo0.lo, stage 1
+Initializing module SG_LRWPAN_001.node[6].lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.node[6].lrwpan.phy, stage 1
+node[6]: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.node[6].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.node[6].lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.node[6].udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.node[6].udp, stage 1
+Initializing module SG_LRWPAN_001.node[7].mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 1300 y = 1000 z = 0
+visual position. x = 1300 y = 1000 z = 0
+Initializing module SG_LRWPAN_001.node[7].networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.node[7].networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.node[7].networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.node[7].networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.node[7].networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> isConnectedToLowpan = FALSE 
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.node[7].routingTable6, stage 1
+*******************************************************************************
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile config->debugDump():
+<routingTable/>
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+*******************************************************************************
+Initializing module SG_LRWPAN_001.node[7].interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.node[7].lo0.lo, stage 1
+Initializing module SG_LRWPAN_001.node[7].lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.node[7].lrwpan.phy, stage 1
+node[7]: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.node[7].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.node[7].lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.node[7].udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.node[7].udp, stage 1
+Initializing module SG_LRWPAN_001.node[8].mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 950 y = 1300 z = 0
+visual position. x = 950 y = 1300 z = 0
+Initializing module SG_LRWPAN_001.node[8].networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.node[8].networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.node[8].networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.node[8].networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.node[8].networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> isConnectedToLowpan = FALSE 
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.node[8].routingTable6, stage 1
+*******************************************************************************
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile config->debugDump():
+<routingTable/>
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+*******************************************************************************
+Initializing module SG_LRWPAN_001.node[8].interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.node[8].lo0.lo, stage 1
+Initializing module SG_LRWPAN_001.node[8].lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.node[8].lrwpan.phy, stage 1
+node[8]: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.node[8].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.node[8].lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.node[8].udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.node[8].udp, stage 1
+Initializing module SG_LRWPAN_001.node[9].mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 1050 y = 1300 z = 0
+visual position. x = 1050 y = 1300 z = 0
+Initializing module SG_LRWPAN_001.node[9].networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.node[9].networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.node[9].networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.node[9].networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.node[9].networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> isConnectedToLowpan = FALSE 
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.node[9].routingTable6, stage 1
+*******************************************************************************
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile config->debugDump():
+<routingTable/>
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+*******************************************************************************
+Initializing module SG_LRWPAN_001.node[9].interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.node[9].lo0.lo, stage 1
+Initializing module SG_LRWPAN_001.node[9].lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.node[9].lrwpan.phy, stage 1
+node[9]: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.node[9].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.node[9].lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.node[9].udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.node[9].udp, stage 1
+Initializing module SG_LRWPAN_001.configurator, stage 2
+cTopology found 11 nodes
+Assigned link local IPv6 address fe80::aaa:ff:fe00:2 to node[0]
+Assigned link local IPv6 address fe80::aaa:ff:fe00:3 to node[1]
+Assigned link local IPv6 address fe80::aaa:ff:fe00:4 to node[2]
+Assigned link local IPv6 address fe80::aaa:ff:fe00:5 to node[3]
+Assigned link local IPv6 address fe80::aaa:ff:fe00:6 to node[4]
+Assigned link local IPv6 address fe80::aaa:ff:fe00:7 to node[5]
+Assigned link local IPv6 address fe80::aaa:ff:fe00:8 to node[6]
+Assigned link local IPv6 address fe80::aaa:ff:fe00:9 to node[7]
+Assigned link local IPv6 address fe80::aaa:ff:fe00:a to node[8]
+Assigned link local IPv6 address fe80::aaa:ff:fe00:b to node[9]
+Initializing module SG_LRWPAN_001.dc.networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.dc.routingTable6, stage 2
+Initializing module SG_LRWPAN_001.dc.lo0.lo, stage 2
+Initializing module SG_LRWPAN_001.dc.lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.dc.lrwpan.phy, stage 2
+dc: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.dc.udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.node[0].networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.node[0].routingTable6, stage 2
+Initializing module SG_LRWPAN_001.node[0].lo0.lo, stage 2
+Initializing module SG_LRWPAN_001.node[0].lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.node[0].lrwpan.phy, stage 2
+node[0]: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.node[0].udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.node[1].networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.node[1].routingTable6, stage 2
+Initializing module SG_LRWPAN_001.node[1].lo0.lo, stage 2
+Initializing module SG_LRWPAN_001.node[1].lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.node[1].lrwpan.phy, stage 2
+node[1]: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.node[1].udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.node[2].networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.node[2].routingTable6, stage 2
+Initializing module SG_LRWPAN_001.node[2].lo0.lo, stage 2
+Initializing module SG_LRWPAN_001.node[2].lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.node[2].lrwpan.phy, stage 2
+node[2]: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.node[2].udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.node[3].networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.node[3].routingTable6, stage 2
+Initializing module SG_LRWPAN_001.node[3].lo0.lo, stage 2
+Initializing module SG_LRWPAN_001.node[3].lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.node[3].lrwpan.phy, stage 2
+node[3]: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.node[3].udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.node[4].networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.node[4].routingTable6, stage 2
+Initializing module SG_LRWPAN_001.node[4].lo0.lo, stage 2
+Initializing module SG_LRWPAN_001.node[4].lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.node[4].lrwpan.phy, stage 2
+node[4]: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.node[4].udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.node[5].networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.node[5].routingTable6, stage 2
+Initializing module SG_LRWPAN_001.node[5].lo0.lo, stage 2
+Initializing module SG_LRWPAN_001.node[5].lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.node[5].lrwpan.phy, stage 2
+node[5]: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.node[5].udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.node[6].networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.node[6].routingTable6, stage 2
+Initializing module SG_LRWPAN_001.node[6].lo0.lo, stage 2
+Initializing module SG_LRWPAN_001.node[6].lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.node[6].lrwpan.phy, stage 2
+node[6]: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.node[6].udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.node[7].networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.node[7].routingTable6, stage 2
+Initializing module SG_LRWPAN_001.node[7].lo0.lo, stage 2
+Initializing module SG_LRWPAN_001.node[7].lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.node[7].lrwpan.phy, stage 2
+node[7]: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.node[7].udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.node[8].networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.node[8].routingTable6, stage 2
+Initializing module SG_LRWPAN_001.node[8].lo0.lo, stage 2
+Initializing module SG_LRWPAN_001.node[8].lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.node[8].lrwpan.phy, stage 2
+node[8]: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.node[8].udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.node[9].networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.node[9].routingTable6, stage 2
+Initializing module SG_LRWPAN_001.node[9].lo0.lo, stage 2
+Initializing module SG_LRWPAN_001.node[9].lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.node[9].lrwpan.phy, stage 2
+node[9]: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.node[9].udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.configurator, stage 3
+cTopology found 11 nodes
+Initializing module SG_LRWPAN_001.dc.networkLayer.neighbourDiscovery, stage 3
+Interval: 519.966122504789
+Next scheduled time: 519.966122504789
+Initializing module SG_LRWPAN_001.dc.routingTable6, stage 3
+Initializing module SG_LRWPAN_001.dc.lo0.lo, stage 3
+Initializing module SG_LRWPAN_001.dc.udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.node[0].networkLayer.neighbourDiscovery, stage 3
+Interval: 407.231947156135
+Next scheduled time: 407.231947156135
+Initializing module SG_LRWPAN_001.node[0].routingTable6, stage 3
+Initializing module SG_LRWPAN_001.node[0].lo0.lo, stage 3
+Initializing module SG_LRWPAN_001.node[0].udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.node[1].networkLayer.neighbourDiscovery, stage 3
+Interval: 470.909572531934
+Next scheduled time: 470.909572531934
+Initializing module SG_LRWPAN_001.node[1].routingTable6, stage 3
+Initializing module SG_LRWPAN_001.node[1].lo0.lo, stage 3
+Initializing module SG_LRWPAN_001.node[1].udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.node[2].networkLayer.neighbourDiscovery, stage 3
+Interval: 487.694325938355
+Next scheduled time: 487.694325938355
+Initializing module SG_LRWPAN_001.node[2].routingTable6, stage 3
+Initializing module SG_LRWPAN_001.node[2].lo0.lo, stage 3
+Initializing module SG_LRWPAN_001.node[2].udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.node[3].networkLayer.neighbourDiscovery, stage 3
+Interval: 431.971956078428
+Next scheduled time: 431.971956078428
+Initializing module SG_LRWPAN_001.node[3].routingTable6, stage 3
+Initializing module SG_LRWPAN_001.node[3].lo0.lo, stage 3
+Initializing module SG_LRWPAN_001.node[3].udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.node[4].networkLayer.neighbourDiscovery, stage 3
+Interval: 414.02403774904
+Next scheduled time: 414.02403774904
+Initializing module SG_LRWPAN_001.node[4].routingTable6, stage 3
+Initializing module SG_LRWPAN_001.node[4].lo0.lo, stage 3
+Initializing module SG_LRWPAN_001.node[4].udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.node[5].networkLayer.neighbourDiscovery, stage 3
+Interval: 502.963479414582
+Next scheduled time: 502.963479414582
+Initializing module SG_LRWPAN_001.node[5].routingTable6, stage 3
+Initializing module SG_LRWPAN_001.node[5].lo0.lo, stage 3
+Initializing module SG_LRWPAN_001.node[5].udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.node[6].networkLayer.neighbourDiscovery, stage 3
+Interval: 240.574857783503
+Next scheduled time: 240.574857783503
+Initializing module SG_LRWPAN_001.node[6].routingTable6, stage 3
+Initializing module SG_LRWPAN_001.node[6].lo0.lo, stage 3
+Initializing module SG_LRWPAN_001.node[6].udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.node[7].networkLayer.neighbourDiscovery, stage 3
+Interval: 388.387369937729
+Next scheduled time: 388.387369937729
+Initializing module SG_LRWPAN_001.node[7].routingTable6, stage 3
+Initializing module SG_LRWPAN_001.node[7].lo0.lo, stage 3
+Initializing module SG_LRWPAN_001.node[7].udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.node[8].networkLayer.neighbourDiscovery, stage 3
+Interval: 272.905602506361
+Next scheduled time: 272.905602506361
+Initializing module SG_LRWPAN_001.node[8].routingTable6, stage 3
+Initializing module SG_LRWPAN_001.node[8].lo0.lo, stage 3
+Initializing module SG_LRWPAN_001.node[8].udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.node[9].networkLayer.neighbourDiscovery, stage 3
+Interval: 494.241107524372
+Next scheduled time: 494.241107524372
+Initializing module SG_LRWPAN_001.node[9].routingTable6, stage 3
+Initializing module SG_LRWPAN_001.node[9].lo0.lo, stage 3
+Initializing module SG_LRWPAN_001.node[9].udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.dc.routingTable6, stage 4
+Initializing module SG_LRWPAN_001.node[0].routingTable6, stage 4
+Initializing module SG_LRWPAN_001.node[1].routingTable6, stage 4
+Initializing module SG_LRWPAN_001.node[2].routingTable6, stage 4
+Initializing module SG_LRWPAN_001.node[3].routingTable6, stage 4
+Initializing module SG_LRWPAN_001.node[4].routingTable6, stage 4
+Initializing module SG_LRWPAN_001.node[5].routingTable6, stage 4
+Initializing module SG_LRWPAN_001.node[6].routingTable6, stage 4
+Initializing module SG_LRWPAN_001.node[7].routingTable6, stage 4
+Initializing module SG_LRWPAN_001.node[8].routingTable6, stage 4
+Initializing module SG_LRWPAN_001.node[9].routingTable6, stage 4
+

@@ -1,0 +1,1645 @@
+Initializing channel SG_LRWPAN_001.dc.networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.dc.lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[0].lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[1].lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[2].lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.ipv6.transportOut[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.ipv6.transportOut[1].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.ipv6.transportOut[2].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.ipv6.transportOut[3].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.ipv6.transportOut[4].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.sixlowpan.toIPv6[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.sixlowpan.toMac[0].channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.sctpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.tcpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.udpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.rsvpIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].networkLayer.ospfIn.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].lrwpan.mac.lowerLayerOut.channel, stage 0
+Initializing channel SG_LRWPAN_001.node[3].lrwpan.phy.upperLayerOut.channel, stage 0
+Initializing module SG_LRWPAN_001, stage 0
+Initializing module SG_LRWPAN_001.channelControl, stage 0
+Initializing module SG_LRWPAN_001.configurator, stage 0
+cTopology found 5 nodes
+Initializing module SG_LRWPAN_001.dc, stage 0
+Initializing module SG_LRWPAN_001.dc.notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.dc.interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.dc.routingTable6, stage 0
+Initializing module SG_LRWPAN_001.dc.tcp, stage 0
+Initializing module SG_LRWPAN_001.dc.udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.dc.udp, stage 0
+Initializing module SG_LRWPAN_001.dc.networkLayer, stage 0
+Initializing module SG_LRWPAN_001.dc.networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.dc.networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.dc.networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.dc.networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.dc.networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.dc.networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.dc.networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.dc.lrwpan, stage 0
+Initializing module SG_LRWPAN_001.dc.lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.dc.lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.dc.lrwpan.phy, stage 0
+dc: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.dc.mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.dc.disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.dc.battery, stage 0
+capacity = 3800mA-h (nominal = 3800) at 12V
+publishDelta = 100%, publishTime = 0s, resolution = 1sec
+Initializing module SG_LRWPAN_001.node[0], stage 0
+Initializing module SG_LRWPAN_001.node[0].notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.node[0].interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.node[0].routingTable6, stage 0
+Initializing module SG_LRWPAN_001.node[0].tcp, stage 0
+Initializing module SG_LRWPAN_001.node[0].udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.node[0].udp, stage 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer, stage 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.node[0].networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.node[0].lrwpan, stage 0
+Initializing module SG_LRWPAN_001.node[0].lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.node[0].lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.node[0].lrwpan.phy, stage 0
+node[0]: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.node[0].mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.node[0].disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.node[0].battery, stage 0
+capacity = 3800mA-h (nominal = 3800) at 12V
+publishDelta = 100%, publishTime = 0s, resolution = 1sec
+Initializing module SG_LRWPAN_001.node[1], stage 0
+Initializing module SG_LRWPAN_001.node[1].notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.node[1].interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.node[1].routingTable6, stage 0
+Initializing module SG_LRWPAN_001.node[1].tcp, stage 0
+Initializing module SG_LRWPAN_001.node[1].udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.node[1].udp, stage 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer, stage 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.node[1].networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.node[1].lrwpan, stage 0
+Initializing module SG_LRWPAN_001.node[1].lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.node[1].lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.node[1].lrwpan.phy, stage 0
+node[1]: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.node[1].mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.node[1].disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.node[1].battery, stage 0
+capacity = 3800mA-h (nominal = 3800) at 12V
+publishDelta = 100%, publishTime = 0s, resolution = 1sec
+Initializing module SG_LRWPAN_001.node[2], stage 0
+Initializing module SG_LRWPAN_001.node[2].notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.node[2].interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.node[2].routingTable6, stage 0
+Initializing module SG_LRWPAN_001.node[2].tcp, stage 0
+Initializing module SG_LRWPAN_001.node[2].udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.node[2].udp, stage 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer, stage 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.node[2].networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.node[2].lrwpan, stage 0
+Initializing module SG_LRWPAN_001.node[2].lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.node[2].lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.node[2].lrwpan.phy, stage 0
+node[2]: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.node[2].mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.node[2].disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.node[2].battery, stage 0
+capacity = 3800mA-h (nominal = 3800) at 12V
+publishDelta = 100%, publishTime = 0s, resolution = 1sec
+Initializing module SG_LRWPAN_001.node[3], stage 0
+Initializing module SG_LRWPAN_001.node[3].notificationBoard, stage 0
+Initializing module SG_LRWPAN_001.node[3].interfaceTable, stage 0
+Initializing module SG_LRWPAN_001.node[3].routingTable6, stage 0
+Initializing module SG_LRWPAN_001.node[3].tcp, stage 0
+Initializing module SG_LRWPAN_001.node[3].udpApp[0], stage 0
+Initializing module SG_LRWPAN_001.node[3].udp, stage 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer, stage 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer.ipv6, stage 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer.icmpv6, stage 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer.ipv6ErrorHandling, stage 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer.neighbourDiscovery, stage 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer.iptunneling, stage 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer.mipv6support, stage 0
+Initializing module SG_LRWPAN_001.node[3].networkLayer.sixlowpan, stage 0
+Initializing module SG_LRWPAN_001.node[3].lrwpan, stage 0
+Initializing module SG_LRWPAN_001.node[3].lrwpan.ifq, stage 0
+Initializing module SG_LRWPAN_001.node[3].lrwpan.mac, stage 0
+[IFQUEUE]: requesting first one frame from queue module
+Initializing module SG_LRWPAN_001.node[3].lrwpan.phy, stage 0
+node[3]: initializing Ieee802154Phy, stage=0
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+Initializing module SG_LRWPAN_001.node[3].mobility, stage 0
+initializing MobilityBase stage 0
+Initializing module SG_LRWPAN_001.node[3].disp, stage 0
+initializing Display
+interference_distance: 176.889
+Initializing module SG_LRWPAN_001.node[3].battery, stage 0
+capacity = 3800mA-h (nominal = 3800) at 12V
+publishDelta = 100%, publishTime = 0s, resolution = 1sec
+Initializing module SG_LRWPAN_001.configurator, stage 1
+cTopology found 5 nodes
+Initializing module SG_LRWPAN_001.dc.interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.dc.routingTable6, stage 1
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile using xml: <juhu/>
+
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+Initializing module SG_LRWPAN_001.dc.tcp, stage 1
+Initializing module SG_LRWPAN_001.dc.udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.dc.udp, stage 1
+Initializing module SG_LRWPAN_001.dc.networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.dc.networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.dc.networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.dc.networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.dc.networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.dc.lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.dc.lrwpan.phy, stage 1
+dc: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.dc.mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 5 y = 5 z = 0
+visual position. x = 5 y = 5 z = 0
+Initializing module SG_LRWPAN_001.dc.battery, stage 1
+Initializing module SG_LRWPAN_001.node[0].interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.node[0].routingTable6, stage 1
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile using xml: <config>
+  <interface address="10.0.1.x" among="host1 router" netmask="255.255.255.0"/>
+  <interface address="10.0.2.x" hosts="router" names="eth1" netmask="255.255.255.0"/>
+  <interface address="10.0.2.x" hosts="host0" netmask="255.255.255.0"/>
+  <route destination="*" gateway="router>ap" hosts="host0" interface="wlan0"/>
+</config>
+
+Doing: <interface address="10.0.1.x" among="host1 router" netmask="255.255.255.0"/>
+
+Doing: <interface address="10.0.2.x" hosts="router" names="eth1" netmask="255.255.255.0"/>
+
+Doing: <interface address="10.0.2.x" hosts="host0" netmask="255.255.255.0"/>
+
+Doing: <route destination="*" gateway="router>ap" hosts="host0" interface="wlan0"/>
+
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+Initializing module SG_LRWPAN_001.node[0].tcp, stage 1
+Initializing module SG_LRWPAN_001.node[0].udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.node[0].udp, stage 1
+Initializing module SG_LRWPAN_001.node[0].networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.node[0].networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.node[0].networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.node[0].networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.node[0].networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.node[0].lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.node[0].lrwpan.phy, stage 1
+node[0]: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.node[0].mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 3.33333 y = 3.33333 z = 0
+visual position. x = 3.33333 y = 3.33333 z = 0
+Initializing module SG_LRWPAN_001.node[0].battery, stage 1
+Initializing module SG_LRWPAN_001.node[1].interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.node[1].routingTable6, stage 1
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile using xml: <config>
+  <interface address="10.0.1.x" among="host1 router" netmask="255.255.255.0"/>
+  <interface address="10.0.2.x" hosts="router" names="eth1" netmask="255.255.255.0"/>
+  <interface address="10.0.2.x" hosts="host0" netmask="255.255.255.0"/>
+  <route destination="*" gateway="router>ap" hosts="host0" interface="wlan0"/>
+</config>
+
+Doing: <interface address="10.0.1.x" among="host1 router" netmask="255.255.255.0"/>
+
+Doing: <interface address="10.0.2.x" hosts="router" names="eth1" netmask="255.255.255.0"/>
+
+Doing: <interface address="10.0.2.x" hosts="host0" netmask="255.255.255.0"/>
+
+Doing: <route destination="*" gateway="router>ap" hosts="host0" interface="wlan0"/>
+
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+Initializing module SG_LRWPAN_001.node[1].tcp, stage 1
+Initializing module SG_LRWPAN_001.node[1].udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.node[1].udp, stage 1
+Initializing module SG_LRWPAN_001.node[1].networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.node[1].networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.node[1].networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.node[1].networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.node[1].networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.node[1].lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.node[1].lrwpan.phy, stage 1
+node[1]: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.node[1].mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 2 y = 8 z = 0
+visual position. x = 2 y = 8 z = 0
+Initializing module SG_LRWPAN_001.node[1].battery, stage 1
+Initializing module SG_LRWPAN_001.node[2].interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.node[2].routingTable6, stage 1
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile using xml: <config>
+  <interface address="10.0.1.x" among="host1 router" netmask="255.255.255.0"/>
+  <interface address="10.0.2.x" hosts="router" names="eth1" netmask="255.255.255.0"/>
+  <interface address="10.0.2.x" hosts="host0" netmask="255.255.255.0"/>
+  <route destination="*" gateway="router>ap" hosts="host0" interface="wlan0"/>
+</config>
+
+Doing: <interface address="10.0.1.x" among="host1 router" netmask="255.255.255.0"/>
+
+Doing: <interface address="10.0.2.x" hosts="router" names="eth1" netmask="255.255.255.0"/>
+
+Doing: <interface address="10.0.2.x" hosts="host0" netmask="255.255.255.0"/>
+
+Doing: <route destination="*" gateway="router>ap" hosts="host0" interface="wlan0"/>
+
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+Initializing module SG_LRWPAN_001.node[2].tcp, stage 1
+Initializing module SG_LRWPAN_001.node[2].udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.node[2].udp, stage 1
+Initializing module SG_LRWPAN_001.node[2].networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.node[2].networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.node[2].networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.node[2].networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.node[2].networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.node[2].lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.node[2].lrwpan.phy, stage 1
+node[2]: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.node[2].mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 8 y = 2 z = 0
+visual position. x = 8 y = 2 z = 0
+Initializing module SG_LRWPAN_001.node[2].battery, stage 1
+Initializing module SG_LRWPAN_001.node[3].interfaceTable, stage 1
+Initializing module SG_LRWPAN_001.node[3].routingTable6, stage 1
+RoutingTable6::initialize; stage 1; beginning to parse xml config file.
+RoutingTable6::parseXMLConfigFile using xml: <config>
+  <interface address="10.0.1.x" among="host1 router" netmask="255.255.255.0"/>
+  <interface address="10.0.2.x" hosts="router" names="eth1" netmask="255.255.255.0"/>
+  <interface address="10.0.2.x" hosts="host0" netmask="255.255.255.0"/>
+  <route destination="*" gateway="router>ap" hosts="host0" interface="wlan0"/>
+</config>
+
+Doing: <interface address="10.0.1.x" among="host1 router" netmask="255.255.255.0"/>
+
+Doing: <interface address="10.0.2.x" hosts="router" names="eth1" netmask="255.255.255.0"/>
+
+Doing: <interface address="10.0.2.x" hosts="host0" netmask="255.255.255.0"/>
+
+Doing: <route destination="*" gateway="router>ap" hosts="host0" interface="wlan0"/>
+
+RoutingTable6::initialize; stage 1; finished to parse xml config file.
+Initializing module SG_LRWPAN_001.node[3].tcp, stage 1
+Initializing module SG_LRWPAN_001.node[3].udpApp[0], stage 1
+Initializing module SG_LRWPAN_001.node[3].udp, stage 1
+Initializing module SG_LRWPAN_001.node[3].networkLayer.ipv6, stage 1
+Initializing module SG_LRWPAN_001.node[3].networkLayer.icmpv6, stage 1
+Initializing module SG_LRWPAN_001.node[3].networkLayer.neighbourDiscovery, stage 1
+Initializing module SG_LRWPAN_001.node[3].networkLayer.iptunneling, stage 1
+Initializing module SG_LRWPAN_001.node[3].networkLayer.sixlowpan, stage 1
+_6lowpan.cc:isConnectedToLowpan -> Connected to INETMANET 
+Initializing module SG_LRWPAN_001.node[3].lrwpan.mac, stage 1
+Initializing module SG_LRWPAN_001.node[3].lrwpan.phy, stage 1
+node[3]: initializing Ieee802154Phy, stage=1
+** Notification at T=0 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+** Notification at T=0 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-CHANNEL IDLE, channel #0, 0.02Mbps 
+Initializing module SG_LRWPAN_001.node[3].mobility, stage 1
+initializing MobilityBase stage 1
+initial position. x = 7.5 y = 5 z = 0
+visual position. x = 7.5 y = 5 z = 0
+Initializing module SG_LRWPAN_001.node[3].battery, stage 1
+Initializing module SG_LRWPAN_001.configurator, stage 2
+cTopology found 5 nodes
+Initializing module SG_LRWPAN_001.dc.routingTable6, stage 2
+Initializing module SG_LRWPAN_001.dc.udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.dc.networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.dc.lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.dc.lrwpan.phy, stage 2
+dc: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.node[0].routingTable6, stage 2
+Initializing module SG_LRWPAN_001.node[0].udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.node[0].networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.node[0].lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.node[0].lrwpan.phy, stage 2
+node[0]: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.node[1].routingTable6, stage 2
+Initializing module SG_LRWPAN_001.node[1].udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.node[1].networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.node[1].lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.node[1].lrwpan.phy, stage 2
+node[1]: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.node[2].routingTable6, stage 2
+Initializing module SG_LRWPAN_001.node[2].udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.node[2].networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.node[2].lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.node[2].lrwpan.phy, stage 2
+node[2]: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.node[3].routingTable6, stage 2
+Initializing module SG_LRWPAN_001.node[3].udpApp[0], stage 2
+Initializing module SG_LRWPAN_001.node[3].networkLayer.neighbourDiscovery, stage 2
+Initializing module SG_LRWPAN_001.node[3].lrwpan.mac, stage 2
+queueLength = 100 bitrate = 20000 backoff method = exponential
+finished csma init stage 1.
+Initializing module SG_LRWPAN_001.node[3].lrwpan.phy, stage 2
+node[3]: initializing Ieee802154Phy, stage=2
+Initializing module SG_LRWPAN_001.configurator, stage 3
+cTopology found 5 nodes
+Initializing module SG_LRWPAN_001.dc.routingTable6, stage 3
+Initializing module SG_LRWPAN_001.dc.udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.dc.networkLayer.neighbourDiscovery, stage 3
+Interval: 457.649434267077
+Next scheduled time: 457.649434267077
+Initializing module SG_LRWPAN_001.node[0].routingTable6, stage 3
+Initializing module SG_LRWPAN_001.node[0].udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.node[0].networkLayer.neighbourDiscovery, stage 3
+Interval: 373.910058410838
+Next scheduled time: 373.910058410838
+Initializing module SG_LRWPAN_001.node[1].routingTable6, stage 3
+Initializing module SG_LRWPAN_001.node[1].udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.node[1].networkLayer.neighbourDiscovery, stage 3
+Interval: 556.49274670612
+Next scheduled time: 556.49274670612
+Initializing module SG_LRWPAN_001.node[2].routingTable6, stage 3
+Initializing module SG_LRWPAN_001.node[2].udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.node[2].networkLayer.neighbourDiscovery, stage 3
+Interval: 585.392431151121
+Next scheduled time: 585.392431151121
+Initializing module SG_LRWPAN_001.node[3].routingTable6, stage 3
+Initializing module SG_LRWPAN_001.node[3].udpApp[0], stage 3
+Initializing module SG_LRWPAN_001.node[3].networkLayer.neighbourDiscovery, stage 3
+Interval: 352.143491570837
+Next scheduled time: 352.143491570837
+Initializing module SG_LRWPAN_001.dc.routingTable6, stage 4
+Initializing module SG_LRWPAN_001.node[0].routingTable6, stage 4
+Initializing module SG_LRWPAN_001.node[1].routingTable6, stage 4
+Initializing module SG_LRWPAN_001.node[2].routingTable6, stage 4
+Initializing module SG_LRWPAN_001.node[3].routingTable6, stage 4
+** Event #1  T=0  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on `{}' (Ieee802154MacPhyPrimitives, id=5)
+** Event #2  T=0  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on `{}' (Ieee802154MacPhyPrimitives, id=18)
+** Event #3  T=0  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on `{}' (Ieee802154MacPhyPrimitives, id=31)
+** Event #4  T=0  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on `{}' (Ieee802154MacPhyPrimitives, id=44)
+** Event #5  T=0  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on `{}' (Ieee802154MacPhyPrimitives, id=57)
+** Event #6  T=0  SG_LRWPAN_001.dc.udp (UDP, id=14), on `BIND' (cMessage, id=64)
+Socket created: sockId=0 appGateIndex=0 localPort=1000
+** Event #7  T=0.017013892717  SG_LRWPAN_001.node[1].networkLayer.neighbourDiscovery (IPv6NeighbourDiscovery, id=65), on selfmsg `assignLinkLocalAddr' (cMessage, id=70)
+Self message received!
+Assigning Link Local Address
+** Event #8  T=0.017013892717  SG_LRWPAN_001.node[1].networkLayer.ipv6 (IPv6, id=62), on `NSpacket' (IPv6NeighbourSolicitation, id=75)
+** Event #9  T=0.017013892717  SG_LRWPAN_001.node[1].networkLayer.sixlowpan (_6lowpan, id=68), on `NSpacket' (IPv6Datagram, id=77)
+** Event #10  T=0.017013892717  SG_LRWPAN_001.node[1].lrwpan.ifq (DropTailQueue, id=69), on `NSpacket' (_6lowpanDatagram, id=78)
+** Event #11  T=0.017013892717  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on `NSpacket' (_6lowpanDatagram, id=78)
+[MAC]: requesting another frame from queue module
+CSMA received a message from upper layer, name is NSpacket, CInfo removed, mac addr=FF-FF-FF-FF-FF-FF-FF-FF
+Adding a new parent to the map of Sequence numbers: FF-FF-FF-FF-FF-FF-FF-FF
+pkt encapsulated, length: 72
+In executeMac
+(1) FSM State IDLE_1, EV_SEND_REQUEST and [TxBuff avail]: startTimerBackOff -> BACKOFF.
+(startTimer) backoffTimer value=0.00224 (BE=3, 2^BE-1= 7r=7)
+** Event #12  T=0.019253892717  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on selfmsg `timer-backoff' (cMessage, id=27)
+timer routine.
+In executeMac
+(2) FSM State BACKOFF, EV_TIMER_BACKOFF: starting CCA timer.
+(startTimer) ccaTimer value=0.001208(rxSetupTime,ccaDetectionTime:0.00108,0.000128).
+[MAC]: sending PLME_SET_TRX_STATE_request <7> to PHY layer
+** Event #13  T=0.019253892717  SG_LRWPAN_001.node[1].lrwpan.phy (Ieee802154Phy, id=71), on `{}' (Ieee802154MacPhyPrimitives, id=80)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request RX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+** Event #14  T=0.019253892717  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on `{}' (Ieee802154MacPhyPrimitives, id=81)
+** Event #15  T=0.020461892717  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on selfmsg `timer-cca' (cMessage, id=28)
+timer routine.
+In executeMac
+(25) FSM State CCA_3, EV_TIMER_CCA
+(3) FSM State CCA_3, EV_TIMER_CCA, [Channel Idle]: -> TRANSMITFRAME_4.
+[MAC]: sending PLME_SET_TRX_STATE_request <10> to PHY layer
+** Event #16  T=0.020461892717  SG_LRWPAN_001.node[1].lrwpan.phy (Ieee802154Phy, id=71), on `{}' (Ieee802154MacPhyPrimitives, id=82)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request TX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 9 to MAC
+** Notification at T=0.020461892717 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE SLEEP, channel #0, 0.02Mbps 
+0.020461892717 wireless device 71 draw current 0.06mA, new state = 3
+residual capacity = 1.6416e+08
+** Event #17  T=0.020461892717  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on `{}' (Ieee802154MacPhyPrimitives, id=84)
+** Event #18  T=0.021061892717  SG_LRWPAN_001.node[1].lrwpan.phy (Ieee802154Phy, id=71), on selfmsg `TRX_timer' (cMessage, id=34)
+RadioGate :SG_LRWPAN_001.node[1].radioIn radioIn
+Picking up ongoing transmissions on new channel:
+** Notification at T=0.021061892717 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.021061892717 wireless device 71 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+** Notification at T=0.021061892717 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.021061892717 wireless device 71 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 10 to MAC
+phy_SUCCESS[PHY]: sending a PLME_SET_TRX_STATE_confirm with 8 to MAC
+** Event #19  T=0.021061892717  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on `{}' (Ieee802154MacPhyPrimitives, id=85)
+[MAC]: sending frame NSpacket (9 Bytes) to PHY layer
+[MAC]: the estimated transmission time is 0.006 s
+** Event #20  T=0.021061892717  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on `{}' (Ieee802154MacPhyPrimitives, id=86)
+** Event #21  T=0.021061892717  SG_LRWPAN_001.node[1].lrwpan.phy (Ieee802154Phy, id=71), on `NSpacket' (Ieee802154Frame, id=83)
+[PHY]: a MAC frame NSpacket received from MAC layer
+[PHY]: encapsulating NSpacket into an airframe
+[PHY]: transmitter is on, start sending message ...
+** Notification at T=0.021061892717 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE TRANSMIT, channel #0, 0.02Mbps 
+0.021061892717 wireless device 71 draw current 16.24mA, new state = 2
+residual capacity = 1.6416e+08
+[PHY]: the transmission needs 0.006 s
+** Event #22  T=0.021061906868  SG_LRWPAN_001.dc.lrwpan.phy (Ieee802154Phy, id=29), on `NSpacket' (AirFrame, id=89)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.021061906868 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.021061906868 wireless device 29 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #23  T=0.021061908906  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on `NSpacket' (AirFrame, id=90)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.021061908906 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.021061908906 wireless device 50 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #24  T=0.021061913614  SG_LRWPAN_001.node[3].lrwpan.phy (Ieee802154Phy, id=113), on `NSpacket' (AirFrame, id=92)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.021061913614 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.021061913614 wireless device 113 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #25  T=0.02106192102  SG_LRWPAN_001.node[2].lrwpan.phy (Ieee802154Phy, id=92), on `NSpacket' (AirFrame, id=91)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.02106192102 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.02106192102 wireless device 92 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #26  T=0.027061892717  SG_LRWPAN_001.node[1].lrwpan.phy (Ieee802154Phy, id=71), on selfmsg `TxOver_timer' (cMessage, id=35)
+[PHY]: transmitting of NSpacket completes!
+** Notification at T=0.027061892717 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.027061892717 wireless device 71 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: send a PD_DATA_confirm with success to MAC layer
+[PHY]: sending a PD_DATA_confirm with 8 to MAC
+** Event #27  T=0.027061892717  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on `{}' (Ieee802154MacPhyPrimitives, id=97)
+In executeMac
+[MAC]: sending PLME_SET_TRX_STATE_request <7> to PHY layer
+(27) FSM State TRANSMITFRAME_4, EV_FRAME_TRANSMITTED  [Broadcast]: RadioSetupRx, manageQueue...
+(manageQueue) no packets to send, entering IDLE state.
+** Event #28  T=0.027061892717  SG_LRWPAN_001.node[1].lrwpan.phy (Ieee802154Phy, id=71), on `{}' (Ieee802154MacPhyPrimitives, id=98)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request RX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 9 to MAC
+** Notification at T=0.027061892717 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE SLEEP, channel #0, 0.02Mbps 
+0.027061892717 wireless device 71 draw current 0.06mA, new state = 3
+residual capacity = 1.6416e+08
+** Event #29  T=0.027061892717  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on `{}' (Ieee802154MacPhyPrimitives, id=99)
+** Event #30  T=0.027061906868  SG_LRWPAN_001.dc.lrwpan.phy (Ieee802154Phy, id=29), on selfmsg `endRx' (cMessage, id=93)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=548942
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.027061906868 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.027061906868 wireless device 29 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #31  T=0.027061906868  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on `NSpacket' (Ieee802154Frame, id=100)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-03 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-01
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #32  T=0.027061906868  SG_LRWPAN_001.dc.networkLayer.sixlowpan (_6lowpan, id=26), on `NSpacket' (_6lowpanDatagram, id=101)
+** Event #33  T=0.027061906868  SG_LRWPAN_001.dc.networkLayer.ipv6 (IPv6, id=20), on `NSpacket' (IPv6Datagram, id=102)
+destination address ff02::1:ff00:3 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #34  T=0.027061908906  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on selfmsg `endRx' (cMessage, id=94)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=419475
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.027061908906 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.027061908906 wireless device 50 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #35  T=0.027061908906  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on `NSpacket' (Ieee802154Frame, id=104)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-03 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-02
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #36  T=0.027061908906  SG_LRWPAN_001.node[0].networkLayer.sixlowpan (_6lowpan, id=47), on `NSpacket' (_6lowpanDatagram, id=105)
+** Event #37  T=0.027061908906  SG_LRWPAN_001.node[0].networkLayer.ipv6 (IPv6, id=41), on `NSpacket' (IPv6Datagram, id=106)
+destination address ff02::1:ff00:3 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #38  T=0.027061913614  SG_LRWPAN_001.node[3].lrwpan.phy (Ieee802154Phy, id=113), on selfmsg `endRx' (cMessage, id=95)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=251744
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.027061913614 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.027061913614 wireless device 113 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #39  T=0.027061913614  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on `NSpacket' (Ieee802154Frame, id=108)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-03 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-05
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #40  T=0.027061913614  SG_LRWPAN_001.node[3].networkLayer.sixlowpan (_6lowpan, id=110), on `NSpacket' (_6lowpanDatagram, id=109)
+** Event #41  T=0.027061913614  SG_LRWPAN_001.node[3].networkLayer.ipv6 (IPv6, id=104), on `NSpacket' (IPv6Datagram, id=110)
+destination address ff02::1:ff00:3 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #42  T=0.02706192102  SG_LRWPAN_001.node[2].lrwpan.phy (Ieee802154Phy, id=92), on selfmsg `endRx' (cMessage, id=96)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=137236
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.02706192102 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.02706192102 wireless device 92 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #43  T=0.02706192102  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on `NSpacket' (Ieee802154Frame, id=112)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-03 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-04
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #44  T=0.02706192102  SG_LRWPAN_001.node[2].networkLayer.sixlowpan (_6lowpan, id=89), on `NSpacket' (_6lowpanDatagram, id=113)
+** Event #45  T=0.02706192102  SG_LRWPAN_001.node[2].networkLayer.ipv6 (IPv6, id=83), on `NSpacket' (IPv6Datagram, id=114)
+destination address ff02::1:ff00:3 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #46  T=0.027661892717  SG_LRWPAN_001.node[1].lrwpan.phy (Ieee802154Phy, id=71), on selfmsg `TRX_timer' (cMessage, id=34)
+RadioGate :SG_LRWPAN_001.node[1].radioIn radioIn
+Picking up ongoing transmissions on new channel:
+** Notification at T=0.027661892717 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.027661892717 wireless device 71 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+** Notification at T=0.027661892717 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.027661892717 wireless device 71 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+phy_SUCCESS[PHY]: sending a PLME_SET_TRX_STATE_confirm with 8 to MAC
+** Event #47  T=0.027661892717  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on `{}' (Ieee802154MacPhyPrimitives, id=116)
+** Event #48  T=0.027661892717  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on `{}' (Ieee802154MacPhyPrimitives, id=117)
+** Event #49  T=0.081796888355  SG_LRWPAN_001.node[2].networkLayer.neighbourDiscovery (IPv6NeighbourDiscovery, id=86), on selfmsg `assignLinkLocalAddr' (cMessage, id=72)
+Self message received!
+Assigning Link Local Address
+** Event #50  T=0.081796888355  SG_LRWPAN_001.node[2].networkLayer.ipv6 (IPv6, id=83), on `NSpacket' (IPv6NeighbourSolicitation, id=118)
+** Event #51  T=0.081796888355  SG_LRWPAN_001.node[2].networkLayer.sixlowpan (_6lowpan, id=89), on `NSpacket' (IPv6Datagram, id=120)
+** Event #52  T=0.081796888355  SG_LRWPAN_001.node[2].lrwpan.ifq (DropTailQueue, id=90), on `NSpacket' (_6lowpanDatagram, id=121)
+** Event #53  T=0.081796888355  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on `NSpacket' (_6lowpanDatagram, id=121)
+[MAC]: requesting another frame from queue module
+CSMA received a message from upper layer, name is NSpacket, CInfo removed, mac addr=FF-FF-FF-FF-FF-FF-FF-FF
+Adding a new parent to the map of Sequence numbers: FF-FF-FF-FF-FF-FF-FF-FF
+pkt encapsulated, length: 72
+In executeMac
+(1) FSM State IDLE_1, EV_SEND_REQUEST and [TxBuff avail]: startTimerBackOff -> BACKOFF.
+(startTimer) backoffTimer value=0.00224 (BE=3, 2^BE-1= 7r=7)
+** Event #54  T=0.084036888355  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on selfmsg `timer-backoff' (cMessage, id=40)
+timer routine.
+In executeMac
+(2) FSM State BACKOFF, EV_TIMER_BACKOFF: starting CCA timer.
+(startTimer) ccaTimer value=0.001208(rxSetupTime,ccaDetectionTime:0.00108,0.000128).
+[MAC]: sending PLME_SET_TRX_STATE_request <7> to PHY layer
+** Event #55  T=0.084036888355  SG_LRWPAN_001.node[2].lrwpan.phy (Ieee802154Phy, id=92), on `{}' (Ieee802154MacPhyPrimitives, id=123)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request RX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+** Event #56  T=0.084036888355  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on `{}' (Ieee802154MacPhyPrimitives, id=124)
+** Event #57  T=0.085244888355  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on selfmsg `timer-cca' (cMessage, id=41)
+timer routine.
+In executeMac
+(25) FSM State CCA_3, EV_TIMER_CCA
+(3) FSM State CCA_3, EV_TIMER_CCA, [Channel Idle]: -> TRANSMITFRAME_4.
+[MAC]: sending PLME_SET_TRX_STATE_request <10> to PHY layer
+** Event #58  T=0.085244888355  SG_LRWPAN_001.node[2].lrwpan.phy (Ieee802154Phy, id=92), on `{}' (Ieee802154MacPhyPrimitives, id=125)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request TX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 9 to MAC
+** Notification at T=0.085244888355 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE SLEEP, channel #0, 0.02Mbps 
+0.085244888355 wireless device 92 draw current 0.06mA, new state = 3
+residual capacity = 1.6416e+08
+** Event #59  T=0.085244888355  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on `{}' (Ieee802154MacPhyPrimitives, id=127)
+** Event #60  T=0.085844888355  SG_LRWPAN_001.node[2].lrwpan.phy (Ieee802154Phy, id=92), on selfmsg `TRX_timer' (cMessage, id=47)
+RadioGate :SG_LRWPAN_001.node[2].radioIn radioIn
+Picking up ongoing transmissions on new channel:
+** Notification at T=0.085844888355 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.085844888355 wireless device 92 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+** Notification at T=0.085844888355 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.085844888355 wireless device 92 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 10 to MAC
+phy_SUCCESS[PHY]: sending a PLME_SET_TRX_STATE_confirm with 8 to MAC
+** Event #61  T=0.085844888355  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on `{}' (Ieee802154MacPhyPrimitives, id=128)
+[MAC]: sending frame NSpacket (9 Bytes) to PHY layer
+[MAC]: the estimated transmission time is 0.006 s
+** Event #62  T=0.085844888355  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on `{}' (Ieee802154MacPhyPrimitives, id=129)
+** Event #63  T=0.085844888355  SG_LRWPAN_001.node[2].lrwpan.phy (Ieee802154Phy, id=92), on `NSpacket' (Ieee802154Frame, id=126)
+[PHY]: a MAC frame NSpacket received from MAC layer
+[PHY]: encapsulating NSpacket into an airframe
+[PHY]: transmitter is on, start sending message ...
+** Notification at T=0.085844888355 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE TRANSMIT, channel #0, 0.02Mbps 
+0.085844888355 wireless device 92 draw current 16.24mA, new state = 2
+residual capacity = 1.6416e+08
+[PHY]: the transmission needs 0.006 s
+** Event #64  T=0.085844898499  SG_LRWPAN_001.node[3].lrwpan.phy (Ieee802154Phy, id=113), on `NSpacket' (AirFrame, id=135)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.085844898499 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.085844898499 wireless device 113 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #65  T=0.085844902506  SG_LRWPAN_001.dc.lrwpan.phy (Ieee802154Phy, id=29), on `NSpacket' (AirFrame, id=132)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.085844902506 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.085844902506 wireless device 29 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #66  T=0.085844904544  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on `NSpacket' (AirFrame, id=133)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.085844904544 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.085844904544 wireless device 50 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #67  T=0.085844916658  SG_LRWPAN_001.node[1].lrwpan.phy (Ieee802154Phy, id=71), on `NSpacket' (AirFrame, id=134)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.085844916658 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.085844916658 wireless device 71 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #68  T=0.089260381576  SG_LRWPAN_001.node[0].networkLayer.neighbourDiscovery (IPv6NeighbourDiscovery, id=44), on selfmsg `assignLinkLocalAddr' (cMessage, id=68)
+Self message received!
+Assigning Link Local Address
+** Event #69  T=0.089260381576  SG_LRWPAN_001.node[0].networkLayer.ipv6 (IPv6, id=41), on `NSpacket' (IPv6NeighbourSolicitation, id=140)
+** Event #70  T=0.089260381576  SG_LRWPAN_001.node[0].networkLayer.sixlowpan (_6lowpan, id=47), on `NSpacket' (IPv6Datagram, id=142)
+** Event #71  T=0.089260381576  SG_LRWPAN_001.node[0].lrwpan.ifq (DropTailQueue, id=48), on `NSpacket' (_6lowpanDatagram, id=143)
+** Event #72  T=0.089260381576  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on `NSpacket' (_6lowpanDatagram, id=143)
+[MAC]: requesting another frame from queue module
+CSMA received a message from upper layer, name is NSpacket, CInfo removed, mac addr=FF-FF-FF-FF-FF-FF-FF-FF
+Adding a new parent to the map of Sequence numbers: FF-FF-FF-FF-FF-FF-FF-FF
+pkt encapsulated, length: 72
+In executeMac
+(1) FSM State IDLE_1, EV_SEND_REQUEST and [TxBuff avail]: startTimerBackOff -> BACKOFF.
+(startTimer) backoffTimer value=0.00032 (BE=3, 2^BE-1= 7r=1)
+** Event #73  T=0.089580381576  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on selfmsg `timer-backoff' (cMessage, id=14)
+timer routine.
+In executeMac
+(2) FSM State BACKOFF, EV_TIMER_BACKOFF: starting CCA timer.
+(startTimer) ccaTimer value=0.001208(rxSetupTime,ccaDetectionTime:0.00108,0.000128).
+[MAC]: sending PLME_SET_TRX_STATE_request <7> to PHY layer
+** Event #74  T=0.089580381576  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on `{}' (Ieee802154MacPhyPrimitives, id=145)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request RX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+** Event #75  T=0.089580381576  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on `{}' (Ieee802154MacPhyPrimitives, id=146)
+** Event #76  T=0.090788381576  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on selfmsg `timer-cca' (cMessage, id=15)
+timer routine.
+In executeMac
+(25) FSM State CCA_3, EV_TIMER_CCA
+(7) FSM State CCA_3, EV_TIMER_CCA, [Channel Busy]:  increment counters.
+(startTimer) backoffTimer value=0.00064 (BE=4, 2^BE-1= 15r=2)
+** Event #77  T=0.091428381576  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on selfmsg `timer-backoff' (cMessage, id=14)
+timer routine.
+In executeMac
+(2) FSM State BACKOFF, EV_TIMER_BACKOFF: starting CCA timer.
+(startTimer) ccaTimer value=0.001208(rxSetupTime,ccaDetectionTime:0.00108,0.000128).
+[MAC]: sending PLME_SET_TRX_STATE_request <7> to PHY layer
+** Event #78  T=0.091428381576  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on `{}' (Ieee802154MacPhyPrimitives, id=147)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request RX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+** Event #79  T=0.091428381576  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on `{}' (Ieee802154MacPhyPrimitives, id=148)
+** Event #80  T=0.091844888355  SG_LRWPAN_001.node[2].lrwpan.phy (Ieee802154Phy, id=92), on selfmsg `TxOver_timer' (cMessage, id=48)
+[PHY]: transmitting of NSpacket completes!
+** Notification at T=0.091844888355 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.091844888355 wireless device 92 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: send a PD_DATA_confirm with success to MAC layer
+[PHY]: sending a PD_DATA_confirm with 8 to MAC
+** Event #81  T=0.091844888355  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on `{}' (Ieee802154MacPhyPrimitives, id=149)
+In executeMac
+[MAC]: sending PLME_SET_TRX_STATE_request <7> to PHY layer
+(27) FSM State TRANSMITFRAME_4, EV_FRAME_TRANSMITTED  [Broadcast]: RadioSetupRx, manageQueue...
+(manageQueue) no packets to send, entering IDLE state.
+** Event #82  T=0.091844888355  SG_LRWPAN_001.node[2].lrwpan.phy (Ieee802154Phy, id=92), on `{}' (Ieee802154MacPhyPrimitives, id=150)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request RX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 9 to MAC
+** Notification at T=0.091844888355 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE SLEEP, channel #0, 0.02Mbps 
+0.091844888355 wireless device 92 draw current 0.06mA, new state = 3
+residual capacity = 1.6416e+08
+** Event #83  T=0.091844888355  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on `{}' (Ieee802154MacPhyPrimitives, id=151)
+** Event #84  T=0.091844898499  SG_LRWPAN_001.node[3].lrwpan.phy (Ieee802154Phy, id=113), on selfmsg `endRx' (cMessage, id=136)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=1.06821e+06
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.091844898499 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.091844898499 wireless device 113 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #85  T=0.091844898499  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on `NSpacket' (Ieee802154Frame, id=152)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-04 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-05
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #86  T=0.091844898499  SG_LRWPAN_001.node[3].networkLayer.sixlowpan (_6lowpan, id=110), on `NSpacket' (_6lowpanDatagram, id=153)
+** Event #87  T=0.091844898499  SG_LRWPAN_001.node[3].networkLayer.ipv6 (IPv6, id=104), on `NSpacket' (IPv6Datagram, id=154)
+destination address ff02::1:ff00:4 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #88  T=0.091844902506  SG_LRWPAN_001.dc.lrwpan.phy (Ieee802154Phy, id=29), on selfmsg `endRx' (cMessage, id=137)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=548942
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.091844902506 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.091844902506 wireless device 29 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #89  T=0.091844902506  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on `NSpacket' (Ieee802154Frame, id=156)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-04 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-01
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #90  T=0.091844902506  SG_LRWPAN_001.dc.networkLayer.sixlowpan (_6lowpan, id=26), on `NSpacket' (_6lowpanDatagram, id=157)
+** Event #91  T=0.091844902506  SG_LRWPAN_001.dc.networkLayer.ipv6 (IPv6, id=20), on `NSpacket' (IPv6Datagram, id=158)
+destination address ff02::1:ff00:4 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #92  T=0.091844904544  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on selfmsg `endRx' (cMessage, id=138)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=419475
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.091844904544 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.091844904544 wireless device 50 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #93  T=0.091844904544  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on `NSpacket' (Ieee802154Frame, id=160)
+Received frame name= NSpacket, myState=3 src=0A-AA-00-FF-FE-00-00-04 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-02
+In executeMac
+(24) FSM State BACKOFF, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #94  T=0.091844904544  SG_LRWPAN_001.node[0].networkLayer.sixlowpan (_6lowpan, id=47), on `NSpacket' (_6lowpanDatagram, id=161)
+** Event #95  T=0.091844904544  SG_LRWPAN_001.node[0].networkLayer.ipv6 (IPv6, id=41), on `NSpacket' (IPv6Datagram, id=162)
+destination address ff02::1:ff00:4 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #96  T=0.091844916658  SG_LRWPAN_001.node[1].lrwpan.phy (Ieee802154Phy, id=71), on selfmsg `endRx' (cMessage, id=139)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=137236
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.091844916658 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.091844916658 wireless device 71 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #97  T=0.091844916658  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on `NSpacket' (Ieee802154Frame, id=164)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-04 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-03
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #98  T=0.091844916658  SG_LRWPAN_001.node[1].networkLayer.sixlowpan (_6lowpan, id=68), on `NSpacket' (_6lowpanDatagram, id=165)
+** Event #99  T=0.091844916658  SG_LRWPAN_001.node[1].networkLayer.ipv6 (IPv6, id=62), on `NSpacket' (IPv6Datagram, id=166)
+destination address ff02::1:ff00:4 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #100  T=0.092444888355  SG_LRWPAN_001.node[2].lrwpan.phy (Ieee802154Phy, id=92), on selfmsg `TRX_timer' (cMessage, id=47)
+RadioGate :SG_LRWPAN_001.node[2].radioIn radioIn
+Picking up ongoing transmissions on new channel:
+** Notification at T=0.092444888355 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.092444888355 wireless device 92 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+** Notification at T=0.092444888355 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.092444888355 wireless device 92 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+phy_SUCCESS[PHY]: sending a PLME_SET_TRX_STATE_confirm with 8 to MAC
+** Event #101  T=0.092444888355  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on `{}' (Ieee802154MacPhyPrimitives, id=168)
+** Event #102  T=0.092444888355  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on `{}' (Ieee802154MacPhyPrimitives, id=169)
+** Event #103  T=0.092636381576  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on selfmsg `timer-cca' (cMessage, id=15)
+timer routine.
+In executeMac
+(25) FSM State CCA_3, EV_TIMER_CCA
+(3) FSM State CCA_3, EV_TIMER_CCA, [Channel Idle]: -> TRANSMITFRAME_4.
+[MAC]: sending PLME_SET_TRX_STATE_request <10> to PHY layer
+** Event #104  T=0.092636381576  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on `{}' (Ieee802154MacPhyPrimitives, id=170)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request TX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 9 to MAC
+** Notification at T=0.092636381576 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE SLEEP, channel #0, 0.02Mbps 
+0.092636381576 wireless device 50 draw current 0.06mA, new state = 3
+residual capacity = 1.6416e+08
+** Event #105  T=0.092636381576  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on `{}' (Ieee802154MacPhyPrimitives, id=172)
+** Event #106  T=0.093236381576  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on selfmsg `TRX_timer' (cMessage, id=21)
+RadioGate :SG_LRWPAN_001.node[0].radioIn radioIn
+Picking up ongoing transmissions on new channel:
+** Notification at T=0.093236381576 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.093236381576 wireless device 50 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+** Notification at T=0.093236381576 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.093236381576 wireless device 50 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 10 to MAC
+phy_SUCCESS[PHY]: sending a PLME_SET_TRX_STATE_confirm with 8 to MAC
+** Event #107  T=0.093236381576  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on `{}' (Ieee802154MacPhyPrimitives, id=173)
+[MAC]: sending frame NSpacket (9 Bytes) to PHY layer
+[MAC]: the estimated transmission time is 0.006 s
+** Event #108  T=0.093236381576  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on `{}' (Ieee802154MacPhyPrimitives, id=174)
+** Event #109  T=0.093236381576  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on `NSpacket' (Ieee802154Frame, id=171)
+[PHY]: a MAC frame NSpacket received from MAC layer
+[PHY]: encapsulating NSpacket into an airframe
+[PHY]: transmitter is on, start sending message ...
+** Notification at T=0.093236381576 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE TRANSMIT, channel #0, 0.02Mbps 
+0.093236381576 wireless device 50 draw current 16.24mA, new state = 2
+residual capacity = 1.6416e+08
+[PHY]: the transmission needs 0.006 s
+** Event #110  T=0.093236389438  SG_LRWPAN_001.dc.lrwpan.phy (Ieee802154Phy, id=29), on `NSpacket' (AirFrame, id=177)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.093236389438 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.093236389438 wireless device 29 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #111  T=0.093236396545  SG_LRWPAN_001.node[3].lrwpan.phy (Ieee802154Phy, id=113), on `NSpacket' (AirFrame, id=180)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.093236396545 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.093236396545 wireless device 113 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #112  T=0.093236397765  SG_LRWPAN_001.node[1].lrwpan.phy (Ieee802154Phy, id=71), on `NSpacket' (AirFrame, id=178)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.093236397765 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.093236397765 wireless device 71 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #113  T=0.093236397765  SG_LRWPAN_001.node[2].lrwpan.phy (Ieee802154Phy, id=92), on `NSpacket' (AirFrame, id=179)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.093236397765 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.093236397765 wireless device 92 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #114  T=0.099236381576  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on selfmsg `TxOver_timer' (cMessage, id=22)
+[PHY]: transmitting of NSpacket completes!
+** Notification at T=0.099236381576 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.099236381576 wireless device 50 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: send a PD_DATA_confirm with success to MAC layer
+[PHY]: sending a PD_DATA_confirm with 8 to MAC
+** Event #115  T=0.099236381576  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on `{}' (Ieee802154MacPhyPrimitives, id=185)
+In executeMac
+[MAC]: sending PLME_SET_TRX_STATE_request <7> to PHY layer
+(27) FSM State TRANSMITFRAME_4, EV_FRAME_TRANSMITTED  [Broadcast]: RadioSetupRx, manageQueue...
+(manageQueue) no packets to send, entering IDLE state.
+** Event #116  T=0.099236381576  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on `{}' (Ieee802154MacPhyPrimitives, id=186)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request RX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 9 to MAC
+** Notification at T=0.099236381576 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE SLEEP, channel #0, 0.02Mbps 
+0.099236381576 wireless device 50 draw current 0.06mA, new state = 3
+residual capacity = 1.6416e+08
+** Event #117  T=0.099236381576  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on `{}' (Ieee802154MacPhyPrimitives, id=187)
+** Event #118  T=0.099236389438  SG_LRWPAN_001.dc.lrwpan.phy (Ieee802154Phy, id=29), on selfmsg `endRx' (cMessage, id=181)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=1.77857e+06
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.099236389438 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.099236389438 wireless device 29 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #119  T=0.099236389438  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on `NSpacket' (Ieee802154Frame, id=188)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-02 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-01
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #120  T=0.099236389438  SG_LRWPAN_001.dc.networkLayer.sixlowpan (_6lowpan, id=26), on `NSpacket' (_6lowpanDatagram, id=189)
+** Event #121  T=0.099236389438  SG_LRWPAN_001.dc.networkLayer.ipv6 (IPv6, id=20), on `NSpacket' (IPv6Datagram, id=190)
+destination address ff02::1:ff00:2 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #122  T=0.099236396545  SG_LRWPAN_001.node[3].lrwpan.phy (Ieee802154Phy, id=113), on selfmsg `endRx' (cMessage, id=182)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=490641
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.099236396545 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.099236396545 wireless device 113 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #123  T=0.099236396545  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on `NSpacket' (Ieee802154Frame, id=192)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-02 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-05
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #124  T=0.099236396545  SG_LRWPAN_001.node[3].networkLayer.sixlowpan (_6lowpan, id=110), on `NSpacket' (_6lowpanDatagram, id=193)
+** Event #125  T=0.099236396545  SG_LRWPAN_001.node[3].networkLayer.ipv6 (IPv6, id=104), on `NSpacket' (IPv6Datagram, id=194)
+destination address ff02::1:ff00:2 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #126  T=0.099236397765  SG_LRWPAN_001.node[1].lrwpan.phy (Ieee802154Phy, id=71), on selfmsg `endRx' (cMessage, id=183)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=419475
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.099236397765 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.099236397765 wireless device 71 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #127  T=0.099236397765  SG_LRWPAN_001.node[2].lrwpan.phy (Ieee802154Phy, id=92), on selfmsg `endRx' (cMessage, id=184)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=419475
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.099236397765 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.099236397765 wireless device 92 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #128  T=0.099236397765  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on `NSpacket' (Ieee802154Frame, id=196)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-02 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-03
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #129  T=0.099236397765  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on `NSpacket' (Ieee802154Frame, id=197)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-02 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-04
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #130  T=0.099236397765  SG_LRWPAN_001.node[1].networkLayer.sixlowpan (_6lowpan, id=68), on `NSpacket' (_6lowpanDatagram, id=198)
+** Event #131  T=0.099236397765  SG_LRWPAN_001.node[2].networkLayer.sixlowpan (_6lowpan, id=89), on `NSpacket' (_6lowpanDatagram, id=199)
+** Event #132  T=0.099236397765  SG_LRWPAN_001.node[1].networkLayer.ipv6 (IPv6, id=62), on `NSpacket' (IPv6Datagram, id=200)
+destination address ff02::1:ff00:2 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #133  T=0.099236397765  SG_LRWPAN_001.node[2].networkLayer.ipv6 (IPv6, id=83), on `NSpacket' (IPv6Datagram, id=202)
+destination address ff02::1:ff00:2 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #134  T=0.099836381576  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on selfmsg `TRX_timer' (cMessage, id=21)
+RadioGate :SG_LRWPAN_001.node[0].radioIn radioIn
+Picking up ongoing transmissions on new channel:
+** Notification at T=0.099836381576 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.099836381576 wireless device 50 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+** Notification at T=0.099836381576 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.099836381576 wireless device 50 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+phy_SUCCESS[PHY]: sending a PLME_SET_TRX_STATE_confirm with 8 to MAC
+** Event #135  T=0.099836381576  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on `{}' (Ieee802154MacPhyPrimitives, id=204)
+** Event #136  T=0.099836381576  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on `{}' (Ieee802154MacPhyPrimitives, id=205)
+** Event #137  T=0.115314512467  SG_LRWPAN_001.dc.networkLayer.neighbourDiscovery (IPv6NeighbourDiscovery, id=23), on selfmsg `assignLinkLocalAddr' (cMessage, id=66)
+Self message received!
+Assigning Link Local Address
+** Event #138  T=0.115314512467  SG_LRWPAN_001.dc.networkLayer.ipv6 (IPv6, id=20), on `NSpacket' (IPv6NeighbourSolicitation, id=206)
+** Event #139  T=0.115314512467  SG_LRWPAN_001.dc.networkLayer.sixlowpan (_6lowpan, id=26), on `NSpacket' (IPv6Datagram, id=208)
+** Event #140  T=0.115314512467  SG_LRWPAN_001.dc.lrwpan.ifq (DropTailQueue, id=27), on `NSpacket' (_6lowpanDatagram, id=209)
+** Event #141  T=0.115314512467  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on `NSpacket' (_6lowpanDatagram, id=209)
+[MAC]: requesting another frame from queue module
+CSMA received a message from upper layer, name is NSpacket, CInfo removed, mac addr=FF-FF-FF-FF-FF-FF-FF-FF
+Adding a new parent to the map of Sequence numbers: FF-FF-FF-FF-FF-FF-FF-FF
+pkt encapsulated, length: 72
+In executeMac
+(1) FSM State IDLE_1, EV_SEND_REQUEST and [TxBuff avail]: startTimerBackOff -> BACKOFF.
+(startTimer) backoffTimer value=0.00192 (BE=3, 2^BE-1= 7r=6)
+** Event #142  T=0.117234512467  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on selfmsg `timer-backoff' (cMessage, id=1)
+timer routine.
+In executeMac
+(2) FSM State BACKOFF, EV_TIMER_BACKOFF: starting CCA timer.
+(startTimer) ccaTimer value=0.001208(rxSetupTime,ccaDetectionTime:0.00108,0.000128).
+[MAC]: sending PLME_SET_TRX_STATE_request <7> to PHY layer
+** Event #143  T=0.117234512467  SG_LRWPAN_001.dc.lrwpan.phy (Ieee802154Phy, id=29), on `{}' (Ieee802154MacPhyPrimitives, id=211)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request RX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+** Event #144  T=0.117234512467  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on `{}' (Ieee802154MacPhyPrimitives, id=212)
+** Event #145  T=0.118442512467  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on selfmsg `timer-cca' (cMessage, id=2)
+timer routine.
+In executeMac
+(25) FSM State CCA_3, EV_TIMER_CCA
+(3) FSM State CCA_3, EV_TIMER_CCA, [Channel Idle]: -> TRANSMITFRAME_4.
+[MAC]: sending PLME_SET_TRX_STATE_request <10> to PHY layer
+** Event #146  T=0.118442512467  SG_LRWPAN_001.dc.lrwpan.phy (Ieee802154Phy, id=29), on `{}' (Ieee802154MacPhyPrimitives, id=213)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request TX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 9 to MAC
+** Notification at T=0.118442512467 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE SLEEP, channel #0, 0.02Mbps 
+0.118442512467 wireless device 29 draw current 0.06mA, new state = 3
+residual capacity = 1.6416e+08
+** Event #147  T=0.118442512467  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on `{}' (Ieee802154MacPhyPrimitives, id=215)
+** Event #148  T=0.119042512467  SG_LRWPAN_001.dc.lrwpan.phy (Ieee802154Phy, id=29), on selfmsg `TRX_timer' (cMessage, id=8)
+RadioGate :SG_LRWPAN_001.dc.radioIn radioIn
+Picking up ongoing transmissions on new channel:
+** Notification at T=0.119042512467 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.119042512467 wireless device 29 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+** Notification at T=0.119042512467 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.119042512467 wireless device 29 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 10 to MAC
+phy_SUCCESS[PHY]: sending a PLME_SET_TRX_STATE_confirm with 8 to MAC
+** Event #149  T=0.119042512467  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on `{}' (Ieee802154MacPhyPrimitives, id=216)
+[MAC]: sending frame NSpacket (9 Bytes) to PHY layer
+[MAC]: the estimated transmission time is 0.006 s
+** Event #150  T=0.119042512467  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on `{}' (Ieee802154MacPhyPrimitives, id=217)
+** Event #151  T=0.119042512467  SG_LRWPAN_001.dc.lrwpan.phy (Ieee802154Phy, id=29), on `NSpacket' (Ieee802154Frame, id=214)
+[PHY]: a MAC frame NSpacket received from MAC layer
+[PHY]: encapsulating NSpacket into an airframe
+[PHY]: transmitter is on, start sending message ...
+** Notification at T=0.119042512467 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE TRANSMIT, channel #0, 0.02Mbps 
+0.119042512467 wireless device 29 draw current 16.24mA, new state = 2
+residual capacity = 1.6416e+08
+[PHY]: the transmission needs 0.006 s
+** Event #152  T=0.119042520329  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on `NSpacket' (AirFrame, id=220)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.119042520329 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.119042520329 wireless device 50 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #153  T=0.119042520806  SG_LRWPAN_001.node[3].lrwpan.phy (Ieee802154Phy, id=113), on `NSpacket' (AirFrame, id=223)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.119042520806 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.119042520806 wireless device 113 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #154  T=0.119042526618  SG_LRWPAN_001.node[1].lrwpan.phy (Ieee802154Phy, id=71), on `NSpacket' (AirFrame, id=221)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.119042526618 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.119042526618 wireless device 71 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #155  T=0.119042526618  SG_LRWPAN_001.node[2].lrwpan.phy (Ieee802154Phy, id=92), on `NSpacket' (AirFrame, id=222)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.119042526618 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.119042526618 wireless device 92 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #156  T=0.125042512467  SG_LRWPAN_001.dc.lrwpan.phy (Ieee802154Phy, id=29), on selfmsg `TxOver_timer' (cMessage, id=9)
+[PHY]: transmitting of NSpacket completes!
+** Notification at T=0.125042512467 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.125042512467 wireless device 29 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: send a PD_DATA_confirm with success to MAC layer
+[PHY]: sending a PD_DATA_confirm with 8 to MAC
+** Event #157  T=0.125042512467  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on `{}' (Ieee802154MacPhyPrimitives, id=228)
+In executeMac
+[MAC]: sending PLME_SET_TRX_STATE_request <7> to PHY layer
+(27) FSM State TRANSMITFRAME_4, EV_FRAME_TRANSMITTED  [Broadcast]: RadioSetupRx, manageQueue...
+(manageQueue) no packets to send, entering IDLE state.
+** Event #158  T=0.125042512467  SG_LRWPAN_001.dc.lrwpan.phy (Ieee802154Phy, id=29), on `{}' (Ieee802154MacPhyPrimitives, id=229)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request RX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 9 to MAC
+** Notification at T=0.125042512467 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE SLEEP, channel #0, 0.02Mbps 
+0.125042512467 wireless device 29 draw current 0.06mA, new state = 3
+residual capacity = 1.6416e+08
+** Event #159  T=0.125042512467  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on `{}' (Ieee802154MacPhyPrimitives, id=230)
+** Event #160  T=0.125042520329  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on selfmsg `endRx' (cMessage, id=224)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=1.77857e+06
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.125042520329 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.125042520329 wireless device 50 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #161  T=0.125042520329  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on `NSpacket' (Ieee802154Frame, id=231)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-01 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-02
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #162  T=0.125042520329  SG_LRWPAN_001.node[0].networkLayer.sixlowpan (_6lowpan, id=47), on `NSpacket' (_6lowpanDatagram, id=232)
+** Event #163  T=0.125042520329  SG_LRWPAN_001.node[0].networkLayer.ipv6 (IPv6, id=41), on `NSpacket' (IPv6Datagram, id=233)
+destination address ff02::1:ff00:1 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #164  T=0.125042520806  SG_LRWPAN_001.node[3].lrwpan.phy (Ieee802154Phy, id=113), on selfmsg `endRx' (cMessage, id=225)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=1.58095e+06
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.125042520806 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.125042520806 wireless device 113 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #165  T=0.125042520806  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on `NSpacket' (Ieee802154Frame, id=235)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-01 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-05
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #166  T=0.125042520806  SG_LRWPAN_001.node[3].networkLayer.sixlowpan (_6lowpan, id=110), on `NSpacket' (_6lowpanDatagram, id=236)
+** Event #167  T=0.125042520806  SG_LRWPAN_001.node[3].networkLayer.ipv6 (IPv6, id=104), on `NSpacket' (IPv6Datagram, id=237)
+destination address ff02::1:ff00:1 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #168  T=0.125042526618  SG_LRWPAN_001.node[1].lrwpan.phy (Ieee802154Phy, id=71), on selfmsg `endRx' (cMessage, id=226)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=548942
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.125042526618 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.125042526618 wireless device 71 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #169  T=0.125042526618  SG_LRWPAN_001.node[2].lrwpan.phy (Ieee802154Phy, id=92), on selfmsg `endRx' (cMessage, id=227)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=548942
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.125042526618 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.125042526618 wireless device 92 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #170  T=0.125042526618  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on `NSpacket' (Ieee802154Frame, id=239)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-01 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-03
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #171  T=0.125042526618  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on `NSpacket' (Ieee802154Frame, id=240)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-01 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-04
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #172  T=0.125042526618  SG_LRWPAN_001.node[1].networkLayer.sixlowpan (_6lowpan, id=68), on `NSpacket' (_6lowpanDatagram, id=241)
+** Event #173  T=0.125042526618  SG_LRWPAN_001.node[2].networkLayer.sixlowpan (_6lowpan, id=89), on `NSpacket' (_6lowpanDatagram, id=242)
+** Event #174  T=0.125042526618  SG_LRWPAN_001.node[1].networkLayer.ipv6 (IPv6, id=62), on `NSpacket' (IPv6Datagram, id=243)
+destination address ff02::1:ff00:1 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #175  T=0.125042526618  SG_LRWPAN_001.node[2].networkLayer.ipv6 (IPv6, id=83), on `NSpacket' (IPv6Datagram, id=245)
+destination address ff02::1:ff00:1 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #176  T=0.125642512467  SG_LRWPAN_001.dc.lrwpan.phy (Ieee802154Phy, id=29), on selfmsg `TRX_timer' (cMessage, id=8)
+RadioGate :SG_LRWPAN_001.dc.radioIn radioIn
+Picking up ongoing transmissions on new channel:
+** Notification at T=0.125642512467 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.125642512467 wireless device 29 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+** Notification at T=0.125642512467 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.125642512467 wireless device 29 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+phy_SUCCESS[PHY]: sending a PLME_SET_TRX_STATE_confirm with 8 to MAC
+** Event #177  T=0.125642512467  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on `{}' (Ieee802154MacPhyPrimitives, id=247)
+** Event #178  T=0.125642512467  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on `{}' (Ieee802154MacPhyPrimitives, id=248)
+** Event #179  T=0.143299533496  SG_LRWPAN_001.node[3].networkLayer.neighbourDiscovery (IPv6NeighbourDiscovery, id=107), on selfmsg `assignLinkLocalAddr' (cMessage, id=74)
+Self message received!
+Assigning Link Local Address
+** Event #180  T=0.143299533496  SG_LRWPAN_001.node[3].networkLayer.ipv6 (IPv6, id=104), on `NSpacket' (IPv6NeighbourSolicitation, id=249)
+** Event #181  T=0.143299533496  SG_LRWPAN_001.node[3].networkLayer.sixlowpan (_6lowpan, id=110), on `NSpacket' (IPv6Datagram, id=251)
+** Event #182  T=0.143299533496  SG_LRWPAN_001.node[3].lrwpan.ifq (DropTailQueue, id=111), on `NSpacket' (_6lowpanDatagram, id=252)
+** Event #183  T=0.143299533496  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on `NSpacket' (_6lowpanDatagram, id=252)
+[MAC]: requesting another frame from queue module
+CSMA received a message from upper layer, name is NSpacket, CInfo removed, mac addr=FF-FF-FF-FF-FF-FF-FF-FF
+Adding a new parent to the map of Sequence numbers: FF-FF-FF-FF-FF-FF-FF-FF
+pkt encapsulated, length: 72
+In executeMac
+(1) FSM State IDLE_1, EV_SEND_REQUEST and [TxBuff avail]: startTimerBackOff -> BACKOFF.
+(startTimer) backoffTimer value=0.00064 (BE=3, 2^BE-1= 7r=2)
+** Event #184  T=0.143939533496  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on selfmsg `timer-backoff' (cMessage, id=53)
+timer routine.
+In executeMac
+(2) FSM State BACKOFF, EV_TIMER_BACKOFF: starting CCA timer.
+(startTimer) ccaTimer value=0.001208(rxSetupTime,ccaDetectionTime:0.00108,0.000128).
+[MAC]: sending PLME_SET_TRX_STATE_request <7> to PHY layer
+** Event #185  T=0.143939533496  SG_LRWPAN_001.node[3].lrwpan.phy (Ieee802154Phy, id=113), on `{}' (Ieee802154MacPhyPrimitives, id=254)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request RX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+** Event #186  T=0.143939533496  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on `{}' (Ieee802154MacPhyPrimitives, id=255)
+** Event #187  T=0.145147533496  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on selfmsg `timer-cca' (cMessage, id=54)
+timer routine.
+In executeMac
+(25) FSM State CCA_3, EV_TIMER_CCA
+(3) FSM State CCA_3, EV_TIMER_CCA, [Channel Idle]: -> TRANSMITFRAME_4.
+[MAC]: sending PLME_SET_TRX_STATE_request <10> to PHY layer
+** Event #188  T=0.145147533496  SG_LRWPAN_001.node[3].lrwpan.phy (Ieee802154Phy, id=113), on `{}' (Ieee802154MacPhyPrimitives, id=256)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request TX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 9 to MAC
+** Notification at T=0.145147533496 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE SLEEP, channel #0, 0.02Mbps 
+0.145147533496 wireless device 113 draw current 0.06mA, new state = 3
+residual capacity = 1.6416e+08
+** Event #189  T=0.145147533496  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on `{}' (Ieee802154MacPhyPrimitives, id=258)
+** Event #190  T=0.145747533496  SG_LRWPAN_001.node[3].lrwpan.phy (Ieee802154Phy, id=113), on selfmsg `TRX_timer' (cMessage, id=60)
+RadioGate :SG_LRWPAN_001.node[3].radioIn radioIn
+Picking up ongoing transmissions on new channel:
+** Notification at T=0.145747533496 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.145747533496 wireless device 113 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+** Notification at T=0.145747533496 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.145747533496 wireless device 113 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 10 to MAC
+phy_SUCCESS[PHY]: sending a PLME_SET_TRX_STATE_confirm with 8 to MAC
+** Event #191  T=0.145747533496  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on `{}' (Ieee802154MacPhyPrimitives, id=259)
+[MAC]: sending frame NSpacket (9 Bytes) to PHY layer
+[MAC]: the estimated transmission time is 0.006 s
+** Event #192  T=0.145747533496  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on `{}' (Ieee802154MacPhyPrimitives, id=260)
+** Event #193  T=0.145747533496  SG_LRWPAN_001.node[3].lrwpan.phy (Ieee802154Phy, id=113), on `NSpacket' (Ieee802154Frame, id=257)
+[PHY]: a MAC frame NSpacket received from MAC layer
+[PHY]: encapsulating NSpacket into an airframe
+[PHY]: transmitter is on, start sending message ...
+** Notification at T=0.145747533496 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE TRANSMIT, channel #0, 0.02Mbps 
+0.145747533496 wireless device 113 draw current 16.24mA, new state = 2
+residual capacity = 1.6416e+08
+[PHY]: the transmission needs 0.006 s
+** Event #194  T=0.145747541835  SG_LRWPAN_001.dc.lrwpan.phy (Ieee802154Phy, id=29), on `NSpacket' (AirFrame, id=263)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.145747541835 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.145747541835 wireless device 29 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #195  T=0.14574754364  SG_LRWPAN_001.node[2].lrwpan.phy (Ieee802154Phy, id=92), on `NSpacket' (AirFrame, id=266)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.14574754364 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.14574754364 wireless device 92 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #196  T=0.145747548465  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on `NSpacket' (AirFrame, id=264)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.145747548465 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.145747548465 wireless device 50 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #197  T=0.145747554393  SG_LRWPAN_001.node[1].lrwpan.phy (Ieee802154Phy, id=71), on `NSpacket' (AirFrame, id=265)
+[PHY]: start receiving NSpacket frame ...
+publish new RadioState:RECV
+** Notification at T=0.145747554393 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE RECV, channel #0, 0.02Mbps 
+0.145747554393 wireless device 71 draw current 9.6mA, new state = 1
+residual capacity = 1.6416e+08
+** Event #198  T=0.151747533496  SG_LRWPAN_001.node[3].lrwpan.phy (Ieee802154Phy, id=113), on selfmsg `TxOver_timer' (cMessage, id=61)
+[PHY]: transmitting of NSpacket completes!
+** Notification at T=0.151747533496 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.151747533496 wireless device 113 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: send a PD_DATA_confirm with success to MAC layer
+[PHY]: sending a PD_DATA_confirm with 8 to MAC
+** Event #199  T=0.151747533496  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on `{}' (Ieee802154MacPhyPrimitives, id=271)
+In executeMac
+[MAC]: sending PLME_SET_TRX_STATE_request <7> to PHY layer
+(27) FSM State TRANSMITFRAME_4, EV_FRAME_TRANSMITTED  [Broadcast]: RadioSetupRx, manageQueue...
+(manageQueue) no packets to send, entering IDLE state.
+** Event #200  T=0.151747533496  SG_LRWPAN_001.node[3].lrwpan.phy (Ieee802154Phy, id=113), on `{}' (Ieee802154MacPhyPrimitives, id=272)
+[PHY]: a primitive received from MAC layer, processing ...
+[PHY]: this is a PLME_SET_TRX_STATE_REQUEST
+request RX ON 
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 9 to MAC
+** Notification at T=0.151747533496 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE SLEEP, channel #0, 0.02Mbps 
+0.151747533496 wireless device 113 draw current 0.06mA, new state = 3
+residual capacity = 1.6416e+08
+** Event #201  T=0.151747533496  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on `{}' (Ieee802154MacPhyPrimitives, id=273)
+** Event #202  T=0.151747541835  SG_LRWPAN_001.dc.lrwpan.phy (Ieee802154Phy, id=29), on selfmsg `endRx' (cMessage, id=267)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=1.58095e+06
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.151747541835 to SG_LRWPAN_001.dc.lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.151747541835 wireless device 29 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #203  T=0.151747541835  SG_LRWPAN_001.dc.lrwpan.mac (CSMA802154, id=28), on `NSpacket' (Ieee802154Frame, id=274)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-05 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-01
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #204  T=0.151747541835  SG_LRWPAN_001.dc.networkLayer.sixlowpan (_6lowpan, id=26), on `NSpacket' (_6lowpanDatagram, id=275)
+** Event #205  T=0.151747541835  SG_LRWPAN_001.dc.networkLayer.ipv6 (IPv6, id=20), on `NSpacket' (IPv6Datagram, id=276)
+destination address ff02::1:ff00:5 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #206  T=0.15174754364  SG_LRWPAN_001.node[2].lrwpan.phy (Ieee802154Phy, id=92), on selfmsg `endRx' (cMessage, id=268)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=1.06821e+06
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.15174754364 to SG_LRWPAN_001.node[2].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.15174754364 wireless device 92 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #207  T=0.15174754364  SG_LRWPAN_001.node[2].lrwpan.mac (CSMA802154, id=91), on `NSpacket' (Ieee802154Frame, id=278)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-05 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-04
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #208  T=0.15174754364  SG_LRWPAN_001.node[2].networkLayer.sixlowpan (_6lowpan, id=89), on `NSpacket' (_6lowpanDatagram, id=279)
+** Event #209  T=0.15174754364  SG_LRWPAN_001.node[2].networkLayer.ipv6 (IPv6, id=83), on `NSpacket' (IPv6Datagram, id=280)
+destination address ff02::1:ff00:5 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #210  T=0.151747548465  SG_LRWPAN_001.node[0].lrwpan.phy (Ieee802154Phy, id=50), on selfmsg `endRx' (cMessage, id=269)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=490641
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.151747548465 to SG_LRWPAN_001.node[0].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.151747548465 wireless device 50 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #211  T=0.151747548465  SG_LRWPAN_001.node[0].lrwpan.mac (CSMA802154, id=49), on `NSpacket' (Ieee802154Frame, id=282)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-05 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-02
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #212  T=0.151747548465  SG_LRWPAN_001.node[0].networkLayer.sixlowpan (_6lowpan, id=47), on `NSpacket' (_6lowpanDatagram, id=283)
+** Event #213  T=0.151747548465  SG_LRWPAN_001.node[0].networkLayer.ipv6 (IPv6, id=41), on `NSpacket' (IPv6Datagram, id=284)
+destination address ff02::1:ff00:5 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #214  T=0.151747554393  SG_LRWPAN_001.node[1].lrwpan.phy (Ieee802154Phy, id=71), on selfmsg `endRx' (cMessage, id=270)
+[PHY]: frame is completely received now
+[PHY]: reception of NSpacket frame is over, preparing to send it to MAC layer
+packet (Ieee802154Frame)NSpacket () snrMin=251744
+[PHY]: sending received NSpacket frame to MAC layer
+** Notification at T=0.151747554393 to SG_LRWPAN_001.node[1].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.151747554393 wireless device 71 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: radio finishes receiving
+** Event #215  T=0.151747554393  SG_LRWPAN_001.node[1].lrwpan.mac (CSMA802154, id=70), on `NSpacket' (Ieee802154Frame, id=286)
+Received frame name= NSpacket, myState=1 src=0A-AA-00-FF-FE-00-00-05 dst=FF-FF-FF-FF-FF-FF-FF-FF myAddr=0A-AA-00-FF-FE-00-00-03
+In executeMac
+(23) FSM State IDLE_1, EV_BROADCAST_RECEIVED: Nothing to do.
+** Event #216  T=0.151747554393  SG_LRWPAN_001.node[1].networkLayer.sixlowpan (_6lowpan, id=68), on `NSpacket' (_6lowpanDatagram, id=287)
+** Event #217  T=0.151747554393  SG_LRWPAN_001.node[1].networkLayer.ipv6 (IPv6, id=62), on `NSpacket' (IPv6Datagram, id=288)
+destination address ff02::1:ff00:5 is multicast, doing multicast routing
+multicast dest address is link-local (or smaller) scope
+** Event #218  T=0.152347533496  SG_LRWPAN_001.node[3].lrwpan.phy (Ieee802154Phy, id=113), on selfmsg `TRX_timer' (cMessage, id=60)
+RadioGate :SG_LRWPAN_001.node[3].radioIn radioIn
+Picking up ongoing transmissions on new channel:
+** Notification at T=0.152347533496 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.152347533496 wireless device 113 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+** Notification at T=0.152347533496 to SG_LRWPAN_001.node[3].lrwpan.mac: RADIO-STATE IDLE, channel #0, 0.02Mbps 
+0.152347533496 wireless device 113 draw current 1.38mA, new state = 0
+residual capacity = 1.6416e+08
+[PHY]: sending a PLME_SET_TRX_STATE_confirm with 7 to MAC
+phy_SUCCESS[PHY]: sending a PLME_SET_TRX_STATE_confirm with 8 to MAC
+** Event #219  T=0.152347533496  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on `{}' (Ieee802154MacPhyPrimitives, id=290)
+** Event #220  T=0.152347533496  SG_LRWPAN_001.node[3].lrwpan.mac (CSMA802154, id=112), on `{}' (Ieee802154MacPhyPrimitives, id=291)
+** Event #221  T=1  SG_LRWPAN_001.dc.battery (InetSimpleBattery, id=19), on selfmsg `auto-update' (cMessage, id=11)
+residual capacity = 1.6416e+08
+** Event #222  T=1  SG_LRWPAN_001.node[0].battery (InetSimpleBattery, id=40), on selfmsg `auto-update' (cMessage, id=24)
+residual capacity = 1.6416e+08
+** Event #223  T=1  SG_LRWPAN_001.node[1].battery (InetSimpleBattery, id=61), on selfmsg `auto-update' (cMessage, id=37)
+residual capacity = 1.6416e+08
+** Event #224  T=1  SG_LRWPAN_001.node[2].battery (InetSimpleBattery, id=82), on selfmsg `auto-update' (cMessage, id=50)
+residual capacity = 1.6416e+08
+** Event #225  T=1  SG_LRWPAN_001.node[3].battery (InetSimpleBattery, id=103), on selfmsg `auto-update' (cMessage, id=63)
+residual capacity = 1.6416e+08
+** Event #226  T=1  SG_LRWPAN_001.dc.battery (InetSimpleBattery, id=19), on selfmsg `publish' (cMessage, id=10)
+** Event #227  T=1  SG_LRWPAN_001.node[0].battery (InetSimpleBattery, id=40), on selfmsg `publish' (cMessage, id=23)
+** Event #228  T=1  SG_LRWPAN_001.node[1].battery (InetSimpleBattery, id=61), on selfmsg `publish' (cMessage, id=36)
+** Event #229  T=1  SG_LRWPAN_001.node[2].battery (InetSimpleBattery, id=82), on selfmsg `publish' (cMessage, id=49)
+** Event #230  T=1  SG_LRWPAN_001.node[3].battery (InetSimpleBattery, id=103), on selfmsg `publish' (cMessage, id=62)
+** Event #231  T=1.017013892717  SG_LRWPAN_001.node[1].networkLayer.neighbourDiscovery (IPv6NeighbourDiscovery, id=65), on selfmsg `dadTimeout' (cMessage, id=76)
+Self message received!
+DAD Timeout message received
+numOfDADMessagesSent is: 1
+dupAddrDetectTrans is: 1
+delete dadEntry and msg
+** Event #232  T=1.081796888355  SG_LRWPAN_001.node[2].networkLayer.neighbourDiscovery (IPv6NeighbourDiscovery, id=86), on selfmsg `dadTimeout' (cMessage, id=119)
+Self message received!
+DAD Timeout message received
+numOfDADMessagesSent is: 1
+dupAddrDetectTrans is: 1
+delete dadEntry and msg
+** Event #233  T=1.089260381576  SG_LRWPAN_001.node[0].networkLayer.neighbourDiscovery (IPv6NeighbourDiscovery, id=44), on selfmsg `dadTimeout' (cMessage, id=141)
+Self message received!
+DAD Timeout message received
+numOfDADMessagesSent is: 1
+dupAddrDetectTrans is: 1
+delete dadEntry and msg
+** Event #234  T=1.115314512467  SG_LRWPAN_001.dc.networkLayer.neighbourDiscovery (IPv6NeighbourDiscovery, id=23), on selfmsg `dadTimeout' (cMessage, id=207)
+Self message received!
+DAD Timeout message received
+numOfDADMessagesSent is: 1
+dupAddrDetectTrans is: 1
+delete dadEntry and msg
+** Event #235  T=1.143299533496  SG_LRWPAN_001.node[3].networkLayer.neighbourDiscovery (IPv6NeighbourDiscovery, id=107), on selfmsg `dadTimeout' (cMessage, id=250)
+Self message received!
+DAD Timeout message received
+numOfDADMessagesSent is: 1
+dupAddrDetectTrans is: 1
+delete dadEntry and msg
+** Event #236  T=2  SG_LRWPAN_001.dc.battery (InetSimpleBattery, id=19), on selfmsg `auto-update' (cMessage, id=11)
+residual capacity = 1.6416e+08
+** Event #237  T=2  SG_LRWPAN_001.node[0].battery (InetSimpleBattery, id=40), on selfmsg `auto-update' (cMessage, id=24)
+residual capacity = 1.6416e+08
+** Event #238  T=2  SG_LRWPAN_001.node[1].battery (InetSimpleBattery, id=61), on selfmsg `auto-update' (cMessage, id=37)
+residual capacity = 1.6416e+08
+** Event #239  T=2  SG_LRWPAN_001.node[2].battery (InetSimpleBattery, id=82), on selfmsg `auto-update' (cMessage, id=50)
+residual capacity = 1.6416e+08
+** Event #240  T=2  SG_LRWPAN_001.node[3].battery (InetSimpleBattery, id=103), on selfmsg `auto-update' (cMessage, id=63)
+residual capacity = 1.6416e+08
+** Event #241  T=2  SG_LRWPAN_001.dc.battery (InetSimpleBattery, id=19), on selfmsg `publish' (cMessage, id=10)
+** Event #242  T=2  SG_LRWPAN_001.node[0].battery (InetSimpleBattery, id=40), on selfmsg `publish' (cMessage, id=23)
+** Event #243  T=2  SG_LRWPAN_001.node[1].battery (InetSimpleBattery, id=61), on selfmsg `publish' (cMessage, id=36)
+** Event #244  T=2  SG_LRWPAN_001.node[2].battery (InetSimpleBattery, id=82), on selfmsg `publish' (cMessage, id=49)
+** Event #245  T=2  SG_LRWPAN_001.node[3].battery (InetSimpleBattery, id=103), on selfmsg `publish' (cMessage, id=62)
+** Event #246  T=3  SG_LRWPAN_001.dc.battery (InetSimpleBattery, id=19), on selfmsg `auto-update' (cMessage, id=11)
+residual capacity = 1.6416e+08
+** Event #247  T=3  SG_LRWPAN_001.node[0].battery (InetSimpleBattery, id=40), on selfmsg `auto-update' (cMessage, id=24)
+residual capacity = 1.6416e+08
+** Event #248  T=3  SG_LRWPAN_001.node[1].battery (InetSimpleBattery, id=61), on selfmsg `auto-update' (cMessage, id=37)
+residual capacity = 1.6416e+08
+** Event #249  T=3  SG_LRWPAN_001.node[2].battery (InetSimpleBattery, id=82), on selfmsg `auto-update' (cMessage, id=50)
+residual capacity = 1.6416e+08
+** Event #250  T=3  SG_LRWPAN_001.node[3].battery (InetSimpleBattery, id=103), on selfmsg `auto-update' (cMessage, id=63)
+residual capacity = 1.6416e+08
+** Event #251  T=3  SG_LRWPAN_001.dc.battery (InetSimpleBattery, id=19), on selfmsg `publish' (cMessage, id=10)
+** Event #252  T=3  SG_LRWPAN_001.node[0].battery (InetSimpleBattery, id=40), on selfmsg `publish' (cMessage, id=23)
+** Event #253  T=3  SG_LRWPAN_001.node[1].battery (InetSimpleBattery, id=61), on selfmsg `publish' (cMessage, id=36)
+** Event #254  T=3  SG_LRWPAN_001.node[2].battery (InetSimpleBattery, id=82), on selfmsg `publish' (cMessage, id=49)
+** Event #255  T=3  SG_LRWPAN_001.node[3].battery (InetSimpleBattery, id=103), on selfmsg `publish' (cMessage, id=62)
+** Event #256  T=4  SG_LRWPAN_001.dc.battery (InetSimpleBattery, id=19), on selfmsg `auto-update' (cMessage, id=11)
+residual capacity = 1.6416e+08
+** Event #257  T=4  SG_LRWPAN_001.node[0].battery (InetSimpleBattery, id=40), on selfmsg `auto-update' (cMessage, id=24)
+residual capacity = 1.6416e+08
+** Event #258  T=4  SG_LRWPAN_001.node[1].battery (InetSimpleBattery, id=61), on selfmsg `auto-update' (cMessage, id=37)
+residual capacity = 1.6416e+08
+** Event #259  T=4  SG_LRWPAN_001.node[2].battery (InetSimpleBattery, id=82), on selfmsg `auto-update' (cMessage, id=50)
+residual capacity = 1.6416e+08
+** Event #260  T=4  SG_LRWPAN_001.node[3].battery (InetSimpleBattery, id=103), on selfmsg `auto-update' (cMessage, id=63)
+residual capacity = 1.6416e+08
+** Event #261  T=4  SG_LRWPAN_001.dc.battery (InetSimpleBattery, id=19), on selfmsg `publish' (cMessage, id=10)
+** Event #262  T=4  SG_LRWPAN_001.node[0].battery (InetSimpleBattery, id=40), on selfmsg `publish' (cMessage, id=23)
+** Event #263  T=4  SG_LRWPAN_001.node[1].battery (InetSimpleBattery, id=61), on selfmsg `publish' (cMessage, id=36)
+** Event #264  T=4  SG_LRWPAN_001.node[2].battery (InetSimpleBattery, id=82), on selfmsg `publish' (cMessage, id=49)
+** Event #265  T=4  SG_LRWPAN_001.node[3].battery (InetSimpleBattery, id=103), on selfmsg `publish' (cMessage, id=62)
+** Event #266  T=5  SG_LRWPAN_001.node[0].udpApp[0] (UDPBasicApp, id=34), on selfmsg `sendTimer' (cMessage, id=12)
+** Event #267  T=5  SG_LRWPAN_001.node[1].udpApp[0] (UDPBasicApp, id=55), on selfmsg `sendTimer' (cMessage, id=25)
+** Event #268  T=5  SG_LRWPAN_001.node[2].udpApp[0] (UDPBasicApp, id=76), on selfmsg `sendTimer' (cMessage, id=38)
+** Event #269  T=5  SG_LRWPAN_001.node[3].udpApp[0] (UDPBasicApp, id=97), on selfmsg `sendTimer' (cMessage, id=51)
+** Event #270  T=5  SG_LRWPAN_001.node[0].udp (UDP, id=35), on `BIND' (cMessage, id=292)
+Socket created: sockId=1 appGateIndex=0 localPort=1025
+** Event #271  T=5  SG_LRWPAN_001.node[0].udp (UDP, id=35), on `UDPBasicAppData-0' (cPacket, id=293)
+Sending app packet UDPBasicAppData-0 over IPv6.
+** Event #272  T=5  SG_LRWPAN_001.node[1].udp (UDP, id=56), on `BIND' (cMessage, id=294)
+Socket created: sockId=2 appGateIndex=0 localPort=1025
+** Event #273  T=5  SG_LRWPAN_001.node[1].udp (UDP, id=56), on `UDPBasicAppData-0' (cPacket, id=295)
+Sending app packet UDPBasicAppData-0 over IPv6.
+** Event #274  T=5  SG_LRWPAN_001.node[2].udp (UDP, id=77), on `BIND' (cMessage, id=296)
+Socket created: sockId=3 appGateIndex=0 localPort=1025
+** Event #275  T=5  SG_LRWPAN_001.node[2].udp (UDP, id=77), on `UDPBasicAppData-0' (cPacket, id=297)
+Sending app packet UDPBasicAppData-0 over IPv6.
+** Event #276  T=5  SG_LRWPAN_001.node[3].udp (UDP, id=98), on `BIND' (cMessage, id=298)
+Socket created: sockId=4 appGateIndex=0 localPort=1025
+** Event #277  T=5  SG_LRWPAN_001.node[3].udp (UDP, id=98), on `UDPBasicAppData-0' (cPacket, id=299)
+Sending app packet UDPBasicAppData-0 over IPv6.
+** Event #278  T=5  SG_LRWPAN_001.node[0].networkLayer.ipv6 (IPv6, id=41), on `UDPBasicAppData-0' (UDPPacket, id=300)
+Routing datagram `UDPBasicAppData-0' with dest=fe80::aaa:ff:fe00:1: 
+do longest prefix match in routing table
+finished longest prefix match in routing table
+next hop for fe80::aaa:ff:fe00:1 is fe80::aaa:ff:fe00:1, interface lrwpan
+no link-layer address for next hop yet, passing datagram to Neighbour Discovery module
+** Event #279  T=5  SG_LRWPAN_001.node[1].networkLayer.ipv6 (IPv6, id=62), on `UDPBasicAppData-0' (UDPPacket, id=301)
+Routing datagram `UDPBasicAppData-0' with dest=fe80::aaa:ff:fe00:1: 
+do longest prefix match in routing table
+finished longest prefix match in routing table
+next hop for fe80::aaa:ff:fe00:1 is fe80::aaa:ff:fe00:1, interface lrwpan
+no link-layer address for next hop yet, passing datagram to Neighbour Discovery module
+** Event #280  T=5  SG_LRWPAN_001.node[2].networkLayer.ipv6 (IPv6, id=83), on `UDPBasicAppData-0' (UDPPacket, id=302)
+Routing datagram `UDPBasicAppData-0' with dest=fe80::aaa:ff:fe00:1: 
+do longest prefix match in routing table
+finished longest prefix match in routing table
+next hop for fe80::aaa:ff:fe00:1 is fe80::aaa:ff:fe00:1, interface lrwpan
+no link-layer address for next hop yet, passing datagram to Neighbour Discovery module
+** Event #281  T=5  SG_LRWPAN_001.node[3].networkLayer.ipv6 (IPv6, id=104), on `UDPBasicAppData-0' (UDPPacket, id=303)
+Routing datagram `UDPBasicAppData-0' with dest=fe80::aaa:ff:fe00:1: 
+do longest prefix match in routing table
+finished longest prefix match in routing table
+next hop for fe80::aaa:ff:fe00:1 is fe80::aaa:ff:fe00:1, interface lrwpan
+no link-layer address for next hop yet, passing datagram to Neighbour Discovery module
+** Event #282  T=5  SG_LRWPAN_001.node[0].networkLayer.neighbourDiscovery (IPv6NeighbourDiscovery, id=44), on `UDPBasicAppData-0' (IPv6Datagram, id=304)
+Packet (IPv6Datagram)UDPBasicAppData-0 arrived from IPv6 module.
+Determining Next Hop
+Find out if supplied dest addr is on-link or off-link.
+Dest is on-link, next-hop addr is same as dest addr.
+Next Hop Address is: fe80::aaa:ff:fe00:1 on interface: 100
+No Entry exists in the Neighbour Cache.
+Creating an INCOMPLETE entry in the neighbour cache.
+Initiating Address Resolution for:fe80::aaa:ff:fe00:1 on Interface:100
+Preparing to send NS to solicited-node multicast group
+on the next hop interface
+Reachability State is INCOMPLETE. Address Resolution already initiated.
+Add packet to entry's queue until Address Resolution is complete.
+** Event #283  T=5  SG_LRWPAN_001.node[1].networkLayer.neighbourDiscovery (IPv6NeighbourDiscovery, id=65), on `UDPBasicAppData-0' (IPv6Datagram, id=305)
+Packet (IPv6Datagram)UDPBasicAppData-0 arrived from IPv6 module.
+Determining Next Hop
+Find out if supplied dest addr is on-link or off-link.
+Dest is on-link, next-hop addr is same as dest addr.
+Next Hop Address is: fe80::aaa:ff:fe00:1 on interface: 100
+No Entry exists in the Neighbour Cache.
+Creating an INCOMPLETE entry in the neighbour cache.
+Initiating Address Resolution for:fe80::aaa:ff:fe00:1 on Interface:100
+Preparing to send NS to solicited-node multicast group
+on the next hop interface
+Reachability State is INCOMPLETE. Address Resolution already initiated.
+Add packet to entry's queue until Address Resolution is complete.
+** Event #284  T=5  SG_LRWPAN_001.node[2].networkLayer.neighbourDiscovery (IPv6NeighbourDiscovery, id=86), on `UDPBasicAppData-0' (IPv6Datagram, id=306)
+Packet (IPv6Datagram)UDPBasicAppData-0 arrived from IPv6 module.
+Determining Next Hop
+Find out if supplied dest addr is on-link or off-link.
+Dest is on-link, next-hop addr is same as dest addr.
+Next Hop Address is: fe80::aaa:ff:fe00:1 on interface: 100
+No Entry exists in the Neighbour Cache.
+Creating an INCOMPLETE entry in the neighbour cache.
+Initiating Address Resolution for:fe80::aaa:ff:fe00:1 on Interface:100
+Preparing to send NS to solicited-node multicast group
+on the next hop interface
+Reachability State is INCOMPLETE. Address Resolution already initiated.
+Add packet to entry's queue until Address Resolution is complete.
+** Event #285  T=5  SG_LRWPAN_001.node[3].networkLayer.neighbourDiscovery (IPv6NeighbourDiscovery, id=107), on `UDPBasicAppData-0' (IPv6Datagram, id=307)
+Packet (IPv6Datagram)UDPBasicAppData-0 arrived from IPv6 module.
+Determining Next Hop
+Find out if supplied dest addr is on-link or off-link.
+Dest is on-link, next-hop addr is same as dest addr.
+Next Hop Address is: fe80::aaa:ff:fe00:1 on interface: 100
+No Entry exists in the Neighbour Cache.
+Creating an INCOMPLETE entry in the neighbour cache.
+Initiating Address Resolution for:fe80::aaa:ff:fe00:1 on Interface:100
+Preparing to send NS to solicited-node multicast group
+on the next hop interface
+Reachability State is INCOMPLETE. Address Resolution already initiated.
+Add packet to entry's queue until Address Resolution is complete.
+** Event #286  T=5  SG_LRWPAN_001.node[0].networkLayer.ipv6 (IPv6, id=41), on `NSpacket' (IPv6NeighbourSolicitation, id=308)
+** Event #287  T=5  SG_LRWPAN_001.node[1].networkLayer.ipv6 (IPv6, id=62), on `NSpacket' (IPv6NeighbourSolicitation, id=310)
+** Event #288  T=5  SG_LRWPAN_001.node[2].networkLayer.ipv6 (IPv6, id=83), on `NSpacket' (IPv6NeighbourSolicitation, id=312)
+** Event #289  T=5  SG_LRWPAN_001.node[3].networkLayer.ipv6 (IPv6, id=104), on `NSpacket' (IPv6NeighbourSolicitation, id=314)
+** Event #290  T=5  SG_LRWPAN_001.node[0].networkLayer.sixlowpan (_6lowpan, id=47), on `NSpacket' (IPv6Datagram, id=316)
+** Event #291  T=5  SG_LRWPAN_001.node[1].networkLayer.sixlowpan (_6lowpan, id=68), on `NSpacket' (IPv6Datagram, id=317)
+
