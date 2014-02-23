@@ -20,6 +20,7 @@
 import inet.examples.wpan.sixlowpan.Router802154;
 import inet.examples.wpan.sixlowpan.RouterIPv6over802154;
 import inet.networklayer.autorouting.ipv4.IPv4NetworkConfigurator;
+import inet.nodes.ethernet.Eth100M;
 import inet.nodes.ethernet.EtherHost2;
 import inet.nodes.ipv6.StandardHost6;
 import inet.networklayer.autorouting.ipv6.FlatNetworkConfigurator6;
@@ -31,9 +32,9 @@ import inet.world.radio.ChannelControl;
 
 network SG_LRWPAN_001
 {
-    parameters:        
+    parameters:
         int numNodes;   // Number of nodes (data concentrator not included)
-//        @display("bgb=1000,1000");
+        //        @display("bgb=1000,1000");
         @display("bgb=1000,1000,white");	// To use in documentation
     types:
     submodules:
@@ -57,8 +58,14 @@ network SG_LRWPAN_001
                 IPForward = true;
                 @display("p=200,120;i=device/accesspoint,white");
         }
+        backend: NodeW {
+            parameters:
+                IPForward = true;
+                @display("p=0,0;i=device/accesspoint,blue");
+        }
     //        configurator: IPv4NetworkConfigurator {
     //            @display("p=53,137");
     //        }
     connections:
+        dc.ethg++ <--> Eth100M <--> backend.ethg++;	// dc.ethg[0] <--> backend.ethg[0]
 }
