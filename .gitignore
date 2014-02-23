@@ -46,3 +46,5 @@ xxx
 */3rdparty
 */tmp/
 */src/.tmp*
+
+*.tar.bz2

@@ -1,0 +1,45 @@
+#!/bin/bash
+# From simulation/ (outside results/)
+
+set -e
+
+wd=results
+
+USAGE="Usage: process-results title
+title is also used as tar.bz2 filename
+Subdir $wd must exist!"
+
+if [ ! -d "$(pwd)/$wd/" ]; then
+  echo "ERROR: results/ not found" >&2
+  exit 1
+fi
+
+
+if [ $# -eq 1 ]; then
+  title="$1"
+  base="${title//\/}"
+  archive="$base.tar.bz2"
+else
+  echo "$USAGE"
+  exit 1
+fi
+confmsg="Creating $file and $results (Title is $title)"
+
+
+#####################
+# Preparing results #
+#####################
+
+# Packet Counts
+udppktcnts="results/$base-UDPPacketCounts.txt"
+echo "$title" > "$udppktcnts"
+grep -e rcvdPk:count -e sentPk:count results/*.sca | grep udpApp >> "$udppktcnts"
+cp "$udppktcnts" .
+
+
+##################
+# Create archive #
+##################
+
+echo "$confmsg"
+tar -cjvf "$archive" results

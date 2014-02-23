@@ -1,0 +1,27 @@
+#!/bin/bash
+# Usage: process (Maybe change network and/or title)
+
+if ! type "beep" &> /dev/null; then
+  echo "WARNING: For convenience install beep"
+fi
+
+network="SG_MULTIHOPMANUAL_001"
+
+for i in `seq 1 10`; do
+  echo "Simulation $i"
+
+  numNodes="**.numNodes = $i"
+  sed -i '/^**.numNodes = /c\'"$numNodes" omnetpp.ini > /dev/null
+
+  title="$network-$(grep numNodes omnetpp.ini | grep -v ^# | sed 's/**.//' | sed 's/ = /_/')"
+
+  echo "$title"
+  rm results/*
+  ./run
+  ./process-results "$title"
+
+  echo
+
+done
+
+beep

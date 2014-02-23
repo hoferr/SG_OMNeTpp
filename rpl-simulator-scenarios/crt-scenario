@@ -3,7 +3,8 @@
 tx_power=0.90
 no_link_dist_thresh=250.00
 no_link_quality_thresh=0.20
-
+width=2000.00
+height=2000.00
 
 
 file="$1"
@@ -19,8 +20,8 @@ echo "system = {
     auto_wake_nodes = true;
     deterministic_random = true;
     simulation_second = 1000;
-    width = 1000.00;
-    height = 1000.00;
+    width = $width;
+    height = $height;
     no_link_dist_thresh = $no_link_dist_thresh;
     no_link_quality_thresh = $no_link_quality_thresh;
     transmission_time = 20;

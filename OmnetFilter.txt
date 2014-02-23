@@ -1,0 +1,1 @@
+ AND module(*.udpApp[*]) AND (name("packets received") OR name("packets sent"))
