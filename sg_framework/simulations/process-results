@@ -23,7 +23,7 @@ else
   echo "$USAGE"
   exit 1
 fi
-confmsg="Creating $file and $results (Title is $title)"
+confmsg="Created results, archiving files (Title is $title)"
 
 
 #####################
@@ -31,9 +31,11 @@ confmsg="Creating $file and $results (Title is $title)"
 #####################
 
 # Packet Counts
-udppktcnts="results/$base-UDPPacketCounts.txt"
+udppktcnts="results/$base-PingResults.txt"
 echo "$title" > "$udppktcnts"
-grep -e rcvdPk:count -e sentPk:count results/*.sca | grep udpApp >> "$udppktcnts"
+
+echo "$(grep backend.pingApp results/*.sca | grep scalar)
+$(grep -A 7 "statistic SG_LRWPAN_001.backend.pingApp" results/*.sca)" >> "$udppktcnts"
 cp "$udppktcnts" .
 
 

@@ -150,7 +150,7 @@ debug-on-errors 					= true
 ## playground settings
 ##############################################################################
 #**.numNodes = 10
-**.numNodes = 7
+**.numNodes = 10
 
 #**.constraintAreaMaxX = ${widthX=10m,100m,1000m}
 **.constraintAreaMaxX = ${widthX=1000m}
@@ -232,7 +232,7 @@ debug-on-errors 					= true
 #**.backend.pingApp[9].destAddr = "2002::1:8"
 #**.backend.pingApp[10].destAddr = "2002::1:9"
 
-**.backend.pingApp[0].destAddr = "2002:9::"
+**.backend.pingApp[0].destAddr = "2002::1:1"
 
 ##############################################################################
 ## routing settings

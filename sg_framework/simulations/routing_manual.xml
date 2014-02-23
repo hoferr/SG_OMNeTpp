@@ -9,6 +9,15 @@
   </interface>
   <route>
     <routeEntry routeIface="eth0" routeDestination="2002::1:0/128" routeNextHop="2002:9::"/>
+    <routeEntry routeIface="eth0" routeDestination="2002::1:1/128" routeNextHop="2002:9::"/>
+    <routeEntry routeIface="eth0" routeDestination="2002::1:2/128" routeNextHop="2002:9::"/>
+    <routeEntry routeIface="eth0" routeDestination="2002::1:3/128" routeNextHop="2002:9::"/>
+    <routeEntry routeIface="eth0" routeDestination="2002::1:4/128" routeNextHop="2002:9::"/>
+    <routeEntry routeIface="eth0" routeDestination="2002::1:5/128" routeNextHop="2002:9::"/>
+    <routeEntry routeIface="eth0" routeDestination="2002::1:6/128" routeNextHop="2002:9::"/>
+    <routeEntry routeIface="eth0" routeDestination="2002::1:7/128" routeNextHop="2002:9::"/>
+    <routeEntry routeIface="eth0" routeDestination="2002::1:8/128" routeNextHop="2002:9::"/>
+    <routeEntry routeIface="eth0" routeDestination="2002::1:9/128" routeNextHop="2002:9::"/>
   </route>
  </local>
 
@@ -28,6 +37,8 @@
   </interface>
   <route>
     <routeEntry routeIface="lrwpan" routeDestination="2002::1:0/128" routeNextHop="2002::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:1/128" routeNextHop="2002::1:1"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:2/128" routeNextHop="2002::1:2"/>
     <routeEntry routeIface="lrwpan" routeDestination="2002::1:3/128" routeNextHop="2002::1:0"/>
     <routeEntry routeIface="lrwpan" routeDestination="2002::1:4/128" routeNextHop="2002::1:0"/>
     <routeEntry routeIface="lrwpan" routeDestination="2002::1:5/128" routeNextHop="2002::1:2"/>
@@ -62,6 +73,9 @@
     <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
    </AdvPrefixList>
   </interface>
+  <route>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::"/>
+  </route>
  </local>
  
  <!-- node[2] -->
@@ -72,10 +86,10 @@
     <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
    </AdvPrefixList>
   </interface>
+  <route>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::"/>
+  </route>
  </local>
- 
- 
-<!-- Multihop --> 
  
  <!-- node[3] -->
  <local node="node[3]" routePackets="on" mobileIPv6Support="off">
@@ -86,6 +100,7 @@
    </AdvPrefixList>
   </interface>
   <route>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::1:0"/>
     <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:0"/>
   </route>
  </local>
@@ -99,6 +114,7 @@
    </AdvPrefixList>
   </interface>
   <route>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::1:0"/>
     <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:0"/>
   </route>
  </local> 
@@ -112,6 +128,7 @@
    </AdvPrefixList>
   </interface>
   <route>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::1:2"/>
     <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:2"/>
   </route>
  </local>
@@ -125,6 +142,7 @@
    </AdvPrefixList>
   </interface>
   <route>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::1:3"/>
     <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:3"/>
   </route>
  </local> 
@@ -138,6 +156,7 @@
    </AdvPrefixList>
   </interface>
   <route>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::1:1"/>
     <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:1"/>
   </route>
  </local> 
@@ -151,6 +170,7 @@
    </AdvPrefixList>
   </interface>
   <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::1:3"/>
     <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:3"/>
   </route>
  </local> 
@@ -164,6 +184,7 @@
    </AdvPrefixList>
   </interface>
   <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::1:4"/>
     <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:4"/>
   </route>
  </local> 
