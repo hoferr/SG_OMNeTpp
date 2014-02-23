@@ -27,8 +27,6 @@
    </AdvPrefixList>
   </interface>
   <route>
-    <routeEntry routeIface="eth0" routeDestination="2002:9::ffff/128" routeNextHop="2002:9::FFFF"/>
-    <routeEntry routeIface="lrwpan" routeDestination="2002::1:0/128" routeNextHop="2002::1:0"/>
     <routeEntry routeIface="lrwpan" routeDestination="2002::1:0/128" routeNextHop="2002::1:0"/>
     <routeEntry routeIface="lrwpan" routeDestination="2002::1:3/128" routeNextHop="2002::1:0"/>
     <routeEntry routeIface="lrwpan" routeDestination="2002::1:4/128" routeNextHop="2002::1:0"/>

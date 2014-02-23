@@ -58,10 +58,10 @@ network SG_LRWPAN_001
                 IPForward = true;
                 @display("p=200,120;i=device/accesspoint,white");
         }
-        backend: NodeW {
+        backend: StandardHost6 {
             parameters:
                 IPForward = true;
-                @display("p=0,0;i=device/accesspoint,blue");
+                @display("p=500,50");
         }
     //        configurator: IPv4NetworkConfigurator {
     //            @display("p=53,137");

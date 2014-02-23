@@ -30,7 +30,7 @@ module NodeW
         int numExtInterfaces = default(0);
         int numRadios = default(1);
         string mobilityType = default("StationaryMobility");
-        xml routingTable6 = default(xml("<routingTable/>"));
+        xml routingTable = default(xml("<routingTable/>"));
         bool IPForward = default(true);
         int numTcpApps = default(0);  // no of TCP apps. Specify the app types in INI file with tcpApp[0..1].typename="TCPEchoApp" syntax
         int numUdpApps = default(0);  // no of UDP apps. Specify the app types in INI file with udpApp[0..1].typename="UDPVideoStreamCli" syntax
@@ -73,7 +73,7 @@ module NodeW
             parameters:
                 @display("p=53,225;is=s");
                 isRouter = IPForward;
-                routingTable = routingTable6;
+                routingTable = routingTable;
         }
 
         // linklayer
