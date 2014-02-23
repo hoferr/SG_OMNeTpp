@@ -1,6 +1,8 @@
-SG_MULTIHOPMANUAL_001-numNodes_10
+SG_MULTIHOPMANUAL_001-single_node[5]
 results/SG_MULTIHOPMANUAL_001-0.sca:scalar SG_LRWPAN_001.node[0].udpApp[0] 	rcvdPk:count 	45
 results/SG_MULTIHOPMANUAL_001-0.sca:scalar SG_LRWPAN_001.node[0].udpApp[0] 	sentPk:count 	45
+results/SG_MULTIHOPMANUAL_001-1.sca:scalar SG_LRWPAN_001.node[0].udpApp[0] 	rcvdPk:count 	53
+results/SG_MULTIHOPMANUAL_001-1.sca:scalar SG_LRWPAN_001.node[0].udpApp[0] 	sentPk:count 	53
 results/SG_MULTIHOPMANUAL_001-3.sca:scalar SG_LRWPAN_001.node[0].udpApp[0] 	rcvdPk:count 	51
 results/SG_MULTIHOPMANUAL_001-3.sca:scalar SG_LRWPAN_001.node[0].udpApp[0] 	sentPk:count 	51
 results/SG_MULTIHOPMANUAL_001-4.sca:scalar SG_LRWPAN_001.node[0].udpApp[0] 	rcvdPk:count 	49

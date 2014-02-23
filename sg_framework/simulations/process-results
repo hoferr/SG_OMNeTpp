@@ -23,7 +23,7 @@ else
   echo "$USAGE"
   exit 1
 fi
-confmsg="Creating $file and $results (Title is $title)"
+confmsg="Created results, archiving (Title is $title)"
 
 
 #####################

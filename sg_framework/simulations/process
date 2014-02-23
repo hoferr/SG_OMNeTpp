@@ -1,27 +1,40 @@
 #!/bin/bash
 # Usage: process (Maybe change network and/or title)
 
+trap "mv omnetpp.ini.orig omnetpp.ini; echo omnetpp.ini restored; exit" SIGHUP SIGINT SIGTERM
+
 if ! type "beep" &> /dev/null; then
   echo "WARNING: For convenience install beep"
 fi
 
 network="SG_MULTIHOPMANUAL_001"
 
-for i in `seq 1 10`; do
-  echo "Simulation $i"
+cp omnetpp.ini omnetpp.ini.orig
 
-  numNodes="**.numNodes = $i"
-  sed -i '/^**.numNodes = /c\'"$numNodes" omnetpp.ini > /dev/null
-
-  title="$network-$(grep numNodes omnetpp.ini | grep -v ^# | sed 's/**.//' | sed 's/ = /_/')"
-
+for i in `seq 0 9`; do
+  echo "Simulation single node[$i]"
+  sed -i 's/^\*\*.node\[\*\]/'"**.node[$i]/" omnetpp.ini
+  title="$network-single_node[$i]"
   echo "$title"
   rm results/*
   ./run
   ./process-results "$title"
-
   echo
-
 done
+
+cp omnetpp.ini.orig omnetpp.ini
+for i in `seq 1 10`; do
+  echo "Simulation $i"
+  numNodes="**.numNodes = $i"
+  sed -i '/^**.numNodes = /c\'"$numNodes" omnetpp.ini > /dev/null
+  title="$network-$(grep numNodes omnetpp.ini | grep -v ^# | sed 's/**.//' | sed 's/ = /_/')"
+  echo "$title"
+  rm results/*
+  ./run
+  ./process-results "$title"
+  echo
+done
+
+mv omnetpp.ini.orig omnetpp.ini
 
 beep
