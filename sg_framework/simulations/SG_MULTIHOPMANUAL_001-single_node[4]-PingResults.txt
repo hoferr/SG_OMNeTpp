@@ -1,0 +1,160 @@
+SG_MULTIHOPMANUAL_001-single_node[4]
+results/SG_MULTIHOPMANUAL_001-0.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"Pings sent" 	51
+results/SG_MULTIHOPMANUAL_001-0.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping loss rate (%)" 	27.450980392157
+results/SG_MULTIHOPMANUAL_001-0.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping out-of-order rate (%)" 	0
+results/SG_MULTIHOPMANUAL_001-0.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingRxSeq:count 	37
+results/SG_MULTIHOPMANUAL_001-0.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingTxSeq:count 	51
+results/SG_MULTIHOPMANUAL_001-0.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+results/SG_MULTIHOPMANUAL_001-0.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numLost:last 	14
+results/SG_MULTIHOPMANUAL_001-1.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"Pings sent" 	15
+results/SG_MULTIHOPMANUAL_001-1.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping loss rate (%)" 	46.666666666667
+results/SG_MULTIHOPMANUAL_001-1.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping out-of-order rate (%)" 	0
+results/SG_MULTIHOPMANUAL_001-1.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingRxSeq:count 	8
+results/SG_MULTIHOPMANUAL_001-1.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingTxSeq:count 	15
+results/SG_MULTIHOPMANUAL_001-1.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+results/SG_MULTIHOPMANUAL_001-1.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numLost:last 	7
+results/SG_MULTIHOPMANUAL_001-2.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"Pings sent" 	49
+results/SG_MULTIHOPMANUAL_001-2.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping loss rate (%)" 	24.489795918367
+results/SG_MULTIHOPMANUAL_001-2.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping out-of-order rate (%)" 	0
+results/SG_MULTIHOPMANUAL_001-2.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingRxSeq:count 	37
+results/SG_MULTIHOPMANUAL_001-2.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingTxSeq:count 	49
+results/SG_MULTIHOPMANUAL_001-2.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+results/SG_MULTIHOPMANUAL_001-2.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numLost:last 	11
+results/SG_MULTIHOPMANUAL_001-3.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"Pings sent" 	15
+results/SG_MULTIHOPMANUAL_001-3.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping loss rate (%)" 	46.666666666667
+results/SG_MULTIHOPMANUAL_001-3.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping out-of-order rate (%)" 	0
+results/SG_MULTIHOPMANUAL_001-3.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingRxSeq:count 	8
+results/SG_MULTIHOPMANUAL_001-3.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingTxSeq:count 	15
+results/SG_MULTIHOPMANUAL_001-3.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+results/SG_MULTIHOPMANUAL_001-3.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numLost:last 	7
+results/SG_MULTIHOPMANUAL_001-4.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"Pings sent" 	18
+results/SG_MULTIHOPMANUAL_001-4.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping loss rate (%)" 	22.222222222222
+results/SG_MULTIHOPMANUAL_001-4.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping out-of-order rate (%)" 	0
+results/SG_MULTIHOPMANUAL_001-4.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingRxSeq:count 	14
+results/SG_MULTIHOPMANUAL_001-4.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingTxSeq:count 	18
+results/SG_MULTIHOPMANUAL_001-4.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+results/SG_MULTIHOPMANUAL_001-4.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numLost:last 	4
+results/SG_MULTIHOPMANUAL_001-5.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"Pings sent" 	47
+results/SG_MULTIHOPMANUAL_001-5.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping loss rate (%)" 	19.148936170213
+results/SG_MULTIHOPMANUAL_001-5.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping out-of-order rate (%)" 	0
+results/SG_MULTIHOPMANUAL_001-5.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingRxSeq:count 	38
+results/SG_MULTIHOPMANUAL_001-5.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingTxSeq:count 	47
+results/SG_MULTIHOPMANUAL_001-5.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+results/SG_MULTIHOPMANUAL_001-5.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numLost:last 	8
+results/SG_MULTIHOPMANUAL_001-6.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"Pings sent" 	48
+results/SG_MULTIHOPMANUAL_001-6.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping loss rate (%)" 	8.3333333333333
+results/SG_MULTIHOPMANUAL_001-6.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping out-of-order rate (%)" 	0
+results/SG_MULTIHOPMANUAL_001-6.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingRxSeq:count 	44
+results/SG_MULTIHOPMANUAL_001-6.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingTxSeq:count 	48
+results/SG_MULTIHOPMANUAL_001-6.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+results/SG_MULTIHOPMANUAL_001-6.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numLost:last 	3
+results/SG_MULTIHOPMANUAL_001-7.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"Pings sent" 	31
+results/SG_MULTIHOPMANUAL_001-7.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping loss rate (%)" 	32.258064516129
+results/SG_MULTIHOPMANUAL_001-7.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping out-of-order rate (%)" 	0
+results/SG_MULTIHOPMANUAL_001-7.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingRxSeq:count 	21
+results/SG_MULTIHOPMANUAL_001-7.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingTxSeq:count 	31
+results/SG_MULTIHOPMANUAL_001-7.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+results/SG_MULTIHOPMANUAL_001-7.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numLost:last 	10
+results/SG_MULTIHOPMANUAL_001-8.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"Pings sent" 	16
+results/SG_MULTIHOPMANUAL_001-8.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping loss rate (%)" 	43.75
+results/SG_MULTIHOPMANUAL_001-8.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping out-of-order rate (%)" 	0
+results/SG_MULTIHOPMANUAL_001-8.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingRxSeq:count 	9
+results/SG_MULTIHOPMANUAL_001-8.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingTxSeq:count 	16
+results/SG_MULTIHOPMANUAL_001-8.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+results/SG_MULTIHOPMANUAL_001-8.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numLost:last 	7
+results/SG_MULTIHOPMANUAL_001-9.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"Pings sent" 	49
+results/SG_MULTIHOPMANUAL_001-9.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping loss rate (%)" 	30.612244897959
+results/SG_MULTIHOPMANUAL_001-9.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	"ping out-of-order rate (%)" 	0
+results/SG_MULTIHOPMANUAL_001-9.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingRxSeq:count 	34
+results/SG_MULTIHOPMANUAL_001-9.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	pingTxSeq:count 	49
+results/SG_MULTIHOPMANUAL_001-9.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+results/SG_MULTIHOPMANUAL_001-9.sca:scalar SG_LRWPAN_001.backend.pingApp[0] 	numLost:last 	15
+results/SG_MULTIHOPMANUAL_001-0.sca:statistic SG_LRWPAN_001.backend.pingApp[0] 	rtt:histogram
+results/SG_MULTIHOPMANUAL_001-0.sca-field count 37
+results/SG_MULTIHOPMANUAL_001-0.sca-field mean 0.31402776449811
+results/SG_MULTIHOPMANUAL_001-0.sca-field stddev 0.19858788582448
+results/SG_MULTIHOPMANUAL_001-0.sca-field sum 11.61902728643
+results/SG_MULTIHOPMANUAL_001-0.sca-field sqrsum 5.0684345066647
+results/SG_MULTIHOPMANUAL_001-0.sca-field min 0.209448848386
+results/SG_MULTIHOPMANUAL_001-0.sca-field max 1.290201181949
+--
+results/SG_MULTIHOPMANUAL_001-1.sca:statistic SG_LRWPAN_001.backend.pingApp[0] 	rtt:histogram
+results/SG_MULTIHOPMANUAL_001-1.sca-field count 8
+results/SG_MULTIHOPMANUAL_001-1.sca-field mean 0.3384807798335
+results/SG_MULTIHOPMANUAL_001-1.sca-field stddev 0.17565024273325
+results/SG_MULTIHOPMANUAL_001-1.sca-field sum 2.707846238668
+results/SG_MULTIHOPMANUAL_001-1.sca-field sqrsum 1.1325249609393
+results/SG_MULTIHOPMANUAL_001-1.sca-field min 0.210728848385
+results/SG_MULTIHOPMANUAL_001-1.sca-field max 0.756531291588
+--
+results/SG_MULTIHOPMANUAL_001-2.sca:statistic SG_LRWPAN_001.backend.pingApp[0] 	rtt:histogram
+results/SG_MULTIHOPMANUAL_001-2.sca-field count 37
+results/SG_MULTIHOPMANUAL_001-2.sca-field mean 0.352838840464
+results/SG_MULTIHOPMANUAL_001-2.sca-field stddev 0.24324786074082
+results/SG_MULTIHOPMANUAL_001-2.sca-field sum 13.055037097168
+results/SG_MULTIHOPMANUAL_001-2.sca-field sqrsum 6.7364269347588
+results/SG_MULTIHOPMANUAL_001-2.sca-field min 0.208808848386
+results/SG_MULTIHOPMANUAL_001-2.sca-field max 1.394515291592
+--
+results/SG_MULTIHOPMANUAL_001-3.sca:statistic SG_LRWPAN_001.backend.pingApp[0] 	rtt:histogram
+results/SG_MULTIHOPMANUAL_001-3.sca-field count 8
+results/SG_MULTIHOPMANUAL_001-3.sca-field mean 0.43985147443313
+results/SG_MULTIHOPMANUAL_001-3.sca-field stddev 0.47161633836766
+results/SG_MULTIHOPMANUAL_001-3.sca-field sum 3.518811795465
+results/SG_MULTIHOPMANUAL_001-3.sca-field sqrsum 3.1047083507952
+results/SG_MULTIHOPMANUAL_001-3.sca-field min 0.209128848386
+results/SG_MULTIHOPMANUAL_001-3.sca-field max 1.592381856771
+--
+results/SG_MULTIHOPMANUAL_001-4.sca:statistic SG_LRWPAN_001.backend.pingApp[0] 	rtt:histogram
+results/SG_MULTIHOPMANUAL_001-4.sca-field count 14
+results/SG_MULTIHOPMANUAL_001-4.sca-field mean 0.36200268653393
+results/SG_MULTIHOPMANUAL_001-4.sca-field stddev 0.34037439409631
+results/SG_MULTIHOPMANUAL_001-4.sca-field sum 5.068037611475
+results/SG_MULTIHOPMANUAL_001-4.sca-field sqrsum 3.3407546968426
+results/SG_MULTIHOPMANUAL_001-4.sca-field min 0.210088848383
+results/SG_MULTIHOPMANUAL_001-4.sca-field max 1.473575966414
+--
+results/SG_MULTIHOPMANUAL_001-5.sca:statistic SG_LRWPAN_001.backend.pingApp[0] 	rtt:histogram
+results/SG_MULTIHOPMANUAL_001-5.sca-field count 38
+results/SG_MULTIHOPMANUAL_001-5.sca-field mean 0.38765357482766
+results/SG_MULTIHOPMANUAL_001-5.sca-field stddev 0.27516889671713
+results/SG_MULTIHOPMANUAL_001-5.sca-field sum 14.730835843451
+results/SG_MULTIHOPMANUAL_001-5.sca-field sqrsum 8.5120242785725
+results/SG_MULTIHOPMANUAL_001-5.sca-field min 0.208808848386
+results/SG_MULTIHOPMANUAL_001-5.sca-field max 1.683654884262
+--
+results/SG_MULTIHOPMANUAL_001-6.sca:statistic SG_LRWPAN_001.backend.pingApp[0] 	rtt:histogram
+results/SG_MULTIHOPMANUAL_001-6.sca-field count 44
+results/SG_MULTIHOPMANUAL_001-6.sca-field mean 0.3893116926323
+results/SG_MULTIHOPMANUAL_001-6.sca-field stddev 0.42316629208732
+results/SG_MULTIHOPMANUAL_001-6.sca-field sum 17.129714475821
+results/SG_MULTIHOPMANUAL_001-6.sca-field sqrsum 14.368795699524
+results/SG_MULTIHOPMANUAL_001-6.sca-field min 0.209128848385
+results/SG_MULTIHOPMANUAL_001-6.sca-field max 2.547919966411
+--
+results/SG_MULTIHOPMANUAL_001-7.sca:statistic SG_LRWPAN_001.backend.pingApp[0] 	rtt:histogram
+results/SG_MULTIHOPMANUAL_001-7.sca-field count 21
+results/SG_MULTIHOPMANUAL_001-7.sca-field mean 0.2359656583081
+results/SG_MULTIHOPMANUAL_001-7.sca-field stddev 0.038230677351048
+results/SG_MULTIHOPMANUAL_001-7.sca-field sum 4.95527882447
+results/SG_MULTIHOPMANUAL_001-7.sca-field sqrsum 1.1985073237306
+results/SG_MULTIHOPMANUAL_001-7.sca-field min 0.210408848385
+results/SG_MULTIHOPMANUAL_001-7.sca-field max 0.326744848386
+--
+results/SG_MULTIHOPMANUAL_001-8.sca:statistic SG_LRWPAN_001.backend.pingApp[0] 	rtt:histogram
+results/SG_MULTIHOPMANUAL_001-8.sca-field count 9
+results/SG_MULTIHOPMANUAL_001-8.sca-field mean 0.34470212078411
+results/SG_MULTIHOPMANUAL_001-8.sca-field stddev 0.072223938018659
+results/SG_MULTIHOPMANUAL_001-8.sca-field sum 3.102319087057
+results/SG_MULTIHOPMANUAL_001-8.sca-field sqrsum 1.111106346441
+results/SG_MULTIHOPMANUAL_001-8.sca-field min 0.213288848386
+results/SG_MULTIHOPMANUAL_001-8.sca-field max 0.468464848384
+--
+results/SG_MULTIHOPMANUAL_001-9.sca:statistic SG_LRWPAN_001.backend.pingApp[0] 	rtt:histogram
+results/SG_MULTIHOPMANUAL_001-9.sca-field count 34
+results/SG_MULTIHOPMANUAL_001-9.sca-field mean 0.27920164174459
+results/SG_MULTIHOPMANUAL_001-9.sca-field stddev 0.11778875213791
+results/SG_MULTIHOPMANUAL_001-9.sca-field sum 9.492855819316
+results/SG_MULTIHOPMANUAL_001-9.sca-field sqrsum 3.1082692038945
+results/SG_MULTIHOPMANUAL_001-9.sca-field min 0.209768848385
+results/SG_MULTIHOPMANUAL_001-9.sca-field max 0.656585903203
