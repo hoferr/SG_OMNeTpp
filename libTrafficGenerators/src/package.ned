@@ -1,0 +1,3 @@
+package litrafficgenerator;
+
+@license(LGPL);

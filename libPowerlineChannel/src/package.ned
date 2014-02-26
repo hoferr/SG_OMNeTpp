@@ -1,0 +1,3 @@
+package libpowerlinechannel;
+
+@license(LGPL);
