@@ -33,12 +33,13 @@ import inet.world.radio.ChannelControl;
 network SG_LRWPAN_002
 {
     parameters:
-        int numNodes;   // Number of nodes (data concentrator not included)
+        int numNodes;   // Number of nodes
+        int numGWs;   // Number of gateways
         //        @display("bgb=1000,1000");
         @display("bgb=1000,1000,white");	// To use in documentation
     gates:
         inout pppg[] @labels(PPPFrame-conn);
-    	inout ethg[] @labels(EtherFrame-conn);
+        inout ethg[] @labels(EtherFrame-conn);
     submodules:
         channelControl: ChannelControl {
             parameters:
@@ -54,10 +55,10 @@ network SG_LRWPAN_002
                 IPForward = true;
                 @display("p=200,40;i=device/accesspoint,orange");
         }
-        gw: NodeW {
+        gw[numGWs]: NodeW {
             parameters:
                 IPForward = true;
-                @display("p=200,40;i=device/accesspoint,red");
+                @display("p=295,40;i=device/accesspoint,red");
         }
         //        node[numNodes]: NodeK {
         node[numNodes]: NodeW {
@@ -68,11 +69,4 @@ network SG_LRWPAN_002
     //        configurator: IPv4NetworkConfigurator {
     //            @display("p=53,137");
     //        }
-    connections allowunconnected:
-        for i=0..sizeof(ethg)-1 {
-            ethg[i] <--> eth[i].phys;
-        }
-        for i=0..sizeof(pppg)-1 {
-            pppg[i] <--> ppp[i].phys;
-        }
 }
