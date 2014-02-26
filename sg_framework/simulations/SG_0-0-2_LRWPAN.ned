@@ -19,12 +19,14 @@
 //import inet.examples.wpan.sixlowpan.HostIPv6over802154;
 import inet.examples.wpan.sixlowpan.Router802154;
 import inet.examples.wpan.sixlowpan.RouterIPv6over802154;
+import inet.linklayer.ethernet.EtherBus;
 import inet.networklayer.autorouting.ipv4.IPv4NetworkConfigurator;
 import inet.nodes.ethernet.Eth100M;
 import inet.nodes.ethernet.EtherHost2;
 import inet.nodes.ipv6.StandardHost6;
 import inet.networklayer.autorouting.ipv6.FlatNetworkConfigurator6;
 import ned.DatarateChannel;
+import inet.util.ThruputMeteringChannel;
 
 //import inet.experimental.nodes.adhoc.MobileManetRoutingMesh;
 //import inet.experimental.nodes.adhoc.BasicMobileManetMesh;
@@ -33,13 +35,17 @@ import inet.world.radio.ChannelControl;
 network SG_LRWPAN_002
 {
     parameters:
-        int numNodes;   // Number of nodes
-        int numGWs;   // Number of gateways
+        int numDCs = default(2);		// Number of DCs
+        int numGWs = default(2);		// Number of gateways
+        int numNodes = default(18);		// Number of nodes
         //        @display("bgb=1000,1000");
-        @display("bgb=1000,1000,white");	// To use in documentation
-    gates:
-        inout pppg[] @labels(PPPFrame-conn);
-        inout ethg[] @labels(EtherFrame-conn);
+        @display("bgb=3000,1000,white");	// To use in documentation
+    types:
+        channel C extends ThruputMeteringChannel
+        {
+            delay = 01us;
+            datarate = 100Mbps;
+        }
     submodules:
         channelControl: ChannelControl {
             parameters:
@@ -49,8 +55,14 @@ network SG_LRWPAN_002
             parameters:
                 @display("p=60,229");
         }
-        //        dc: NodeK {
-        dc: NodeW {
+        backend: StandardHost6 {
+            IPForward = true;
+            @display("p=1500,50;i=device/server");
+        }
+        etherBus: EtherBus {
+            @display("p=1500,107");
+        }
+        dc[numDCs]: NodeW {
             parameters:
                 IPForward = true;
                 @display("p=200,40;i=device/accesspoint,orange");
@@ -60,13 +72,16 @@ network SG_LRWPAN_002
                 IPForward = true;
                 @display("p=295,40;i=device/accesspoint,red");
         }
-        //        node[numNodes]: NodeK {
         node[numNodes]: NodeW {
             parameters:
                 IPForward = true;
                 @display("p=200,120;i=device/accesspoint,white");
         }
-    //        configurator: IPv4NetworkConfigurator {
-    //            @display("p=53,137");
-    //        }
+    connections allowunconnected:
+        backend.ethg++ <--> C <--> etherBus.ethg++;
+
+        for i=0..numGWs-1 {
+            etherBus.ethg++ <--> C <--> gw[i].ethg++;
+        }
+
 }
