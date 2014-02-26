@@ -36,15 +36,24 @@ network SG_LRWPAN_002
 {
     parameters:
         int numDCs = default(2);		// Number of DCs
-        int numGWs = default(2);		// Number of gateways
         int numNodes = default(18);		// Number of nodes
         //        @display("bgb=1000,1000");
         @display("bgb=3000,1000,white");	// To use in documentation
     types:
-        channel C extends ThruputMeteringChannel
+        channel C extends ThruputMeteringChannel	// Broadband connection 
         {
             delay = 01us;
             datarate = 100Mbps;
+        }
+        channel Gup extends ThruputMeteringChannel	// GSM connection (http://www.computerworld.com/s/article/9201098/3G_vs._4G_Real_world_speed_tests?taxonomyId=166&pageNumber=2)
+        {
+			delay = 100us;
+            datarate = 100kbps;
+        }
+        channel Gdown extends ThruputMeteringChannel	// GSM connection (http://www.computerworld.com/s/article/9201098/3G_vs._4G_Real_world_speed_tests?taxonomyId=166&pageNumber=2)
+        {
+			delay = 100us;
+            datarate = 25kbps;
         }
     submodules:
         channelControl: ChannelControl {
@@ -67,11 +76,6 @@ network SG_LRWPAN_002
                 IPForward = true;
                 @display("p=200,40;i=device/accesspoint,orange");
         }
-        gw[numGWs]: NodeW {
-            parameters:
-                IPForward = true;
-                @display("p=295,40;i=device/accesspoint,red");
-        }
         node[numNodes]: NodeW {
             parameters:
                 IPForward = true;
@@ -79,9 +83,6 @@ network SG_LRWPAN_002
         }
     connections allowunconnected:
         backend.ethg++ <--> C <--> etherBus.ethg++;
-
-        for i=0..numGWs-1 {
-            etherBus.ethg++ <--> C <--> gw[i].ethg++;
-        }
-
+		node[1].ethg++ <--> C <--> etherBus.ethg++;
+		node[10].ethg++ <--> C <--> etherBus.ethg++;
 }
