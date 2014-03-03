@@ -1,0 +1,418 @@
+<config>
+ <!-- gsm station -->
+ <local node="gsmStation" routePackets="on" mobileIPv6Support="off">
+  <interface name="ppp0" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:7::0</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <interface name="ppp1" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:7::1</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+  	<routeEntry routeIface="ppp0" routeDestination="2002::/128" routeNextHop="2002::"/>
+  	<routeEntry routeIface="ppp1" routeDestination="2002::1:0/128" routeNextHop="2002::1:0"/>
+  	<routeEntry routeIface="ppp1" routeDestination="2002::1:3/128" routeNextHop="2002::1:0"/>
+  	<routeEntry routeIface="ppp1" routeDestination="2002::1:4/128" routeNextHop="2002::1:0"/>
+  	<routeEntry routeIface="ppp1" routeDestination="2002::1:6/128" routeNextHop="2002::1:0"/>
+  	<routeEntry routeIface="ppp1" routeDestination="2002::1:8/128" routeNextHop="2002::1:0"/>
+  	<routeEntry routeIface="ppp1" routeDestination="2002::1:9/128" routeNextHop="2002::1:0"/>
+  </route>
+ </local>
+ 
+ <!-- backend --> 
+ <local node="backend" routePackets="on" mobileIPv6Support="off">
+  <interface name="eth0" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:9::ffff</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+  	<routeEntry routeIface="eth0" routeDestination="2002::/128" routeNextHop="2002:9::"/>
+  	<routeEntry routeIface="eth0" routeDestination="2002:1::/128" routeNextHop="2002:9::1"/>
+  </route>
+ </local>
+
+ <!-- network 0 -->
+ <!-- dc0 -->
+ <local node="dc[0]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002::</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::1:1"/>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002::1:0/128" routeNextHop="2002:7::0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:1/128" routeNextHop="2002::1:1"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:2/128" routeNextHop="2002::1:2"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:3/128" routeNextHop="2002:7::0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:4/128" routeNextHop="2002:7::0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:5/128" routeNextHop="2002::1:2"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:6/128" routeNextHop="2002:7::0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:7/128" routeNextHop="2002::1:1"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:8/128" routeNextHop="2002:7::0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:9/128" routeNextHop="2002:7::0"/>
+  </route>
+ </local>
+
+ <!-- node[0] --> 
+ <local node="node[0]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002::1:0</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002:7::1"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:6/128" routeNextHop="2002::1:3"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:8/128" routeNextHop="2002::1:3"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::1:9/128" routeNextHop="2002::1:4"/>
+  </route>
+ </local>
+ 
+ <!-- node[1] -->
+ <local node="node[1]" routePackets="on" mobileIPv6Support="off">
+  <interface name="eth0" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:9::</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002::1:1</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::"/>
+  </route>
+ </local>
+ 
+ <!-- node[2] -->
+ <local node="node[2]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002::1:2</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::"/>
+  </route>
+ </local>
+ 
+ <!-- node[3] -->
+ <local node="node[3]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002::1:3</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:0"/>
+  </route>
+ </local>
+ 
+ <!-- node[4] -->
+ <local node="node[4]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002::1:4</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:0"/>
+  </route>
+ </local> 
+ 
+ <!-- node[5] -->
+ <local node="node[5]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002::1:5</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::1:2"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:2"/>
+  </route>
+ </local>
+ 
+ <!-- node[6] -->
+ <local node="node[6]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002::1:6</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::1:3"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:3"/>
+  </route>
+ </local> 
+ 
+ <!-- node[7] -->
+ <local node="node[7]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002::1:7</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::1:1"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:1"/>
+  </route>
+ </local> 
+ 
+ <!-- node[8] -->
+ <local node="node[8]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002::1:8</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::1:3"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:3"/>
+  </route>
+ </local> 
+ 
+ <!-- node[9] -->
+ <local node="node[9]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002::1:9</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002::1:4"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::1:4"/>
+  </route>
+ </local> 
+ 
+ 
+ <!-- network 1 -->
+ <!-- dc1 -->
+ <local node="dc[1]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:1::</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+  	<routeEntry routeIface="lrwpan" routeDestination="2002:9::ffff/128" routeNextHop="2002:1::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:0/128" routeNextHop="2002:1::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:1/128" routeNextHop="2002:1::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:2/128" routeNextHop="2002:1::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:3/128" routeNextHop="2002:1::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:4/128" routeNextHop="2002:1::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:5/128" routeNextHop="2002:1::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:6/128" routeNextHop="2002:1::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:7/128" routeNextHop="2002:1::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:8/128" routeNextHop="2002:1::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:9/128" routeNextHop="2002:1::1:0"/>
+  </route>
+ </local>
+ 
+ <!-- node[10] --> 
+ <local node="node[10]" routePackets="on" mobileIPv6Support="off">
+  <interface name="eth0" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:9::1</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:1::1:0</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::/128" routeNextHop="2002:1::"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:1/128" routeNextHop="2002:1::1:1"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:2/128" routeNextHop="2002:1::1:1"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:3/128" routeNextHop="2002:1::1:1"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:4/128" routeNextHop="2002:1::1:1"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:5/128" routeNextHop="2002:1::1:1"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:6/128" routeNextHop="2002:1::1:1"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:7/128" routeNextHop="2002:1::1:1"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:8/128" routeNextHop="2002:1::1:1"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:9/128" routeNextHop="2002:1::1:1"/>
+  </route>
+ </local>
+ 
+ <!-- node[11] --> 
+ <local node="node[11]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:1::1:1</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::/128" routeNextHop="2002:1::1:0"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:2/128" routeNextHop="2002:1::1:2"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:3/128" routeNextHop="2002:1::1:2"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:4/128" routeNextHop="2002:1::1:2"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:5/128" routeNextHop="2002:1::1:2"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:6/128" routeNextHop="2002:1::1:2"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:7/128" routeNextHop="2002:1::1:2"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:8/128" routeNextHop="2002:1::1:2"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:9/128" routeNextHop="2002:1::1:2"/>
+  </route>
+ </local>
+
+ <!-- node[12] --> 
+ <local node="node[12]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:1::1:2</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::/128" routeNextHop="2002:1::1:1"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:3/128" routeNextHop="2002:1::1:3"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:4/128" routeNextHop="2002:1::1:3"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:5/128" routeNextHop="2002:1::1:3"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:6/128" routeNextHop="2002:1::1:3"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:7/128" routeNextHop="2002:1::1:3"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:8/128" routeNextHop="2002:1::1:3"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:9/128" routeNextHop="2002:1::1:3"/>
+  </route>
+ </local>
+
+ <!-- node[13] --> 
+ <local node="node[13]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:1::1:3</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::/128" routeNextHop="2002:1::1:2"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:4/128" routeNextHop="2002:1::1:4"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:5/128" routeNextHop="2002:1::1:4"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:6/128" routeNextHop="2002:1::1:4"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:7/128" routeNextHop="2002:1::1:4"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:8/128" routeNextHop="2002:1::1:4"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:9/128" routeNextHop="2002:1::1:4"/>
+  </route>
+ </local>
+
+ <!-- node[14] --> 
+ <local node="node[14]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:1::1:4</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::/128" routeNextHop="2002:1::1:3"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:5/128" routeNextHop="2002:1::1:5"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:6/128" routeNextHop="2002:1::1:5"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:7/128" routeNextHop="2002:1::1:5"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:8/128" routeNextHop="2002:1::1:5"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:9/128" routeNextHop="2002:1::1:5"/>
+  </route>
+ </local>
+
+ <!-- node[15] --> 
+ <local node="node[15]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:1::1:5</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::/128" routeNextHop="2002:1::1:4"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:6/128" routeNextHop="2002:1::1:6"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:7/128" routeNextHop="2002:1::1:6"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:8/128" routeNextHop="2002:1::1:6"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:9/128" routeNextHop="2002:1::1:6"/>
+  </route>
+ </local>
+
+ <!-- node[16] --> 
+ <local node="node[16]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:1::1:6</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::/128" routeNextHop="2002:1::1:5"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:7/128" routeNextHop="2002:1::1:7"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:8/128" routeNextHop="2002:1::1:7"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:9/128" routeNextHop="2002:1::1:7"/>
+  </route>
+ </local>
+
+ <!-- node[17] --> 
+ <local node="node[17]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:1::1:7</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::/128" routeNextHop="2002:1::1:6"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:8/128" routeNextHop="2002:1::1:8"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:9/128" routeNextHop="2002:1::1:8"/>
+  </route>
+ </local>
+
+ <!-- node[18] --> 
+ <local node="node[18]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:1::1:8</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::/128" routeNextHop="2002:1::1:7"/>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::1:9/128" routeNextHop="2002:1::1:9"/>
+  </route>
+ </local>
+
+ <!-- node[19] --> 
+ <local node="node[19]" routePackets="on" mobileIPv6Support="off">
+  <interface name="lrwpan" AdvSendAdvertisements="on" AdvHomeAgent="off">
+   <inetAddr tentative="false">2002:1::1:9</inetAddr>
+   <AdvPrefixList>
+    <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
+   </AdvPrefixList>
+  </interface>
+  <route>
+    <routeEntry routeIface="lrwpan" routeDestination="2002:1::/128" routeNextHop="2002:1::1:8"/>
+  </route>
+ </local>
+ 
+</config>

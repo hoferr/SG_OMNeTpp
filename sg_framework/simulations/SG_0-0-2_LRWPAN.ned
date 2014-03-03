@@ -20,9 +20,12 @@
 import inet.examples.wpan.sixlowpan.Router802154;
 import inet.examples.wpan.sixlowpan.RouterIPv6over802154;
 import inet.linklayer.ethernet.EtherBus;
+import inet.linklayer.ethernet.EtherHub;
 import inet.networklayer.autorouting.ipv4.IPv4NetworkConfigurator;
 import inet.nodes.ethernet.Eth100M;
 import inet.nodes.ethernet.EtherHost2;
+import inet.nodes.ethernet.EtherSwitch;
+import inet.nodes.ipv6.Router6;
 import inet.nodes.ipv6.StandardHost6;
 import inet.networklayer.autorouting.ipv6.FlatNetworkConfigurator6;
 import ned.DatarateChannel;
@@ -45,15 +48,20 @@ network SG_LRWPAN_002
             delay = 01us;
             datarate = 100Mbps;
         }
-        channel Gup extends ThruputMeteringChannel	// GSM connection (http://www.computerworld.com/s/article/9201098/3G_vs._4G_Real_world_speed_tests?taxonomyId=166&pageNumber=2)
+        channel G extends ThruputMeteringChannel
         {
-			delay = 100us;
+            delay = 100us;
             datarate = 100kbps;
         }
-        channel Gdown extends ThruputMeteringChannel	// GSM connection (http://www.computerworld.com/s/article/9201098/3G_vs._4G_Real_world_speed_tests?taxonomyId=166&pageNumber=2)
+        channel Gup extends ThruputMeteringChannel
         {
-			delay = 100us;
-            datarate = 25kbps;
+            delay = 100us;
+            datarate = 100kbps;
+        }
+        channel Gdown extends ThruputMeteringChannel
+        {
+            delay = 100us;
+            datarate = 200kbps;
         }
     submodules:
         channelControl: ChannelControl {
@@ -81,8 +89,14 @@ network SG_LRWPAN_002
                 IPForward = true;
                 @display("p=200,120;i=device/accesspoint,white");
         }
+        gsmStation: Router6 {
+            @display("p=425,299;i=device/antennatower");
+        }
     connections allowunconnected:
         backend.ethg++ <--> C <--> etherBus.ethg++;
-		node[1].ethg++ <--> C <--> etherBus.ethg++;
-		node[10].ethg++ <--> C <--> etherBus.ethg++;
+        node[1].ethg++ <--> C <--> etherBus.ethg++;
+        node[10].ethg++ <--> C <--> etherBus.ethg++;
+
+        dc[0].pppg++ <--> G <--> gsmStation.pppg++;		// dc.pppg[0] <--> gsmStation.pppg[0]
+        node[0].pppg++ <--> G <--> gsmStation.pppg++;	// node[0].pppg[0] <--> gsmStation.pppg[1]
 }

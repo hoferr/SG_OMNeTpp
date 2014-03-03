@@ -82,14 +82,14 @@ O = $(PROJECT_OUTPUT_DIR)/$(CONFIGNAME)/$(PROJECTRELATIVE_PATH)
 
 # Object files for local .cc and .msg files
 OBJS = \
-    $O/src/DataCollector.o \
-    $O/src/PlcMACBase.o \
-    $O/src/Adapter_MAC.o \
     $O/src/PlcMAC.o \
-    $O/src/PlcEncap.o \
-    $O/src/Adapter_PLC_Base.o \
+    $O/src/PlcMACBase.o \
     $O/src/PlcNet.o \
+    $O/src/DataCollector.o \
     $O/src/Adapter_PLC.o \
+    $O/src/PlcEncap.o \
+    $O/src/Adapter_MAC.o \
+    $O/src/Adapter_PLC_Base.o \
     $O/src/Adapter_MAC_Base.o \
     $O/src/PlcFrame_m.o
 
