@@ -76,6 +76,8 @@ module NetworkLayer6
         }
         neighbourDiscovery: IPv6NeighbourDiscovery {
             parameters:
+                minIntervalBetweenRAs = 10s;
+                maxIntervalBetweenRAs = 20s;
                 @display("p=257,149");
         }
         iptunneling: <default(firstAvailable("IPv6Tunneling","IPv6Tunneling_None"))> like IIPv6Tunneling {
