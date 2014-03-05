@@ -7,11 +7,6 @@
     <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
    </AdvPrefixList>
   </interface>
-  <route>
-        <routeEntry routeIface="lrwpan" routeDestination="2002::1:0/128" routeNextHop="2002::1:0"/>
-        <routeEntry routeIface="lrwpan" routeDestination="2002::1:1/128" routeNextHop="2002::1:1"/>
-        <routeEntry routeIface="lrwpan" routeDestination="2002::1:2/128" routeNextHop="2002::1:2"/>
-  </route>
  </local>
 
  <!-- node[0] --> 
@@ -22,9 +17,6 @@
     <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
    </AdvPrefixList>
   </interface>
-  <route>
-        <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::"/>
-  </route>
  </local>
  
  <!-- node[1] -->
@@ -35,9 +27,6 @@
     <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
    </AdvPrefixList>
   </interface>
-  <route>
-        <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::"/>
-  </route>
  </local>
  
  <!-- node[2] -->
@@ -48,8 +37,5 @@
     <AdvPrefix AdvOnLinkFlag="on" AdvRtrAddrFlag="on" AdvValidLifetime="0" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2002::/16</AdvPrefix>
    </AdvPrefixList>
   </interface>
-  <route>
-        <routeEntry routeIface="lrwpan" routeDestination="2002::/128" routeNextHop="2002::"/>
-  </route>
  </local>
 </config>
