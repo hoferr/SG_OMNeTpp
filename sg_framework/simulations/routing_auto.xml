@@ -2,9 +2,9 @@
  <!-- dc -->
  <local node="dc" routePackets="true" mobileIPv6Support="false">
   <interface name="lrwpan" AdvSendAdvertisements="false" AdvHomeAgent="false">
-   <inetAddr tentative="false">2000::1</inetAddr>
+   <inetAddr tentative="false">fe80::1</inetAddr>
    <AdvPrefixList>
-    <AdvPrefix AdvOnLinkFlag="true" AdvValidLifetime="2592000" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2000::/64</AdvPrefix>
+    <AdvPrefix AdvOnLinkFlag="true" AdvValidLifetime="2592000" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">fe80::/64</AdvPrefix>
    </AdvPrefixList>
   </interface>
  </local>
@@ -12,9 +12,9 @@
  <!-- node[0] --> 
  <local node="node[0]" routePackets="true" mobileIPv6Support="off">
   <interface name="lrwpan" AdvSendAdvertisements="false" AdvHomeAgent="false">
-   <inetAddr tentative="false">2000::1:0</inetAddr>
+   <inetAddr tentative="false">fe80::1:0</inetAddr>
    <AdvPrefixList>
-    <AdvPrefix AdvOnLinkFlag="true" AdvValidLifetime="2592000" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2000::/64</AdvPrefix>
+    <AdvPrefix AdvOnLinkFlag="true" AdvValidLifetime="2592000" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">fe80::/64</AdvPrefix>
    </AdvPrefixList>
   </interface>
  </local>
@@ -22,9 +22,9 @@
  <!-- node[1] -->
  <local node="node[1]" routePackets="true" mobileIPv6Support="off">
   <interface name="lrwpan" AdvSendAdvertisements="false" AdvHomeAgent="false">
-   <inetAddr tentative="false">2000::1:1</inetAddr>
+   <inetAddr tentative="false">fe80::1:1</inetAddr>
    <AdvPrefixList>
-    <AdvPrefix AdvOnLinkFlag="true" AdvValidLifetime="2592000" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2000::1/64</AdvPrefix>
+    <AdvPrefix AdvOnLinkFlag="true" AdvValidLifetime="2592000" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">fe80::1/64</AdvPrefix>
    </AdvPrefixList>
   </interface>
  </local>
@@ -32,9 +32,9 @@
  <!-- node[2] -->
  <local node="node[2]" routePackets="true" mobileIPv6Support="off">
   <interface name="lrwpan" AdvSendAdvertisements="false" AdvHomeAgent="false">
-   <inetAddr tentative="false">2000::1:2</inetAddr>
+   <inetAddr tentative="false">fe80::1:2</inetAddr>
    <AdvPrefixList>
-    <AdvPrefix AdvOnLinkFlag="true" AdvValidLifetime="2592000" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">2000::1/64</AdvPrefix>
+    <AdvPrefix AdvOnLinkFlag="true" AdvValidLifetime="2592000" AdvPreferredLifetime="604800" AdvAutonomousFlag="true">fe80::1/64</AdvPrefix>
    </AdvPrefixList>
   </interface>
  </local>
