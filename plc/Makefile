@@ -1,12 +1,17 @@
 #
-# OMNeT++/OMNEST Makefile for libplc
+# OMNeT++/OMNEST Makefile for plc
 #
 # This file was generated with the command:
-#  opp_makemake -f --deep --make-so -O out -I../inetmanet-2.0/src/util/headerserializers/ipv4 -I../inetmanet-2.0/src/wpan/linklayer/ieee802154/contract -I../inetmanet-2.0/src -I../inetmanet-2.0/src/util/headerserializers -I../inetmanet-2.0/src/networklayer/common -I../inetmanet-2.0/src/battery/models -I../inetmanet-2.0/src/linklayer/radio/propagation -I../inetmanet-2.0/src/networklayer/contract -I../inetmanet-2.0/src/transport/tcp_common -I../inetmanet-2.0/src/wpan/networklayer/contract -I../inetmanet-2.0/src/linklayer/common -I../inetmanet-2.0/src/world/obstacles -I../inetmanet-2.0/src/linklayer/ieee80211/radio -I../inetmanet-2.0/src/networklayer/manetrouting/base -I../inetmanet-2.0/src/networklayer/autorouting/ipv4 -I../inetmanet-2.0/src/util/headerserializers/tcp -I../inetmanet-2.0/src/networklayer/arp -I../inetmanet-2.0/src/base -I../inetmanet-2.0/src/networklayer/ipv6tunneling -I../inetmanet-2.0/src/linklayer/contract -I../inetmanet-2.0/src/wpan/linklayer/ieee802154/mac -I../inetmanet-2.0/src/mobility -I../inetmanet-2.0/src/world/radio -I../inetmanet-2.0/src/linklayer/ieee80211/mac -I../inetmanet-2.0/src/transport/udp -I../inetmanet-2.0/src/applications/pingapp -I../inetmanet-2.0/src/networklayer/ipv6 -I../inetmanet-2.0/src/linklayer/radio -I../inetmanet-2.0/src/transport/contract -I../inetmanet-2.0/src/networklayer/icmpv6 -I../inetmanet-2.0/src/world/powercontrol -I../inetmanet-2.0/src/linklayer/ethernet -I../inetmanet-2.0/src/util/headerserializers/udp -I../inetmanet-2.0/src/linklayer/ieee80211mesh/locator -I../inetmanet-2.0/src/linklayer/ieee80211/mgmt -I../inetmanet-2.0/src/networklayer/ipv4 -I../inetmanet-2.0/src/wpan/phyLayer/ieee802154 -I../inetmanet-2.0/src/linklayer/ieee80211/radio/errormodel -I../inetmanet-2.0/src/util -I../inetmanet-2.0/src/status -I../inetmanet-2.0/src/mobility/models -L../inetmanet-2.0/out/$(CONFIGNAME)/src -linet -DINET_IMPORT -KINETMANET_2_0_PROJ=../inetmanet-2.0
+#  opp_makemake -f --deep -O out -I../inetmanet-2.0/src/util/headerserializers/ipv4 -I../inetmanet-2.0/src/wpan/linklayer/ieee802154/contract -I../inetmanet-2.0/src -I../inetmanet-2.0/src/util/headerserializers -I../inetmanet-2.0/src/networklayer/common -I../inetmanet-2.0/src/battery/models -I../inetmanet-2.0/src/linklayer/radio/propagation -I../inetmanet-2.0/src/networklayer/contract -I../inetmanet-2.0/src/transport/tcp_common -I../inetmanet-2.0/src/wpan/networklayer/contract -I../inetmanet-2.0/src/linklayer/common -I../inetmanet-2.0/src/world/obstacles -I../inetmanet-2.0/src/linklayer/ieee80211/radio -I../inetmanet-2.0/src/networklayer/manetrouting/base -I../inetmanet-2.0/src/networklayer/autorouting/ipv4 -I../inetmanet-2.0/src/util/headerserializers/tcp -I../inetmanet-2.0/src/networklayer/arp -I../inetmanet-2.0/src/base -I../inetmanet-2.0/src/networklayer/ipv6tunneling -I../inetmanet-2.0/src/linklayer/contract -I../inetmanet-2.0/src/wpan/linklayer/ieee802154/mac -I../inetmanet-2.0/src/mobility -I../inetmanet-2.0/src/world/radio -I../inetmanet-2.0/src/linklayer/ieee80211/mac -I../inetmanet-2.0/src/transport/udp -I../inetmanet-2.0/src/applications/pingapp -I../inetmanet-2.0/src/networklayer/ipv6 -I../inetmanet-2.0/src/linklayer/radio -I../inetmanet-2.0/src/transport/contract -I../inetmanet-2.0/src/networklayer/icmpv6 -I../inetmanet-2.0/src/world/powercontrol -I../inetmanet-2.0/src/linklayer/ethernet -I../inetmanet-2.0/src/util/headerserializers/udp -I../inetmanet-2.0/src/linklayer/ieee80211mesh/locator -I../inetmanet-2.0/src/linklayer/ieee80211/mgmt -I../inetmanet-2.0/src/networklayer/ipv4 -I../inetmanet-2.0/src/wpan/phyLayer/ieee802154 -I../inetmanet-2.0/src/linklayer/ieee80211/radio/errormodel -I../inetmanet-2.0/src/util -I../inetmanet-2.0/src/status -I../inetmanet-2.0/src/mobility/models -L../inetmanet-2.0/out/$(CONFIGNAME)/src -linet -DINET_IMPORT -KINETMANET_2_0_PROJ=../inetmanet-2.0
 #
 
 # Name of target to be created (-o option)
-TARGET = libplc$(SHARED_LIB_SUFFIX)
+TARGET = plc$(EXE_SUFFIX)
+
+# User interface (uncomment one) (-u option)
+USERIF_LIBS = $(ALL_ENV_LIBS) # that is, $(TKENV_LIBS) $(CMDENV_LIBS)
+#USERIF_LIBS = $(CMDENV_LIBS)
+#USERIF_LIBS = $(TKENV_LIBS)
 
 # C++ include paths (with -I)
 INCLUDE_PATH = \
@@ -122,7 +127,7 @@ include $(CONFIGFILE)
 
 # Simulation kernel and user interface libraries
 OMNETPP_LIB_SUBDIR = $(OMNETPP_LIB_DIR)/$(TOOLCHAIN_NAME)
-OMNETPP_LIBS = -L"$(OMNETPP_LIB_SUBDIR)" -L"$(OMNETPP_LIB_DIR)" -loppenvir$D $(KERNEL_LIBS) $(SYS_LIBS)
+OMNETPP_LIBS = -L"$(OMNETPP_LIB_SUBDIR)" -L"$(OMNETPP_LIB_DIR)" -loppmain$D $(USERIF_LIBS) $(KERNEL_LIBS) $(SYS_LIBS)
 
 COPTS = $(CFLAGS) -DINET_IMPORT $(INCLUDE_PATH) -I$(OMNETPP_INCL_DIR)
 MSGCOPTS = $(INCLUDE_PATH)
@@ -149,9 +154,8 @@ all: $O/$(TARGET)
 
 $O/$(TARGET): $(OBJS)  $(wildcard $(EXTRA_OBJS)) Makefile
 	@$(MKPATH) $O
-	@echo Creating shared library: $@
-	$(Q)$(SHLIB_LD) -o $O/$(TARGET)  $(OBJS) $(EXTRA_OBJS) $(AS_NEEDED_OFF) $(WHOLE_ARCHIVE_ON) $(LIBS) $(WHOLE_ARCHIVE_OFF) $(OMNETPP_LIBS) $(LDFLAGS)
-	$(Q)$(SHLIB_POSTPROCESS) $O/$(TARGET)
+	@echo Creating executable: $@
+	$(Q)$(CXX) $(LDFLAGS) -o $O/$(TARGET)  $(OBJS) $(EXTRA_OBJS) $(AS_NEEDED_OFF) $(WHOLE_ARCHIVE_ON) $(LIBS) $(WHOLE_ARCHIVE_OFF) $(OMNETPP_LIBS)
 
 .PHONY: all clean cleanall depend msgheaders
 

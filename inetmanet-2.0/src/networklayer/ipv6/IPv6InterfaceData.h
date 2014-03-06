@@ -54,7 +54,8 @@ class RoutingTable6;
 
 //Host Constants
 #define IPv6_MAX_RTR_SOLICITATION_DELAY       1  // seconds
-#define IPv6_RTR_SOLICITATION_INTERVAL        4  // seconds
+//#define IPv6_RTR_SOLICITATION_INTERVAL        4  // seconds
+#define IPv6_RTR_SOLICITATION_INTERVAL        120  // seconds     FIXME: Hack by Ramon
 #define IPv6_MAX_RTR_SOLICITATIONS            3  // transmissions
 
 //Node Constants
@@ -64,7 +65,8 @@ class RoutingTable6;
 #define IPv6_MAX_NEIGHBOUR_ADVERTISEMENT      3  // transmissions
 #define IPv6_REACHABLE_TIME                  30  // seconds
 #define IPv6_RETRANS_TIMER                    1  // seconds
-#define IPv6_DELAY_FIRST_PROBE_TIME           5  // seconds
+//#define IPv6_DELAY_FIRST_PROBE_TIME           5  // seconds
+#define IPv6_DELAY_FIRST_PROBE_TIME           120  // seconds   FIXME: Hack by Ramon
 #define IPv6_MIN_RANDOM_FACTOR              0.5
 #define IPv6_MAX_RANDOM_FACTOR              1.5
 /***************END of RFC 2461 Protocol Constants*****************************/
